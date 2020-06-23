@@ -63,7 +63,7 @@ $stmt = $pdo->prepare($sql);
  else
  {
     if($stmt->execute() == TRUE){
-        echo "Record inserted successfully.";
+        echo "Register successfully.";
     } else {
         echo "Error inserting record: ";
     }
