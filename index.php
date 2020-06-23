@@ -9,6 +9,6 @@
         // put your code here
         ?>
     </body>
-    <a href="ConnectToDB.php" target="_blank" >Connect database</a>
+    <a href="Register.php" target="_blank" >Register</a>
      <br/>
 </html>
