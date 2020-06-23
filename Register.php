@@ -10,10 +10,10 @@ list-style: none;
 </style>
 </head>
 <body>
-<h1>INSERT DATA TO DATABASE</h1>
-<h2>Enter data into student table</h2>
+<h1>REGISTER</h1>
+<h2>Enter data into table</h2>
 <ul>
-    <form name="Register" action="REgister.php" method="POST" >
+    <form name="Register" action="Register.php" method="POST" >
 <li>Username:</li><li><input type="text" name="username" /></li>
 <li>Email:</li><li><input type="text" name="email" /></li>
 <li>Address:</li><li><input type="text" name="address" /></li>
