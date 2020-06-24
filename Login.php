@@ -53,7 +53,6 @@ if($pdo === false){
 }
 if (isset($_POST['Login'])) 
 {
-    include('Connect.php');
     $username = addslashes($_POST['username']);
     $password = addslashes($_POST['password']);
     if (!$username || !$password) {
