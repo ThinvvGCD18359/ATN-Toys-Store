@@ -43,12 +43,13 @@ if($pdo === false){
 $sql = "SELECT username, password FROM customer WHERE username='username'";
 $stmt = $pdo->prepare($sql);
        
-        if($stmt->execute() == FALSE) {
-        echo "Tên đăng nhập hoặc mật khẩu không đúng. Vui lòng kiểm tra lại. <a href='javascript: history.go(-1)'>Trở lại</a>";
-        exit;
-        } else {
+        if($stmt->execute() == TRUE) {
         echo "Xin chào <b>" . "</b>. Bạn đã đăng nhập thành công. <a href=''>Thoát</a>";
         die();
+        } else {
+            echo "Tên đăng nhập hoặc mật khẩu không đúng. Vui lòng kiểm tra lại. <a href='javascript: history.go(-1)'>Trở lại</a>";
+        exit;
+        
         }
 ?>        
 </body>
