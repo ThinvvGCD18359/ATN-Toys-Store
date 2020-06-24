@@ -11,4 +11,6 @@
     </body>
     <a href="Register.php" target="_blank" >Register</a>
      <br/>
+     <a href="Login.php" target="_blank" >Login</a>
+     <br/>
 </html>
