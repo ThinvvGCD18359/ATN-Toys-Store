@@ -51,6 +51,9 @@
 if($pdo === false){
      echo "ERROR: Could not connect Database";
 }
+if (isset($_POST['Login'])) 
+{
+    include('Connect.php');
     $username = addslashes($_POST['username']);
     $password = addslashes($_POST['password']);
     if (!$username || !$password) {
@@ -71,6 +74,7 @@ if($pdo === false){
     $_SESSION['username'] = $username;
     echo "Xin chào " . $username . ". Bạn đã đăng nhập thành công. <a href='/'>Về trang chủ</a>";
     die();
+}
 ?>
     </body>
 </html>
