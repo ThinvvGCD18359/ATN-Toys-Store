@@ -51,29 +51,29 @@
 if($pdo === false){
      echo "ERROR: Could not connect Database";
 }
-if (isset($_POST['Login'])) 
-{
-    $username = addslashes($_POST['username']);
-    $password = addslashes($_POST['password']);
-    if (!$username || !$password) {
-        echo "Vui lòng nhập đầy đủ tên đăng nhập và mật khẩu. <a href='javascript: history.go(-1)'>Trở lại</a>";
-        exit;
-    }
-    $password = md5($password);
-    $query = mysql_query("SELECT username, password FROM customer WHERE username='$username'");
-    if (mysql_num_rows($query) == 0) {
+$sql = "SELECT username, password FROM customer WHERE username='username'";
+if (mysql_num_rows($sql) == 0) {
         echo "Tên đăng nhập này không tồn tại. Vui lòng kiểm tra lại. <a href='javascript: history.go(-1)'>Trở lại</a>";
         exit;
     }
-    $row = mysql_fetch_array($query);
-    if ($password != $row['password']) {
+    $stmt = $pdo->prepare($sql);
+    if (username != 'username') {
+        echo "Tên đăng nhập này không tồn tại. Vui lòng kiểm tra lại. <a href='javascript: history.go(-1)'>Trở lại</a>";
+        exit;
+    }
+    if (password != 'password') {
         echo "Mật khẩu không đúng. Vui lòng nhập lại. <a href='javascript: history.go(-1)'>Trở lại</a>";
         exit;
     }
-    $_SESSION['username'] = $username;
-    echo "Xin chào " . $username . ". Bạn đã đăng nhập thành công. <a href='/'>Về trang chủ</a>";
-    die();
-}
+    else
+ {
+    if($stmt->execute() == TRUE){
+        echo "Register successfully.";
+    } else {
+        echo "Error inserting record: ";
+    }
+ }
+ 
 ?>
     </body>
 </html>
