@@ -40,7 +40,7 @@ if (empty(getenv("DATABASE_URL"))){
 if($pdo === false){
      echo "ERROR: Could not connect Database";
 }
-$sql = "SELECT username, password FROM customer WHERE username='username'";
+$sql = "SELECT username, password FROM customer WHERE username='$username' and password='$password'";
 $stmt = $pdo->prepare($sql);
        
         if($stmt->execute() == TRUE) {
