@@ -9,6 +9,6 @@
         // put your code here
         ?>
     </body>
-    <a href="Register.php" target="_blank" >Registration</a>
+    <a href="Register.php" target="_blank" >Register</a>
      <br/>
 </html>
