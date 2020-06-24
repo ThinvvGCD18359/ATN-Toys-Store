@@ -27,11 +27,10 @@
 ?>
 <div class="form">
 <h1>Đăng ký</h1>
-<form name="registration" action="" method="post">
+<form name="registration" action="registration.php" method="post">
 <input type="text" name="username" placeholder="Tên đăng nhập" required />
 <input type="email" name="email" placeholder="Email" required />
 <input type="password" name="password" placeholder="Mật khẩu" required />
-<input type="trn_date" name="date" placeholder="Ngày đăng kí" required />
 <input type="submit" name="submit" value="Đăng ký" />
 </form>
 </div>
