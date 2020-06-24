@@ -31,6 +31,7 @@
 <input type="text" name="username" placeholder="Tên đăng nhập" required />
 <input type="email" name="email" placeholder="Email" required />
 <input type="password" name="password" placeholder="Mật khẩu" required />
+<input type="trn_date" name="date" placeholder="Ngày đăng kí" required />
 <input type="submit" name="submit" value="Đăng ký" />
 </form>
 </div>
