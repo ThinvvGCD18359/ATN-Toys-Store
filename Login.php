@@ -51,21 +51,40 @@
 if($pdo === false){
      echo "ERROR: Could not connect Database";
 }
-$sql = "SELECT username, password FROM customer";
-if (mysql_num_rows($sql) == 0) {
-        echo "Tên đăng nhập này không tồn tại. Vui lòng kiểm tra lại. <a href='javascript: history.go(-1)'>Trở lại</a>";
-        exit;
-    }
-    $stmt = $pdo->prepare($sql);
-    if (Username != 'username') {
-        echo "Tên đăng nhập này không tồn tại. Vui lòng kiểm tra lại. <a href='javascript: history.go(-1)'>Trở lại</a>";
-        exit;
-    }
-    if (Password != 'password') {
-        echo "Mật khẩu không đúng. Vui lòng nhập lại. <a href='javascript: history.go(-1)'>Trở lại</a>";
-        exit;
-    }
-    else
+if (isset($_POST["submit"])) {
+		// lấy thông tin người dùng
+		$username = $_POST["username"];
+		$password = $_POST["password"];
+		//làm sạch thông tin, xóa bỏ các tag html, ký tự đặc biệt 
+		//mà người dùng cố tình thêm vào để tấn công theo phương thức sql injection
+		$username = strip_tags($username);
+		$username = addslashes($username);
+		$password = strip_tags($password);
+		$password = addslashes($password);
+		if ($username == "" || $password =="") {
+			echo "username hoặc password bạn không được để trống!";
+		}else{
+			$sql = "select * from customer where username = '$username' and password = '$password' ";
+			$query = mysqli_query($conn,$sql);
+			$num_rows = mysqli_num_rows($query);
+			if ($num_rows==0) {
+				echo "tên đăng nhập hoặc mật khẩu không đúng !";
+			}else
+//$sql = "SELECT username, password FROM customer";
+//if (mysql_num_rows($sql) == 0) {
+  //      echo "Tên đăng nhập này không tồn tại. Vui lòng kiểm tra lại. <a href='javascript: history.go(-1)'>Trở lại</a>";
+    //    exit;
+   // }
+   // $stmt = $pdo->prepare($sql);
+   // if (username != 'username') {
+     //   echo "Tên đăng nhập này không tồn tại. Vui lòng kiểm tra lại. <a href='javascript: history.go(-1)'>Trở lại</a>";
+       // exit;
+    //}
+    //if (password != 'password') {
+     //   echo "Mật khẩu không đúng. Vui lòng nhập lại. <a href='javascript: history.go(-1)'>Trở lại</a>";
+       // exit;
+    //}
+    //else
  {
     if($stmt->execute() == TRUE){
         echo "Login successfully.";
@@ -73,7 +92,8 @@ if (mysql_num_rows($sql) == 0) {
         echo "Please try again ";
     }
  }
- 
+                }
+}
 ?>
     </body>
 </html>
