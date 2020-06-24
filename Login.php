@@ -41,13 +41,15 @@ if($pdo === false){
      echo "ERROR: Could not connect Database";
 }
 $sql = "SELECT username, password FROM customer WHERE username='username'";
-        $result = mysqli_query($sql);
-        {if(!$result) {
+$stmt = $pdo->prepare($sql);
+       
+        if($stmt->execute() == FALSE) {
         echo "Tên đăng nhập hoặc mật khẩu không đúng. Vui lòng kiểm tra lại. <a href='javascript: history.go(-1)'>Trở lại</a>";
         exit;
         } else {
         echo "Xin chào <b>" . "</b>. Bạn đã đăng nhập thành công. <a href=''>Thoát</a>";
         die();
         }
-}
 ?>        
+</body>
+</html>
