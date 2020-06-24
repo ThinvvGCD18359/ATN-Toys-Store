@@ -7,14 +7,14 @@
     <body>
         <h1>LOGIN</h1>
         <ul>
-        <form action='Login.php?do=login' method='POST'>
+        <form name="Login" action="Login.php" method="POST" >
             <table cellpadding='0' cellspacing='0' border='1'>
                 <tr>
                     <td>
                         Username :
                     </td>
                     <td>
-                        <input type='text' name='txtUsername' />
+                        <input type='text' name='username' />
                     </td>
                 </tr>
                 <tr>
@@ -22,7 +22,7 @@
                         Password :
                     </td>
                     <td>
-                        <input type='password' name='txtPassword' />
+                        <input type='password' name='password' />
                     </td>
                 </tr>
             </table>
@@ -51,26 +51,26 @@
 if($pdo === false){
      echo "ERROR: Could not connect Database";
 }
-$sql = "SELECT username, password FROM customer WHERE username='username'";
+$sql = "SELECT username, password FROM customer";
 if (mysql_num_rows($sql) == 0) {
         echo "Tên đăng nhập này không tồn tại. Vui lòng kiểm tra lại. <a href='javascript: history.go(-1)'>Trở lại</a>";
         exit;
     }
     $stmt = $pdo->prepare($sql);
-    if (username != 'username') {
+    if (Username != 'username') {
         echo "Tên đăng nhập này không tồn tại. Vui lòng kiểm tra lại. <a href='javascript: history.go(-1)'>Trở lại</a>";
         exit;
     }
-    if (password != 'password') {
+    if (Password != 'password') {
         echo "Mật khẩu không đúng. Vui lòng nhập lại. <a href='javascript: history.go(-1)'>Trở lại</a>";
         exit;
     }
     else
  {
     if($stmt->execute() == TRUE){
-        echo "Register successfully.";
+        echo "Login successfully.";
     } else {
-        echo "Error inserting record: ";
+        echo "Please try again ";
     }
  }
  
