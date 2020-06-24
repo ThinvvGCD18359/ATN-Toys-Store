@@ -47,8 +47,7 @@ $sql = "SELECT username, password FROM customer WHERE username='username'";
         exit;
     }
  else {
-$_SESSION['username'] = $username;
-echo "Xin chào <b>" .$username . "</b>. Bạn đã đăng nhập thành công. <a href=''>Thoát</a>";
-die();
+        echo "Xin chào <b>" . "</b>. Bạn đã đăng nhập thành công. <a href=''>Thoát</a>";
+        die();
 }
 ?>        
