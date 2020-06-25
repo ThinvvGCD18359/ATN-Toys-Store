@@ -632,7 +632,9 @@ ga('create', 'UA-30027142-1', 'w3layouts.com');
 			</div>
 		
 	</div>
-<!--content-->
+	</div>
+	</div>
+
 <!---728x90--->
 
 <!--footer-->
