@@ -154,10 +154,10 @@ ga('create', 'UA-30027142-1', 'w3layouts.com');
 										<div class="col-sm-3">
 											<ul class="multi-column-dropdown">
 			
-												<li><a href="kitchen.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Action Toys</a></li>
-												<li><a href="kitchen.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Learning Toys</a></li>
-												<li><a href="kitchen.html"> <i class="fa fa-angle-right" aria-hidden="true"></i>Outdoor Play</a></li>
-												<li><a href="kitchen.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Vehicles Figures</a></li>
+                                                                                            <li><a href="product.php"><i class="fa fa-angle-right" aria-hidden="true"></i>Action Toys</a></li>
+                                                                                            <li><a href="product.php"><i class="fa fa-angle-right" aria-hidden="true"></i>Learning Toys</a></li>
+                                                                                            <li><a href="product.php"> <i class="fa fa-angle-right" aria-hidden="true"></i>Outdoor Play</a></li>
+                                                                                            <li><a href="product.php"><i class="fa fa-angle-right" aria-hidden="true"></i>Vehicles Figures</a></li>
 										
 											</ul>
 										
@@ -165,18 +165,18 @@ ga('create', 'UA-30027142-1', 'w3layouts.com');
 										<div class="col-sm-3">
 										
 											<ul class="multi-column-dropdown">
-												<li><a href="kitchen.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Cards &amp; Puzzles</a></li>
-												<li><a href="kitchen.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Stuffed Animals</a></li>
-												<li><a href="kitchen.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Building Blocks</a></li>
-												<li><a href="kitchen.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Pretend Play &amp; Dressed up</a></li>
-												<li><a href="kitchen.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Preschool Toys</a></li>
+                                                                                            <li><a href="product.php"><i class="fa fa-angle-right" aria-hidden="true"></i>Cards &amp; Puzzles</a></li>
+                                                                                            <li><a href="product.php"><i class="fa fa-angle-right" aria-hidden="true"></i>Stuffed Animals</a></li>
+                                                                                            <li><a href="product.php"><i class="fa fa-angle-right" aria-hidden="true"></i>Building Blocks</a></li>
+                                                                                            <li><a href="product.php"><i class="fa fa-angle-right" aria-hidden="true"></i>Pretend Play &amp; Dressed up</a></li>
+                                                                                            <li><a href="product.php"><i class="fa fa-angle-right" aria-hidden="true"></i>Preschool Toys</a></li>
 										
 											</ul>
 										
 									
 										</div>
 										<div class="col-sm-3 w3l">
-											<a href="kitchen.html"><img src="images/me.png" class="img-responsive" alt=""></a>
+                                                                                    <a href="product.php"><img src="images/me.png" class="img-responsive" alt=""></a>
 										</div>
 										<div class="clearfix"></div>
 									</div>	
@@ -653,8 +653,8 @@ ga('create', 'UA-30027142-1', 'w3layouts.com');
 		<div class="col-md-3 footer-grid ">
 			<h3>Menu</h3>
 			<ul>
-				<li><a href="index.html">Home</a></li>
-				<li><a href="kitchen.html">Kitchen</a></li>
+                            <li><a href="home.php">Home</a></li>
+                            <li><a href="product.php">Product</a></li>
 				<li><a href="care.html">Personal Care</a></li>
 				<li><a href="hold.html">Household</a></li>						 
 				<li><a href="codes.html">Short Codes</a></li> 

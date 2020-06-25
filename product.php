@@ -220,31 +220,21 @@ ga('create', 'UA-30027142-1', 'w3layouts.com');
 <!--content-->
 <!---728x90--->
 
-<div class="content-top ">
-	<div class="container ">
-		<div class="spec ">
-			<h3>Special Offers</h3>
-			<div class="ser-t">
-				<b></b>
-				<span><i></i></span>
-				<b class="line"></b>
+<!--content-->
+		<div class="product">
+		<div class="container">
+			<div class="spec ">
+				<h3>Products</h3>
+				<div class="ser-t">
+					<b></b>
+					<span><i></i></span>
+					<b class="line"></b>
+				</div>
 			</div>
-		</div>
-			<div class="tab-head ">
-				<nav class="nav-sidebar">
-					<ul class="nav tabs ">
-					  <li class="active"><a href="#tab1" data-toggle="tab">Action Toys</a></li>
-					  <li class=""><a href="#tab2" data-toggle="tab">Learning Toys</a></li> 
-					  <li class=""><a href="#tab3" data-toggle="tab">Stuffed Animals</a></li>  
-					  <li class=""><a href="#tab4" data-toggle="tab">Vehicle Figures</a></li>
-					</ul>
-				</nav>
-				<div class=" tab-content tab-content-t ">
-					<div class="tab-pane active text-style" id="tab1">
-						<div class=" con-w3l">
-							<div class="col-md-3 m-wthree">
-								<div class="col-m">								
-									<a href="#" data-toggle="modal" data-target="#myModal1" class="offer-img">
+				<div class=" con-w3l agileinf">
+							<div class="col-md-3 pro-1">
+								<div class="col-m">
+								<a href="#" data-toggle="modal" data-target="#myModal1" class="offer-img">
 										<img src="images/of.png" class="img-responsive" alt="">
 										<div class="offer"><p><span>Offer</span></p></div>
 									</a>
@@ -266,7 +256,7 @@ ga('create', 'UA-30027142-1', 'w3layouts.com');
 									</div>
 								</div>
 							</div>
-							<div class="col-md-3 m-wthree">
+							<div class="col-md-3 pro-1">
 								<div class="col-m">
 									<a href="#" data-toggle="modal" data-target="#myModal2" class="offer-img">
 										<img src="images/of1.png" class="img-responsive" alt="">
@@ -289,7 +279,7 @@ ga('create', 'UA-30027142-1', 'w3layouts.com');
 									</div>
 								</div>
 							</div>
-							<div class="col-md-3 m-wthree">
+							<div class="col-md-3 pro-1">
 								<div class="col-m">
 									<a href="#" data-toggle="modal" data-target="#myModal3" class="offer-img">
 										<img src="images/of2.png" class="img-responsive" alt="">
@@ -312,7 +302,7 @@ ga('create', 'UA-30027142-1', 'w3layouts.com');
 									</div>
 								</div>
 							</div>
-							<div class="col-md-3 m-wthree">
+							<div class="col-md-3 pro-1">
 								<div class="col-m">
 									<a href="#" data-toggle="modal" data-target="#myModal4" class="offer-img">
 										<img src="images/of3.png" class="img-responsive" alt="">
@@ -335,13 +325,11 @@ ga('create', 'UA-30027142-1', 'w3layouts.com');
 									</div>
 								</div>
 							</div>
-							<div class="clearfix"></div>
-						 </div>
-					</div>
-					<div class="tab-pane  text-style" id="tab2">
-						<div class=" con-w3l">
-							<div class="col-md-3 m-wthree">
+							
+							<div class="col-md-3 pro-1">
 								<div class="col-m">
+								<a href="#" data-toggle="modal" data-target="#myModal5" class="offer-img">
+										<img src="images/of28.png" class="img-responsive" alt="">
 									<a href="#" data-toggle="modal" data-target="#myModal5" class="offer-img">
 										<img src="images/of4.png" class="img-responsive" alt="">
 										<div class="offer"><p><span>Offer</span></p></div>
@@ -360,12 +348,12 @@ ga('create', 'UA-30027142-1', 'w3layouts.com');
 											<div class="add">
 										   <button class="btn btn-danger my-cart-btn my-cart-b" data-id="5" data-name="Learning Board" data-summary="summary 5" data-price="18.70" data-quantity="1" data-image="images/of4.png">Add to Cart</button>
 										</div>
-									</div>
+                                                                        </div>
 								</div>
 							</div>
-							<div class="col-md-3 m-wthree">
+							<div class="col-md-3 pro-1">
 								<div class="col-m">
-									<a href="#" data-toggle="modal" data-target="#myModal6" class="offer-img">
+									<<a href="#" data-toggle="modal" data-target="#myModal6" class="offer-img">
 										<img src="images/of5.png" class="img-responsive" alt="">
 										<div class="offer"><p><span>Offer</span></p></div>
 									</a>
@@ -386,7 +374,7 @@ ga('create', 'UA-30027142-1', 'w3layouts.com');
 									</div>
 								</div>
 							</div>
-							<div class="col-md-3 m-wthree">
+							<div class="col-md-3 pro-1">
 								<div class="col-m">
 									<a href="#" data-toggle="modal" data-target="#myModal7" class="offer-img">
 										<img src="images/of6.png" class="img-responsive" alt="">
@@ -409,9 +397,9 @@ ga('create', 'UA-30027142-1', 'w3layouts.com');
 									</div>
 								</div>
 							</div>
-							<div class="col-md-3 m-wthree">
+							<div class="col-md-3 pro-1">
 								<div class="col-m">
-									<a href="#" data-toggle="modal" data-target="#myModal8" class="offer-img">
+									<<a href="#" data-toggle="modal" data-target="#myModal8" class="offer-img">
 										<img src="images/of7.png" class="img-responsive" alt="">
 										<div class="offer"><p><span>Offer</span></p></div>
 									</a>
@@ -432,12 +420,7 @@ ga('create', 'UA-30027142-1', 'w3layouts.com');
 									</div>
 								</div>
 							</div>
-							<div class="clearfix"></div>
-						 </div>		  
-					</div>
-					<div class="tab-pane  text-style" id="tab3">
-						<div class=" con-w3l">
-							<div class="col-md-3 m-wthree">
+								<div class="col-md-3 pro-1">
 								<div class="col-m">
 								<a href="#" data-toggle="modal" data-target="#myModal9" class="offer-img">
 										<img src="images/of8.png" class="img-responsive" alt="">
@@ -460,7 +443,7 @@ ga('create', 'UA-30027142-1', 'w3layouts.com');
 									</div>
 								</div>
 							</div>
-							<div class="col-md-3 m-wthree">
+							<div class="col-md-3 pro-1">
 								<div class="col-m">
 									<a href="#" data-toggle="modal" data-target="#myModal10" class="offer-img">
 										<img src="images/of9.png" class="img-responsive" alt="">
@@ -483,7 +466,7 @@ ga('create', 'UA-30027142-1', 'w3layouts.com');
 									</div>
 								</div>
 							</div>
-							<div class="col-md-3 m-wthree">
+							<div class="col-md-3 pro-1">
 								<div class="col-m">
 									<a href="#" data-toggle="modal" data-target="#myModal11" class="offer-img">
 										<img src="images/of10.png" class="img-responsive" alt="">
@@ -506,7 +489,7 @@ ga('create', 'UA-30027142-1', 'w3layouts.com');
 									</div>
 								</div>
 							</div>
-							<div class="col-md-3 m-wthree">
+							<div class="col-md-3 pro-1">
 								<div class="col-m">
 									<a href="#" data-toggle="modal" data-target="#myModal12" class="offer-img">
 										<img src="images/of11.png" class="img-responsive" alt="">
@@ -530,118 +513,12 @@ ga('create', 'UA-30027142-1', 'w3layouts.com');
 								</div>
 							</div>
 							<div class="clearfix"></div>
-						 </div>		  
-					</div>
-					<div class="tab-pane text-style" id="tab4">
-							<div class=" con-w3l">
-							<div class="col-md-3 m-wthree">
-								<div class="col-m">
-								<a href="#" data-toggle="modal" data-target="#myModal13" class="offer-img">
-										<img src="images/of12.png" class="img-responsive" alt="">
-										<div class="offer"><p><span>Offer</span></p></div>
-									</a>
-									<div class="mid-1">
-										<div class="women">
-											<h6><a href="single.html">Racing Car</a>(Figure)</h6>							
-										</div>
-										<div class="mid-2">
-											<p ><label>$17.00</label><em class="item_price">$10.50</em></p>
-											  <div class="block">
-												<div class="starbox small ghosting"> </div>
-											</div>
-											<div class="clearfix"></div>
-										</div>
-											<div class="add">
-										   <button class="btn btn-danger my-cart-btn my-cart-b" data-id="13" data-name="Racing Car" data-summary="summary 13" data-price="6.00" data-quantity="1" data-image="images/of12.png">Add to Cart</button>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-3 m-wthree">
-								<div class="col-m ">
-									<a href="#" data-toggle="modal" data-target="#myModal14" class="offer-img">
-										<img src="images/of13.png" class="img-responsive" alt="">
-										<div class="offer"><p><span>Offer</span></p></div>
-									</a>
-									<div class="mid-1">
-										<div class="women">
-											<h6><a href="single.html">Automobili</a>(Electric Car)</h6>							
-										</div>
-										<div class="mid-2">
-											<p ><label>$35.00</label><em class="item_price">$24.50</em></p>
-											  <div class="block">
-												<div class="starbox small ghosting"> </div>
-											</div>
-											<div class="clearfix"></div>
-										</div>
-											<div class="add">
-										   <button class="btn btn-danger my-cart-btn my-cart-b" data-id="14" data-name="Automobili" data-summary="summary 14" data-price="4.50" data-quantity="1" data-image="images/of13.png">Add to Cart</button>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-3 m-wthree">
-								<div class="col-m ">
-									<a href="#" data-toggle="modal" data-target="#myModal15" class="offer-img">
-										<img src="images/of14.png" class="img-responsive" alt="">
-										<div class="offer"><p><span>Offer</span></p></div>
-									</a>
-									<div class="mid-1">
-										<div class="women">
-											<h6><a href="single.html">Kuruma</a>(Remote Control)</h6>							
-										</div>
-										<div class="mid-2">
-											<p ><label>$54.99</label><em class="item_price">$39.50</em></p>
-											  <div class="block">
-												<div class="starbox small ghosting"> </div>
-											</div>
-											<div class="clearfix"></div>
-										</div>
-											<div class="add">
-										   <button class="btn btn-danger my-cart-btn my-cart-b" data-id="15" data-name="Kuruma" data-summary="summary 15" data-price="3.50" data-quantity="1" data-image="images/of14.png">Add to Cart</button>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-3 m-wthree">
-								<div class="col-m">
-									<a href="#" data-toggle="modal" data-target="#myModal16" class="offer-img">
-										<img src="images/of15.png" class="img-responsive" alt="">
-										<div class="offer"><p><span>Offer</span></p></div>
-									</a>
-									<div class="mid-1">
-										<div class="women">
-											<h6><a href="single.html">Optimus Prime</a>(Figure)</h6>							
-										</div>
-										<div class="mid-2">
-											<p ><label>$31.00</label><em class="item_price">$20.80</em></p>
-											  <div class="block">
-												<div class="starbox small ghosting"> </div>
-											</div>
-											<div class="clearfix"></div>
-										</div>
-											<div class="add">
-										   <button class="btn btn-danger my-cart-btn my-cart-b" data-id="16" data-name="Optimus Prime" data-summary="summary 16" data-price="0.80" data-quantity="1" data-image="images/of15.png">Add to Cart</button>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="clearfix"></div>
 						 </div>
-					</div>
-				</div>
-			</div>
-		
-	</div>
-	</div>
-	</div>
-<!--content-->
-<!---728x90--->
-<div class="product">
-		<div class="container">
-                    </div>
+		</div>
 	</div>
 <!--footer-->
+	<!---728x90--->
+
 <div class="footer">
 	<div class="container">
 		<div class="col-md-3 footer-grid">
@@ -653,8 +530,8 @@ ga('create', 'UA-30027142-1', 'w3layouts.com');
 		<div class="col-md-3 footer-grid ">
 			<h3>Menu</h3>
 			<ul>
-                            <li><a href="home.php">Home</a></li>
-                            <li><a href="product.php">Product</a></li>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="kitchen.html">Kitchen</a></li>
 				<li><a href="care.html">Personal Care</a></li>
 				<li><a href="hold.html">Household</a></li>						 
 				<li><a href="codes.html">Short Codes</a></li> 
@@ -771,6 +648,9 @@ ga('create', 'UA-30027142-1', 'w3layouts.com');
 
   });
   </script>
+
+  
+  
   
   <!-- product -->
 			<div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
@@ -1149,134 +1029,6 @@ ga('create', 'UA-30027142-1', 'w3layouts.com');
 									<p class="quick_desc"> Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; es</p>
 									 <div class="add-to">
 										   <button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="12" data-name="Fluffy Koala" data-summary="summary 12" data-price="3.50" data-quantity="1" data-image="images/of11.png">Add to Cart</button>
-										</div>
-								</div>
-								<div class="clearfix"> </div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- product -->
-			<div class="modal fade" id="myModal13" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-				<div class="modal-dialog" role="document">
-					<div class="modal-content modal-info">
-						<div class="modal-header">
-							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
-						</div>
-						<div class="modal-body modal-spa">
-								<div class="col-md-5 span-2">
-											<div class="item">
-												<img src="images/of12.png" class="img-responsive" alt="">
-											</div>
-								</div>
-								<div class="col-md-7 span-1 ">
-									<h3>Racing Car(Figure)</h3>
-									<p class="in-para"> There are many variations of passages of Lorem Ipsum.</p>
-									<div class="price_single">
-									  <span class="reducedfrom "><del>$17.00</del>$10.50</span>
-									
-									 <div class="clearfix"></div>
-									</div>
-									<h4 class="quick">Quick Overview:</h4>
-									<p class="quick_desc"> Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; es</p>
-									 <div class="add-to">
-										   <button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="13" data-name="Racing Car" data-summary="summary 13" data-price="6.00" data-quantity="1" data-image="images/of12.png">Add to Cart</button>
-										</div>
-								</div>
-								<div class="clearfix"> </div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- product -->
-			<div class="modal fade" id="myModal14" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-				<div class="modal-dialog" role="document">
-					<div class="modal-content modal-info">
-						<div class="modal-header">
-							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
-						</div>
-						<div class="modal-body modal-spa">
-								<div class="col-md-5 span-2">
-											<div class="item">
-												<img src="images/of13.png" class="img-responsive" alt="">
-											</div>
-								</div>
-								<div class="col-md-7 span-1 ">
-									<h3>Automobili(Electric Car)</h3>
-									<p class="in-para"> There are many variations of passages of Lorem Ipsum.</p>
-									<div class="price_single">
-									  <span class="reducedfrom "><del>$35.00</del>$24.50</span>
-									
-									 <div class="clearfix"></div>
-									</div>
-									<h4 class="quick">Quick Overview:</h4>
-									<p class="quick_desc"> Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; es</p>
-									 <div class="add-to">
-										   <button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="14" data-name="Automobili" data-summary="summary 14" data-price="4.50" data-quantity="1" data-image="images/of13.png">Add to Cart</button>
-										</div>
-								</div>
-								<div class="clearfix"> </div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- product -->
-			<div class="modal fade" id="myModal15" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-				<div class="modal-dialog" role="document">
-					<div class="modal-content modal-info">
-						<div class="modal-header">
-							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
-						</div>
-						<div class="modal-body modal-spa">
-								<div class="col-md-5 span-2">
-											<div class="item">
-												<img src="images/of14.png" class="img-responsive" alt="">
-											</div>
-								</div>
-								<div class="col-md-7 span-1 ">
-									<h3>Kuruma(Remote Control)</h3>
-									<p class="in-para"> There are many variations of passages of Lorem Ipsum.</p>
-									<div class="price_single">
-									  <span class="reducedfrom "><del>$54.99</del>$39.50</span>
-									
-									 <div class="clearfix"></div>
-									</div>
-									<h4 class="quick">Quick Overview:</h4>
-									<p class="quick_desc"> Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; es</p>
-									 <div class="add-to">
-										   <button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="15" data-name="Kuruma" data-summary="summary 15" data-price="3.50" data-quantity="1" data-image="images/of14.png">Add to Cart</button>
-										</div>
-								</div>
-								<div class="clearfix"> </div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- product -->
-			<div class="modal fade" id="myModal16" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-				<div class="modal-dialog" role="document">
-					<div class="modal-content modal-info">
-						<div class="modal-header">
-							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
-						</div>
-						<div class="modal-body modal-spa">
-								<div class="col-md-5 span-2">
-											<div class="item">
-												<img src="images/of15.png" class="img-responsive" alt="">
-											</div>
-								</div>
-								<div class="col-md-7 span-1 ">
-									<h3>Optimus Prime(Figure)</h3>
-									<p class="in-para"> There are many variations of passages of Lorem Ipsum.</p>
-									<div class="price_single">
-									  <span class="reducedfrom "><del>$31.00</del>$20.80</span>
-									
-									 <div class="clearfix"></div>
-									</div>
-									<h4 class="quick">Quick Overview:</h4>
-									<p class="quick_desc"> Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; es</p>
-									 <div class="add-to">
-										   <button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="16" data-name="Optimus Prime" data-summary="summary 16" data-price="0.80" data-quantity="1" data-image="images/of15.png">Add to Cart</button>
 										</div>
 								</div>
 								<div class="clearfix"> </div>
