@@ -110,7 +110,7 @@ ga('create', 'UA-30027142-1', 'w3layouts.com');
   ga('send', 'pageview');
 </script>
 <body>
-<a href="offer.html"><img src="images/download.png" class="img-head" alt=""></a>
+    <a href="home.php"><img src="images/download.png" class="img-head" alt=""></a>
 <div class="header">
 
 		<div class="container">

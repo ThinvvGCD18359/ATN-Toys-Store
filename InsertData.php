@@ -110,7 +110,7 @@ ga('create', 'UA-30027142-1', 'w3layouts.com');
   ga('send', 'pageview');
 </script>
 <body>
-<a href="offer.html"><img src="images/download.png" class="img-head" alt=""></a>
+    <a href="home.php"><img src="images/download.png" class="img-head" alt=""></a>
 <div class="header">
 
 		<div class="container">
@@ -154,10 +154,10 @@ ga('create', 'UA-30027142-1', 'w3layouts.com');
 										<div class="col-sm-3">
 											<ul class="multi-column-dropdown">
 			
-												<li><a href="kitchen.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Action Toys</a></li>
-												<li><a href="kitchen.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Learning Toys</a></li>
-												<li><a href="kitchen.html"> <i class="fa fa-angle-right" aria-hidden="true"></i>Outdoor Play</a></li>
-												<li><a href="kitchen.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Vehicles Figures</a></li>
+                                                                                            <li><a href="product.php"><i class="fa fa-angle-right" aria-hidden="true"></i>Action Toys</a></li>
+                                                                                            <li><a href="product.php"><i class="fa fa-angle-right" aria-hidden="true"></i>Learning Toys</a></li>
+                                                                                            <li><a href="product.php"> <i class="fa fa-angle-right" aria-hidden="true"></i>Outdoor Play</a></li>
+                                                                                            <li><a href="product.php"><i class="fa fa-angle-right" aria-hidden="true"></i>Vehicles Figures</a></li>
 										
 											</ul>
 										
@@ -165,18 +165,18 @@ ga('create', 'UA-30027142-1', 'w3layouts.com');
 										<div class="col-sm-3">
 										
 											<ul class="multi-column-dropdown">
-												<li><a href="kitchen.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Cards &amp; Puzzles</a></li>
-												<li><a href="kitchen.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Stuffed Animals</a></li>
-												<li><a href="kitchen.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Building Blocks</a></li>
-												<li><a href="kitchen.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Pretend Play &amp; Dressed up</a></li>
-												<li><a href="kitchen.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Preschool Toys</a></li>
+                                                                                            <li><a href="product.php"><i class="fa fa-angle-right" aria-hidden="true"></i>Cards &amp; Puzzles</a></li>
+                                                                                            <li><a href="product.php"><i class="fa fa-angle-right" aria-hidden="true"></i>Stuffed Animals</a></li>
+                                                                                            <li><a href="product.php"><i class="fa fa-angle-right" aria-hidden="true"></i>Building Blocks</a></li>
+                                                                                            <li><a href="product.php"><i class="fa fa-angle-right" aria-hidden="true"></i>Pretend Play &amp; Dressed up</a></li>
+                                                                                            <li><a href="product.php"><i class="fa fa-angle-right" aria-hidden="true"></i>Preschool Toys</a></li>
 										
 											</ul>
 										
 									
 										</div>
 										<div class="col-sm-3 w3l">
-											<a href="kitchen.html"><img src="images/me.png" class="img-responsive" alt=""></a>
+                                                                                    <a href="product.php"><img src="images/me.png" class="img-responsive" alt=""></a>
 										</div>
 										<div class="clearfix"></div>
 									</div>	
