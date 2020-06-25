@@ -234,7 +234,7 @@ if (empty(getenv("DATABASE_URL"))){
      echo getenv("dbname");
    $db = parse_url(getenv("DATABASE_URL"));
    $pdo = new PDO("pgsql:" . sprintf(
-        "host=ec2-52-0-155-79.compute-1.amazonaws.com;port=5432;user=uhkywoqfpojzhn;password=e9df249d095cd9b696dc315aa505ef07cfa1d5019e593b3c1a1dd2f9c99b6482;dbname=d9r7n9bel5srhd",
+        "host=ec2-34-206-31-217.compute-1.amazonaws.com;port=5432;user=ntdsfcrregsykn;password=35fabda0ca47320fbf2f48dcab008c70a946d9b5207b243aaaa7fce945928503;dbname=d6veukljhn49ai",
         $db["host"],
         $db["port"],
         $db["user"],
@@ -243,44 +243,40 @@ if (empty(getenv("DATABASE_URL"))){
    ));
 }  
 
-$sql = "SELECT * FROM customer ORDER BY customerid";
+$sql = "SELECT * FROM product";
 $stmt = $pdo->prepare($sql);
 //Thiết lập kiểu dữ liệu trả về
 $stmt->setFetchMode(PDO::FETCH_ASSOC);
 $stmt->execute();
 $resultSet = $stmt->fetchAll();
-echo '<p>Customer information:</p>';
 
 ?>
-<div id="container">
-<table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Customer ID</th>
-        <th>Name</th>
-        <th>Phone</th>
-        <th>Address</th>
-      </tr>
-    </thead>
-    <tbody>
-      <?php
-      // tạo vòng lặp 
-         //while($r = mysql_fetch_array($result)){
-             foreach ($resultSet as $row) {
-      ?>
-   
-      <tr>
-        <td scope="row"><?php echo $row['customerid'] ?></td>
-        <td><?php echo $row['customername'] ?></td>
-        <td><?php echo $row['customerphone'] ?></td>
-        <td><?php echo $row['address'] ?></td>
-        
-      </tr>
-     
-      <?php
-        }
-      ?>
-</table>
+<div class=" tab-content tab-content-t ">
+					<div class="tab-pane active text-style" id="tab1">
+						<div class=" con-w3l">
+							<div class="col-md-3 m-wthree">
+								<div class="col-m">								
+									<a href="#" data-toggle="modal" data-target="#myModal1" class="offer-img">
+										<img src="images/unav.png" class="img-responsive" alt="">
+									</a>
+									<div class="mid-1">
+										<div class="women">
+											<?php> echo $row[p_name]?>							
+										</div>
+										<div class="mid-2">
+											<p ><label><?php> echo $row[price] ?> </label></p>
+											  <div class="block">
+												<div class="starbox small ghosting"> </div>
+											</div>
+											<div class="clearfix"></div>
+										</div>
+										<div class="add">
+										   <button class="btn btn-danger my-cart-btn my-cart-b " data-id="1" data-name="p_name" data-summary="summary 1" data-price="price" data-quantity="1" data-image="images/unav.png">Add to Cart</button>
+										</div>
+										
+									</div>
+								</div>
+							</div>
       
 <!--content-->
 <!---728x90--->

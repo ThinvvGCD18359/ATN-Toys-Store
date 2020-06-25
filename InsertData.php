@@ -278,7 +278,7 @@ if (empty(getenv("DATABASE_URL"))){
      
    $db = parse_url(getenv("DATABASE_URL"));
    $pdo = new PDO("pgsql:" . sprintf(
-        "host=ec2-52-0-155-79.compute-1.amazonaws.com;port=5432;user=uhkywoqfpojzhn;password=e9df249d095cd9b696dc315aa505ef07cfa1d5019e593b3c1a1dd2f9c99b6482;dbname=d9r7n9bel5srhd",
+        "host=ec2-34-206-31-217.compute-1.amazonaws.com;port=5432;user=ntdsfcrregsykn;password=35fabda0ca47320fbf2f48dcab008c70a946d9b5207b243aaaa7fce945928503;dbname=d6veukljhn49ai",
         $db["host"],
         $db["port"],
         $db["user"],
@@ -291,28 +291,19 @@ if($pdo === false){
      echo "ERROR: Could not connect Database";
 }
 
-//Khởi tạo Prepared Statement
-//$stmt = $pdo->prepare('INSERT INTO customer(customer_id, customer_name, customer_phone, address) values (:id, :name, :phone, :address)');
-
-//$stmt->bindParam(':id','C03');
-//$stmt->bindParam(':name','Thong');
-//$stmt->bindParam(':phone', '123456789');
-//$stmt->bindParam(':address', '52 Thanh Thuy');
-//$stmt->execute();
-//$sql = "INSERT INTO student(customer_id, customer_name, customer_phone, address) VALUES('C03', 'Thong','123456789','52 Thanh Thuy')";
-$sql = "INSERT INTO customer(customerid, customername, customerphone, address)"
-        . " VALUES('$_POST[customerid]','$_POST[customername]','$_POST[customerphone]','$_POST[address]')";
+$sql = "INSERT INTO product(p_name, price, overview)"
+        . " VALUES('$_POST[p_name]','$_POST[price]','$_POST[overview]')";
 $stmt = $pdo->prepare($sql);
 //$stmt->execute();
-    if (is_null(customer_id)) {
-   echo "Username must be not null";
+    if (is_null(p_name)) {
+   echo "Product name must be not null";
  }
  else
  {
     if($stmt->execute() == TRUE){
-        echo "Register successfully.";
+        echo "Input successfully.";
     } else {
-        echo "Error inserting input: ";
+        echo "Error inputting input: ";
     }
  }
  
