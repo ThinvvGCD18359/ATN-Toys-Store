@@ -305,7 +305,6 @@ echo '<p>Unconfirmed Products:</p>';
                             <li><a href="DeleteData.php">Delete Data</a></li>
 			</ul>
 		</div>
-		</div>
 		<div class="col-md-3 footer-grid ">
 			<h3>Customer Services</h3>
 			<ul>
@@ -314,7 +313,6 @@ echo '<p>Unconfirmed Products:</p>';
 				<li><a href="faqs.php">Faqs</a></li>
 				<li><a href="contact.php">Contact</a></li>
                                 <li><a href="home.php">Online Shopping</a></li>						 
-				 
 			</ul>
 		</div>
 		<div class="clearfix"></div>
