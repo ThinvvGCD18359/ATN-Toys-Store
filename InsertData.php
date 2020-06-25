@@ -243,24 +243,20 @@ ga('create', 'UA-30027142-1', 'w3layouts.com');
 					<form action="#" method="post">
 						<div class="key">
 							<i class="fa fa-user" aria-hidden="true"></i>
-							<input  type="text" value="Username" name="customerid" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'customerid';}" required="">
+							<input  type="text" value="ProductName" name="p_name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'p_name';}" required="">
 							<div class="clearfix"></div>
 						</div>
 						<div class="key">
 							<i class="fa fa-envelope" aria-hidden="true"></i>
-							<input  type="text" value="Email" name="customername" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'customername';}" required="">
+							<input  type="text" value="Price" name="price" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'price';}" required="">
 							<div class="clearfix"></div>
 						</div>
 						<div class="key">
 							<i class="fa fa-lock" aria-hidden="true"></i>
-							<input  type="password" value="Password" name="customerphone" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'customerphone';}" required="">
+							<input  type="text" value="Overview" name="overview" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'overview';}" required="">
 							<div class="clearfix"></div>
 						</div>
-						<div class="key">
-							<i class="fa fa-lock" aria-hidden="true"></i>
-							<input  type="password" value="Confirm Password" name="address" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'address';}" required="">
-							<div class="clearfix"></div>
-						</div>
+						
 						<input type="submit" value="Submit">
 					</form>
 				</div>
