@@ -328,8 +328,6 @@ ga('create', 'UA-30027142-1', 'w3layouts.com');
 							
 							<div class="col-md-3 pro-1">
 								<div class="col-m">
-								<a href="#" data-toggle="modal" data-target="#myModal5" class="offer-img">
-										<img src="images/of28.png" class="img-responsive" alt="">
 									<a href="#" data-toggle="modal" data-target="#myModal5" class="offer-img">
 										<img src="images/of4.png" class="img-responsive" alt="">
 										<div class="offer"><p><span>Offer</span></p></div>
