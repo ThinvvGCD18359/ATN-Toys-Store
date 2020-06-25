@@ -347,17 +347,17 @@ ga('create', 'UA-30027142-1', 'w3layouts.com');
 									</a>
 									<div class="mid-1">
 										<div class="women">
-											<h6><a href="single.html">Lays</a>(100 g)</h6>							
+											<h6><a href="single.html">Learning Board</a></h6>							
 										</div>
 										<div class="mid-2">
-											<p ><label>$1.00</label><em class="item_price">$0.70</em></p>
+											<p ><label>$25.00</label><em class="item_price">$18.70</em></p>
 											  <div class="block">
 												<div class="starbox small ghosting"> </div>
 											</div>
 											<div class="clearfix"></div>
 										</div>
 											<div class="add">
-										   <button class="btn btn-danger my-cart-btn my-cart-b" data-id="5" data-name="Lays" data-summary="summary 5" data-price="0.70" data-quantity="1" data-image="images/of4.png">Add to Cart</button>
+										   <button class="btn btn-danger my-cart-btn my-cart-b" data-id="5" data-name="Learning Board" data-summary="summary 5" data-price="18.70" data-quantity="1" data-image="images/of4.png">Add to Cart</button>
 										</div>
 									</div>
 								</div>
@@ -370,17 +370,17 @@ ga('create', 'UA-30027142-1', 'w3layouts.com');
 									</a>
 									<div class="mid-1">
 										<div class="women">
-											<h6><a href="single.html">Kurkure</a>(100 g)</h6>							
+											<h6><a href="single.html">Water Play Kit</a></h6>							
 										</div>
 										<div class="mid-2">
-											<p ><label>$1.00</label><em class="item_price">$0.70</em></p>
+											<p ><label>$31.00</label><em class="item_price">$25.50</em></p>
 											  <div class="block">
 												<div class="starbox small ghosting"> </div>
 											</div>
 											<div class="clearfix"></div>
 										</div>
 											<div class="add">
-										   <button class="btn btn-danger my-cart-btn my-cart-b" data-id="6" data-name="Kurkure" data-summary="summary 6" data-price="0.70" data-quantity="1" data-image="images/of5.png">Add to Cart</button>
+										   <button class="btn btn-danger my-cart-btn my-cart-b" data-id="6" data-name="Water Play Kit" data-summary="summary 6" data-price="0.70" data-quantity="1" data-image="images/of5.png">Add to Cart</button>
 										</div>
 									</div>
 								</div>
@@ -393,17 +393,17 @@ ga('create', 'UA-30027142-1', 'w3layouts.com');
 									</a>
 									<div class="mid-1">
 										<div class="women">
-											<h6><a href="single.html">Popcorn</a>(250 g)</h6>							
+											<h6><a href="single.html">Shape Softer</a></h6>							
 										</div>
 										<div class="mid-2">
-											<p ><label>$2.00</label><em class="item_price">$1.00</em></p>
+											<p ><label>$12.00</label><em class="item_price">$7.50</em></p>
 											  <div class="block">
 												<div class="starbox small ghosting"> </div>
 											</div>
 											<div class="clearfix"></div>
 										</div>
 											<div class="add">
-										   <button class="btn btn-danger my-cart-btn my-cart-b" data-id="7" data-name="Popcorn" data-summary="summary 7" data-price="1.00" data-quantity="1" data-image="images/of6.png">Add to Cart</button>
+										   <button class="btn btn-danger my-cart-btn my-cart-b" data-id="7" data-name="Shapw Softer" data-summary="summary 7" data-price="1.00" data-quantity="1" data-image="images/of6.png">Add to Cart</button>
 										</div>
 									</div>
 								</div>
@@ -416,17 +416,17 @@ ga('create', 'UA-30027142-1', 'w3layouts.com');
 									</a>
 									<div class="mid-1">
 										<div class="women">
-											<h6><a href="single.html">Nuts</a>(250 g)</h6>							
+											<h6><a href="single.html">Spelling Box</a></h6>							
 										</div>
 										<div class="mid-2">
-											<p ><label>$4.00</label><em class="item_price">$3.50</em></p>
+											<p ><label>$40.50</label><em class="item_price">$31.00</em></p>
 											  <div class="block">
 												<div class="starbox small ghosting"> </div>
 											</div>
 											<div class="clearfix"></div>
 										</div>
 											<div class="add">
-										   <button class="btn btn-danger my-cart-btn my-cart-b" data-id="8" data-name="Nuts" data-summary="summary 8" data-price="3.50" data-quantity="1" data-image="images/of7.png">Add to Cart</button>
+										   <button class="btn btn-danger my-cart-btn my-cart-b" data-id="8" data-name="Spelling Box" data-summary="summary 8" data-price="3.50" data-quantity="1" data-image="images/of7.png">Add to Cart</button>
 										</div>
 									</div>
 								</div>
@@ -444,17 +444,17 @@ ga('create', 'UA-30027142-1', 'w3layouts.com');
 									</a>
 									<div class="mid-1">
 										<div class="women">
-											<h6><a href="single.html">Banana</a>(6 pcs)</h6>							
+											<h6><a href="single.html">Unicorn</a>(Normal size)</h6>							
 										</div>
 										<div class="mid-2">
-											<p ><label>$2.00</label><em class="item_price">$1.50</em></p>
+											<p ><label>$22.00</label><em class="item_price">$15.50</em></p>
 											  <div class="block">
 												<div class="starbox small ghosting"> </div>
 											</div>
 											<div class="clearfix"></div>
 										</div>
 											<div class="add">
-										   <button class="btn btn-danger my-cart-btn my-cart-b" data-id="9" data-name="Banana" data-summary="summary 9" data-price="1.50" data-quantity="1" data-image="images/of8.png">Add to Cart</button>
+										   <button class="btn btn-danger my-cart-btn my-cart-b" data-id="9" data-name="Unicorn" data-summary="summary 9" data-price="1.50" data-quantity="1" data-image="images/of8.png">Add to Cart</button>
 										</div>
 									</div>
 								</div>
@@ -467,17 +467,17 @@ ga('create', 'UA-30027142-1', 'w3layouts.com');
 									</a>
 									<div class="mid-1">
 										<div class="women">
-											<h6><a href="single.html">Onion</a>(1 kg)</h6>							
+											<h6><a href="single.html">Fruit Spirits</a>(9/set)</h6>							
 										</div>
 										<div class="mid-2">
-											<p ><label>$1.00</label><em class="item_price">$0.70</em></p>
+											<p ><label>$169.90</label><em class="item_price">$140.70</em></p>
 											  <div class="block">
 												<div class="starbox small ghosting"> </div>
 											</div>
 											<div class="clearfix"></div>
 										</div>
 											<div class="add">
-										   <button class="btn btn-danger my-cart-btn my-cart-b" data-id="10" data-name="Onion" data-summary="summary 10" data-price="0.70" data-quantity="1" data-image="images/of9.png">Add to Cart</button>
+										   <button class="btn btn-danger my-cart-btn my-cart-b" data-id="10" data-name="Fruit Spirits" data-summary="summary 10" data-price="0.70" data-quantity="1" data-image="images/of9.png">Add to Cart</button>
 										</div>
 									</div>
 								</div>
@@ -490,17 +490,17 @@ ga('create', 'UA-30027142-1', 'w3layouts.com');
 									</a>
 									<div class="mid-1">
 										<div class="women">
-											<h6><a href="single.html"> Bitter Gourd</a>(1 kg)</h6>							
+											<h6><a href="single.html">Crochet Pattern</a>(Small size)</h6>							
 										</div>
 										<div class="mid-2">
-											<p ><label>$2.00</label><em class="item_price">$1.00</em></p>
+											<p ><label>$7.00</label><em class="item_price">$3.50</em></p>
 											  <div class="block">
 												<div class="starbox small ghosting"> </div>
 											</div>
 											<div class="clearfix"></div>
 										</div>
 											<div class="add">
-										   <button class="btn btn-danger my-cart-btn my-cart-b" data-id="11" data-name="Bitter Gourd" data-summary="summary 11" data-price="1.00" data-quantity="1" data-image="images/of10.png">Add to Cart</button>
+										   <button class="btn btn-danger my-cart-btn my-cart-b" data-id="11" data-name="Crochet Pattern" data-summary="summary 11" data-price="1.00" data-quantity="1" data-image="images/of10.png">Add to Cart</button>
 										</div>
 									</div>
 								</div>
@@ -513,17 +513,17 @@ ga('create', 'UA-30027142-1', 'w3layouts.com');
 									</a>
 									<div class="mid-1">
 										<div class="women">
-											<h6><a href="single.html">Apples</a>(1 kg)</h6>							
+											<h6><a href="single.html">Fluffy Koala</a>(Big size)</h6>							
 										</div>
 										<div class="mid-2">
-											<p ><label>$4.00</label><em class="item_price">$3.50</em></p>
+											<p ><label>$60.99</label><em class="item_price">$45.50</em></p>
 											  <div class="block">
 												<div class="starbox small ghosting"> </div>
 											</div>
 											<div class="clearfix"></div>
 										</div>
 											<div class="add">
-										   <button class="btn btn-danger my-cart-btn my-cart-b" data-id="12" data-name="Apples" data-summary="summary 12" data-price="3.50" data-quantity="1" data-image="images/of11.png">Add to Cart</button>
+										   <button class="btn btn-danger my-cart-btn my-cart-b" data-id="12" data-name="Fluffy Koala" data-summary="summary 12" data-price="3.50" data-quantity="1" data-image="images/of11.png">Add to Cart</button>
 										</div>
 									</div>
 								</div>
@@ -541,17 +541,17 @@ ga('create', 'UA-30027142-1', 'w3layouts.com');
 									</a>
 									<div class="mid-1">
 										<div class="women">
-											<h6><a href="single.html">Honey</a>(500 g)</h6>							
+											<h6><a href="single.html">Racing Car</a>(Figure)</h6>							
 										</div>
 										<div class="mid-2">
-											<p ><label>$7.00</label><em class="item_price">$6.00</em></p>
+											<p ><label>$17.00</label><em class="item_price">$10.50</em></p>
 											  <div class="block">
 												<div class="starbox small ghosting"> </div>
 											</div>
 											<div class="clearfix"></div>
 										</div>
 											<div class="add">
-										   <button class="btn btn-danger my-cart-btn my-cart-b" data-id="13" data-name="Honey" data-summary="summary 13" data-price="6.00" data-quantity="1" data-image="images/of12.png">Add to Cart</button>
+										   <button class="btn btn-danger my-cart-btn my-cart-b" data-id="13" data-name="Racing Car" data-summary="summary 13" data-price="6.00" data-quantity="1" data-image="images/of12.png">Add to Cart</button>
 										</div>
 									</div>
 								</div>
@@ -564,17 +564,17 @@ ga('create', 'UA-30027142-1', 'w3layouts.com');
 									</a>
 									<div class="mid-1">
 										<div class="women">
-											<h6><a href="single.html">Chocos</a>(250 g)</h6>							
+											<h6><a href="single.html">Automobili</a>(Electric Car)</h6>							
 										</div>
 										<div class="mid-2">
-											<p ><label>$5.00</label><em class="item_price">$4.50</em></p>
+											<p ><label>$35.00</label><em class="item_price">$24.50</em></p>
 											  <div class="block">
 												<div class="starbox small ghosting"> </div>
 											</div>
 											<div class="clearfix"></div>
 										</div>
 											<div class="add">
-										   <button class="btn btn-danger my-cart-btn my-cart-b" data-id="14" data-name="Chocos" data-summary="summary 14" data-price="4.50" data-quantity="1" data-image="images/of13.png">Add to Cart</button>
+										   <button class="btn btn-danger my-cart-btn my-cart-b" data-id="14" data-name="Automobili" data-summary="summary 14" data-price="4.50" data-quantity="1" data-image="images/of13.png">Add to Cart</button>
 										</div>
 									</div>
 								</div>
@@ -587,17 +587,17 @@ ga('create', 'UA-30027142-1', 'w3layouts.com');
 									</a>
 									<div class="mid-1">
 										<div class="women">
-											<h6><a href="single.html">Oats</a>(1 kg)</h6>							
+											<h6><a href="single.html">Kuruma</a>(Remote Control)</h6>							
 										</div>
 										<div class="mid-2">
-											<p ><label>$4.00</label><em class="item_price">$3.50</em></p>
+											<p ><label>$54.99</label><em class="item_price">$39.50</em></p>
 											  <div class="block">
 												<div class="starbox small ghosting"> </div>
 											</div>
 											<div class="clearfix"></div>
 										</div>
 											<div class="add">
-										   <button class="btn btn-danger my-cart-btn my-cart-b" data-id="15" data-name="Oats" data-summary="summary 15" data-price="3.50" data-quantity="1" data-image="images/of14.png">Add to Cart</button>
+										   <button class="btn btn-danger my-cart-btn my-cart-b" data-id="15" data-name="Kuruma" data-summary="summary 15" data-price="3.50" data-quantity="1" data-image="images/of14.png">Add to Cart</button>
 										</div>
 									</div>
 								</div>
@@ -610,17 +610,17 @@ ga('create', 'UA-30027142-1', 'w3layouts.com');
 									</a>
 									<div class="mid-1">
 										<div class="women">
-											<h6><a href="single.html">Bread</a>(500 g)</h6>							
+											<h6><a href="single.html">Optimus Prime</a>(Figure)</h6>							
 										</div>
 										<div class="mid-2">
-											<p ><label>$1.00</label><em class="item_price">$0.80</em></p>
+											<p ><label>$31.00</label><em class="item_price">$20.80</em></p>
 											  <div class="block">
 												<div class="starbox small ghosting"> </div>
 											</div>
 											<div class="clearfix"></div>
 										</div>
 											<div class="add">
-										   <button class="btn btn-danger my-cart-btn my-cart-b" data-id="16" data-name="Bread" data-summary="summary 16" data-price="0.80" data-quantity="1" data-image="images/of15.png">Add to Cart</button>
+										   <button class="btn btn-danger my-cart-btn my-cart-b" data-id="16" data-name="Optimus Prime" data-summary="summary 16" data-price="0.80" data-quantity="1" data-image="images/of15.png">Add to Cart</button>
 										</div>
 									</div>
 								</div>
@@ -785,17 +785,17 @@ ga('create', 'UA-30027142-1', 'w3layouts.com');
 											</div>
 								</div>
 								<div class="col-md-7 span-1 ">
-									<h3>Moong(1 kg)</h3>
+									<h3>Kilmonger(Figure)</h3>
 									<p class="in-para"> There are many variations of passages of Lorem Ipsum.</p>
 									<div class="price_single">
-									  <span class="reducedfrom "><del>$2.00</del>$1.50</span>
+									  <span class="reducedfrom "><del>$20.00</del>$16.50</span>
 									
 									 <div class="clearfix"></div>
 									</div>
 									<h4 class="quick">Quick Overview:</h4>
 									<p class="quick_desc"> Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; es</p>
 									 <div class="add-to">
-										   <button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="1" data-name="Moong" data-summary="summary 1" data-price="1.50" data-quantity="1" data-image="images/of.png">Add to Cart</button>
+										   <button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="1" data-name="Kilmonger" data-summary="summary 1" data-price="1.50" data-quantity="1" data-image="images/of.png">Add to Cart</button>
 										</div>
 								</div>
 								<div class="clearfix"> </div>
@@ -817,17 +817,17 @@ ga('create', 'UA-30027142-1', 'w3layouts.com');
 											</div>
 								</div>
 								<div class="col-md-7 span-1 ">
-									<h3>Sunflower Oil(5 kg)</h3>
+									<h3>Power Rangers(Toys)</h3>
 									<p class="in-para"> There are many variations of passages of Lorem Ipsum.</p>
 									<div class="price_single">
-									  <span class="reducedfrom "><del>$10.00</del>$9.00</span>
+									  <span class="reducedfrom "><del>$50.00</del>$35.99</span>
 									
 									 <div class="clearfix"></div>
 									</div>
 									<h4 class="quick">Quick Overview:</h4>
 									<p class="quick_desc"> Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; es</p>
 									 <div class="add-to">
-										   <button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="2" data-name="Sunflower Oil" data-summary="summary 2" data-price="9.00" data-quantity="1" data-image="images/of1.png">Add to Cart</button>
+										   <button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="2" data-name="Power Rangers" data-summary="summary 2" data-price="9.00" data-quantity="1" data-image="images/of1.png">Add to Cart</button>
 										</div>
 								</div>
 								<div class="clearfix"> </div>
@@ -849,17 +849,17 @@ ga('create', 'UA-30027142-1', 'w3layouts.com');
 											</div>
 								</div>
 								<div class="col-md-7 span-1 ">
-									<h3>Kabuli Chana(1 kg)</h3>
+									<h3>Darth Vader(Figure)</h3>
 									<p class="in-para"> There are many variations of passages of Lorem Ipsum.</p>
 									<div class="price_single">
-									  <span class="reducedfrom "><del>$3.00</del>$2.00</span>
+									  <span class="reducedfrom "><del>$30.00</del>$20.99</span>
 									
 									 <div class="clearfix"></div>
 									</div>
 									<h4 class="quick">Quick Overview:</h4>
 									<p class="quick_desc"> Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; es</p>
 									 <div class="add-to">
-										   <button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="3" data-name="Kabuli Chana" data-summary="summary 3" data-price="2.00" data-quantity="1" data-image="images/of2.png">Add to Cart</button>
+										   <button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="3" data-name="Darth Vader" data-summary="summary 3" data-price="2.00" data-quantity="1" data-image="images/of2.png">Add to Cart</button>
 										</div>
 								</div>
 								<div class="clearfix"> </div>
@@ -881,17 +881,17 @@ ga('create', 'UA-30027142-1', 'w3layouts.com');
 											</div>
 								</div>
 								<div class="col-md-7 span-1 ">
-									<h3>Soya Chunks(1 kg)</h3>
+									<h3>Robot(Moving Toys)</h3>
 									<p class="in-para"> There are many variations of passages of Lorem Ipsum.</p>
 									<div class="price_single">
-									  <span class="reducedfrom "><del>$4.00</del>$3.50</span>
+									  <span class="reducedfrom "><del>$45.00</del>$33.50</span>
 									
 									 <div class="clearfix"></div>
 									</div>
 									<h4 class="quick">Quick Overview:</h4>
 									<p class="quick_desc"> Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; es</p>
 									 <div class="add-to">
-										   <button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="4" data-name="Soya Chunks" data-summary="summary 4" data-price="3.50" data-quantity="1" data-image="images/of3.png">Add to Cart</button>
+										   <button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="4" data-name="Robot" data-summary="summary 4" data-price="3.50" data-quantity="1" data-image="images/of3.png">Add to Cart</button>
 										</div>
 								</div>
 								<div class="clearfix"> </div>
