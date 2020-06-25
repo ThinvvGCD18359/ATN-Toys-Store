@@ -1,1815 +1,1813 @@
-<? php
-echo '<!--';
-echo 'Author: W3layouts';
-echo 'Author URL: http://w3layouts.com';
-echo 'License: Creative Commons Attribution 3.0 Unported';
-echo 'License URL: http://creativecommons.org/licenses/by/3.0/';
-echo '-->';
-echo '<!DOCTYPE html>';
-echo '<html>';
-echo '<head>';
-echo '<title>ATN store a Ecommerce Online Shopping Category Flat Bootstrap Responsive Website Template| Home :: w3layouts</title>';
-echo '<!-- for-mobile-apps -->';
-echo '<meta name="viewport" content="width=device-width, initial-scale=1">';
-echo '<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />';
-echo '<meta property="og:title" content="Vide" />';
-echo '<meta name="keywords" content="Big store Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,';
-echo 'Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />';
-echo '<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);';
-echo 'function hideURLbar(){ window.scrollTo(0,1); } </script>';
-echo '<!-- //for-mobile-apps -->';
-echo '<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />';
-echo '<!-- Custom Theme files -->';
-echo '<link href="css/style.css" rel='stylesheet' type='text/css' />';
-echo '<!-- js -->';
-echo '<script src="js/jquery-1.11.1.min.js"></script>';
-echo '<!-- //js -->';
-echo '<!-- start-smoth-scrolling -->';
-echo '<script type="text/javascript" src="js/move-top.js"></script>';
-echo '<script type="text/javascript" src="js/easing.js"></script>';
-echo '<script type="text/javascript">';
-echo 'jQuery(document).ready(function($) {';
-echo '$(".scroll").click(function(event){';
-echo 'event.preventDefault();';
-echo '$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);';
-echo '});';
-echo '});';
-echo '</script>';
-echo '<!-- start-smoth-scrolling -->';
-echo '<link href="css/font-awesome.css" rel="stylesheet">';
-echo '<link href='//fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>';
-echo '<link href='//fonts.googleapis.com/css?family=Noto+Sans:400,700' rel='stylesheet' type='text/css'>';
-echo '<!--- start-rate---->';
-echo '<script src="js/jstarbox.js"></script>';
-echo '<link rel="stylesheet" href="css/jstarbox.css" type="text/css" media="screen" charset="utf-8" />';
-echo '<script type="text/javascript">';
-echo 'jQuery(function() {';
-echo 'jQuery('.starbox').each(function() {';
-echo 'var starbox = jQuery(this);';
-echo 'starbox.starbox({';
-echo 'average: starbox.attr('data-start-value'),';
-echo 'changeable: starbox.hasClass('unchangeable') ? false : starbox.hasClass('clickonce') ? 'once' : true,';
-echo 'ghosting: starbox.hasClass('ghosting'),';
-echo 'autoUpdateAverage: starbox.hasClass('autoupdate'),';
-echo 'buttons: starbox.hasClass('smooth') ? false : starbox.attr('data-button-count') || 5,';
-echo 'stars: starbox.attr('data-star-count') || 5';
-echo '}).bind('starbox-value-changed', function(event, value) {';
-echo 'if(starbox.hasClass('random')) {';
-echo 'var val = Math.random();';
-echo 'starbox.next().text(' '+val);';
-echo 'return val;';
-echo '}';
-echo '})';
-echo '});';
-echo '});';
-echo '</script>';
-echo '<!---//End-rate---->';
-echo '';
-echo '</head>';
-echo '<body>';
-echo '<script src='//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script><script src="//m.servedby-buysellads.com/monetization.js" type="text/javascript"></script>';
-echo '<script>';
-echo '(function(){';
-echo 'if(typeof _bsa !== 'undefined' && _bsa) {';
-echo '// format, zoneKey, segment:value, options';
-echo '_bsa.init('flexbar', 'CKYI627U', 'placement:w3layoutscom');';
-echo '}';
-echo '})();';
-echo '</script>';
-echo '<script>';
-echo '(function(){';
-echo 'if(typeof _bsa !== 'undefined' && _bsa) {';
-echo '// format, zoneKey, segment:value, options';
-echo '_bsa.init('fancybar', 'CKYDL2JN', 'placement:demo');';
-echo '}';
-echo '})();';
-echo '</script>';
-echo '<script>';
-echo '(function(){';
-echo 'if(typeof _bsa !== 'undefined' && _bsa) {';
-echo '// format, zoneKey, segment:value, options';
-echo '_bsa.init('stickybox', 'CKYI653J', 'placement:w3layoutscom');';
-echo '}';
-echo '})();';
-echo '</script>';
-echo '<script type="text/javascript" src="//services.bilsyndication.com/adv1/?d=353" defer="" async=""></script><script> var vitag = vitag || {};vitag.gdprShowConsentTool=false;vitag.outStreamConfig = {type: "slider", position: "left" };</script>';
-echo '<!-- Global site tag (gtag.js) - Google Analytics -->';
-echo '<script async src="https://www.googletagmanager.com/gtag/js?id=UA-125810435-1"></script>';
-echo '<script>';
-echo 'window.dataLayer = window.dataLayer || [];';
-echo 'function gtag(){dataLayer.push(arguments);}';
-echo 'gtag('js', new Date());';
-echo '';
-echo 'gtag('config', 'UA-125810435-1');';
-echo '</script>';
-echo '<script>';
-echo '(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){';
-echo '(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),';
-echo 'm=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)';
-echo '})(window,document,'script','//www.google-analytics.com/analytics.js','ga');';
-echo 'ga('create', 'UA-30027142-1', 'w3layouts.com');';
-echo 'ga('send', 'pageview');';
-echo '</script>';
-echo '<body>';
-echo '<a href="offer.html"><img src="images/download.png" class="img-head" alt=""></a>';
-echo '<div class="header">';
-echo '';
-echo '<div class="container">';
-echo '';
-echo '<div class="logo">';
-echo '<h1 ><a href="home.php"><b>T<br>H<br>E</b>ATN<span>The Best Toy Store Ever</span></a></h1>';
-echo '<br><h2>WELCOME DIRECTOR</h2>';
-echo '</div>';
-echo '';
-echo '<div class="header-ri">';
-echo '<ul class="social-top">';
-echo '<li><a href="#" class="icon facebook"><i class="fa fa-facebook" aria-hidden="true"></i><span></span></a></li>';
-echo '<li><a href="#" class="icon twitter"><i class="fa fa-twitter" aria-hidden="true"></i><span></span></a></li>';
-echo '<li><a href="#" class="icon pinterest"><i class="fa fa-pinterest-p" aria-hidden="true"></i><span></span></a></li>';
-echo '<li><a href="#" class="icon dribbble"><i class="fa fa-dribbble" aria-hidden="true"></i><span></span></a></li>';
-echo '</ul>';
-echo '</div>';
-echo '';
-echo '';
-echo '<div class="nav-top">';
-echo '<nav class="navbar navbar-default">';
-echo '';
-echo '<div class="navbar-header nav_2">';
-echo '<button type="button" class="navbar-toggle collapsed navbar-toggle1" data-toggle="collapse" data-target="#bs-megadropdown-tabs">';
-echo '<span class="sr-only">Toggle navigation</span>';
-echo '<span class="icon-bar"></span>';
-echo '<span class="icon-bar"></span>';
-echo '<span class="icon-bar"></span>';
-echo '</button>';
-echo '';
-echo '';
-echo '</div>';
-echo '<div class="collapse navbar-collapse" id="bs-megadropdown-tabs">';
-echo '<ul class="nav navbar-nav ">';
-echo '<li class=" active"><a href="home.html" class="hyper "><span>Home</span></a></li>';
-echo '';
-echo '<li class="dropdown ">';
-echo '<a href="#" class="dropdown-toggle  hyper" data-toggle="dropdown" ><span>Products<b class="caret"></b></span></a>';
-echo '<ul class="dropdown-menu multi">';
-echo '<div class="row">';
-echo '<div class="col-sm-3">';
-echo '<ul class="multi-column-dropdown">';
-echo '';
-echo '<li><a href="kitchen.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Action Toys</a></li>';
-echo '<li><a href="kitchen.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Learning Toys</a></li>';
-echo '<li><a href="kitchen.html"> <i class="fa fa-angle-right" aria-hidden="true"></i>Outdoor Play</a></li>';
-echo '<li><a href="kitchen.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Vehicles Figures</a></li>';
-echo '';
-echo '</ul>';
-echo '';
-echo '</div>';
-echo '<div class="col-sm-3">';
-echo '';
-echo '<ul class="multi-column-dropdown">';
-echo '<li><a href="kitchen.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Cards &amp; Puzzles</a></li>';
-echo '<li><a href="kitchen.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Stuffed Animals</a></li>';
-echo '<li><a href="kitchen.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Building Blocks</a></li>';
-echo '<li><a href="kitchen.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Pretend Play &amp; Dressed up</a></li>';
-echo '<li><a href="kitchen.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Preschool Toys</a></li>';
-echo '';
-echo '</ul>';
-echo '';
-echo '';
-echo '</div>';
-echo '<div class="col-sm-3 w3l">';
-echo '<a href="kitchen.html"><img src="images/me.png" class="img-responsive" alt=""></a>';
-echo '</div>';
-echo '<div class="clearfix"></div>';
-echo '</div>';
-echo '</ul>';
-echo '</li>';
-echo '<li><a href="ConnectToDB.php" class="hyper"> <span>User Database</span></a></li>';
-echo '<li><a href="UpdateData.php" class="hyper"> <span>Update Data</span></a></li>';
-echo '<li><a href="DeleteData.php" class="hyper"><span>Delete Data</span></a></li>';
-echo '</ul>';
-echo '</div>';
-echo '</nav>';
-echo '<div class="cart" >';
-echo '';
-echo '<span class="fa fa-shopping-cart my-cart-icon"><span class="badge badge-notify my-cart-badge"></span></span>';
-echo '</div>';
-echo '<div class="clearfix"></div>';
-echo '</div>';
-echo '';
-echo '</div>';
-echo '</div>';
-echo '<!---->';
-echo '<div data-vide-bg="video/video">';
-echo '<div class="container">';
-echo '<div class="banner-info">';
-echo '<h3>It is a long established fact that a reader will be distracted by';
-echo 'the readable </h3>';
-echo '<div class="search-form">';
-echo '<form action="#" method="post">';
-echo '<input type="text" placeholder="Search..." name="Search...">';
-echo '<input type="submit" value=" " >';
-echo '</form>';
-echo '</div>';
-echo '</div>';
-echo '</div>';
-echo '</div>';
-echo '';
-echo '<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.1.min.js"><\/script>')</script>';
-echo '<script src="js/jquery.vide.min.js"></script>';
-echo '';
-echo '<!--content-->';
-echo '<!---728x90--->';
-echo '';
-echo '<div class="content-top ">';
-echo '<div class="container ">';
-echo '<div class="spec ">';
-echo '<h3>Special Offers</h3>';
-echo '<div class="ser-t">';
-echo '<b></b>';
-echo '<span><i></i></span>';
-echo '<b class="line"></b>';
-echo '</div>';
-echo '</div>';
-echo '<div class="tab-head ">';
-echo '<nav class="nav-sidebar">';
-echo '<ul class="nav tabs ">';
-echo '<li class="active"><a href="#tab1" data-toggle="tab">Action Toys</a></li>';
-echo '<li class=""><a href="#tab2" data-toggle="tab">Learning Toys</a></li>';
-echo '<li class=""><a href="#tab3" data-toggle="tab">Stuffed Animals</a></li>';
-echo '<li class=""><a href="#tab4" data-toggle="tab">Vehicle Figures</a></li>';
-echo '</ul>';
-echo '</nav>';
-echo '<div class=" tab-content tab-content-t ">';
-echo '<div class="tab-pane active text-style" id="tab1">';
-echo '<div class=" con-w3l">';
-echo '<div class="col-md-3 m-wthree">';
-echo '<div class="col-m">';
-echo '<a href="#" data-toggle="modal" data-target="#myModal1" class="offer-img">';
-echo '<img src="images/of.png" class="img-responsive" alt="">';
-echo '<div class="offer"><p><span>Offer</span></p></div>';
-echo '</a>';
-echo '<div class="mid-1">';
-echo '<div class="women">';
-echo '<h6><a href="single.html">Kilmonger</a>(Figure)</h6>';
-echo '</div>';
-echo '<div class="mid-2">';
-echo '<p ><label>$20.00</label><em class="item_price">$16.50</em></p>';
-echo '<div class="block">';
-echo '<div class="starbox small ghosting"> </div>';
-echo '</div>';
-echo '<div class="clearfix"></div>';
-echo '</div>';
-echo '<div class="add">';
-echo '<button class="btn btn-danger my-cart-btn my-cart-b " data-id="1" data-name="Kilmonger" data-summary="summary 1" data-price="16.50" data-quantity="1" data-image="images/of.png">Add to Cart</button>';
-echo '</div>';
-echo '';
-echo '</div>';
-echo '</div>';
-echo '</div>';
-echo '<div class="col-md-3 m-wthree">';
-echo '<div class="col-m">';
-echo '<a href="#" data-toggle="modal" data-target="#myModal2" class="offer-img">';
-echo '<img src="images/of1.png" class="img-responsive" alt="">';
-echo '<div class="offer"><p><span>Offer</span></p></div>';
-echo '</a>';
-echo '<div class="mid-1">';
-echo '<div class="women">';
-echo '<h6><a href="single.html">Power Rangers</a>(Toys)</h6>';
-echo '</div>';
-echo '<div class="mid-2">';
-echo '<p ><label>$50.00</label><em class="item_price">$35.99</em></p>';
-echo '<div class="block">';
-echo '<div class="starbox small ghosting"> </div>';
-echo '</div>';
-echo '<div class="clearfix"></div>';
-echo '</div>';
-echo '<div class="add">';
-echo '<button class="btn btn-danger my-cart-btn my-cart-b" data-id="2" data-name="Power Rangers" data-summary="summary 2" data-price="35.99" data-quantity="1" data-image="images/of1.png">Add to Cart</button>';
-echo '</div>';
-echo '</div>';
-echo '</div>';
-echo '</div>';
-echo '<div class="col-md-3 m-wthree">';
-echo '<div class="col-m">';
-echo '<a href="#" data-toggle="modal" data-target="#myModal3" class="offer-img">';
-echo '<img src="images/of2.png" class="img-responsive" alt="">';
-echo '<div class="offer"><p><span>Offer</span></p></div>';
-echo '</a>';
-echo '<div class="mid-1">';
-echo '<div class="women">';
-echo '<h6><a href="single.html">Darth Vader</a>(Figure)</h6>';
-echo '</div>';
-echo '<div class="mid-2">';
-echo '<p ><label>$30.00</label><em class="item_price">$20.99</em></p>';
-echo '<div class="block">';
-echo '<div class="starbox small ghosting"> </div>';
-echo '</div>';
-echo '<div class="clearfix"></div>';
-echo '</div>';
-echo '<div class="add">';
-echo '<button class="btn btn-danger my-cart-btn my-cart-b" data-id="3" data-name="Darth Vader" data-summary="summary 3" data-price="20.99" data-quantity="1" data-image="images/of2.png">Add to Cart</button>';
-echo '</div>';
-echo '</div>';
-echo '</div>';
-echo '</div>';
-echo '<div class="col-md-3 m-wthree">';
-echo '<div class="col-m">';
-echo '<a href="#" data-toggle="modal" data-target="#myModal4" class="offer-img">';
-echo '<img src="images/of3.png" class="img-responsive" alt="">';
-echo '<div class="offer"><p><span>Offer</span></p></div>';
-echo '</a>';
-echo '<div class="mid-1">';
-echo '<div class="women">';
-echo '<h6><a href="single.html">Robot</a>(Moving Toy)</h6>';
-echo '</div>';
-echo '<div class="mid-2">';
-echo '<p ><label>$45.00</label><em class="item_price">$33.50</em></p>';
-echo '<div class="block">';
-echo '<div class="starbox small ghosting"> </div>';
-echo '</div>';
-echo '<div class="clearfix"></div>';
-echo '</div>';
-echo '<div class="add">';
-echo '<button class="btn btn-danger my-cart-btn my-cart-b" data-id="4" data-name="Robot" data-summary="summary 4" data-price="33.50" data-quantity="1" data-image="images/of3.png">Add to Cart</button>';
-echo '</div>';
-echo '</div>';
-echo '</div>';
-echo '</div>';
-echo '<div class="clearfix"></div>';
-echo '</div>';
-echo '</div>';
-echo '<div class="tab-pane  text-style" id="tab2">';
-echo '<div class=" con-w3l">';
-echo '<div class="col-md-3 m-wthree">';
-echo '<div class="col-m">';
-echo '<a href="#" data-toggle="modal" data-target="#myModal5" class="offer-img">';
-echo '<img src="images/of4.png" class="img-responsive" alt="">';
-echo '<div class="offer"><p><span>Offer</span></p></div>';
-echo '</a>';
-echo '<div class="mid-1">';
-echo '<div class="women">';
-echo '<h6><a href="single.html">Lays</a>(100 g)</h6>';
-echo '</div>';
-echo '<div class="mid-2">';
-echo '<p ><label>$1.00</label><em class="item_price">$0.70</em></p>';
-echo '<div class="block">';
-echo '<div class="starbox small ghosting"> </div>';
-echo '</div>';
-echo '<div class="clearfix"></div>';
-echo '</div>';
-echo '<div class="add">';
-echo '<button class="btn btn-danger my-cart-btn my-cart-b" data-id="5" data-name="Lays" data-summary="summary 5" data-price="0.70" data-quantity="1" data-image="images/of4.png">Add to Cart</button>';
-echo '</div>';
-echo '</div>';
-echo '</div>';
-echo '</div>';
-echo '<div class="col-md-3 m-wthree">';
-echo '<div class="col-m">';
-echo '<a href="#" data-toggle="modal" data-target="#myModal6" class="offer-img">';
-echo '<img src="images/of5.png" class="img-responsive" alt="">';
-echo '<div class="offer"><p><span>Offer</span></p></div>';
-echo '</a>';
-echo '<div class="mid-1">';
-echo '<div class="women">';
-echo '<h6><a href="single.html">Kurkure</a>(100 g)</h6>';
-echo '</div>';
-echo '<div class="mid-2">';
-echo '<p ><label>$1.00</label><em class="item_price">$0.70</em></p>';
-echo '<div class="block">';
-echo '<div class="starbox small ghosting"> </div>';
-echo '</div>';
-echo '<div class="clearfix"></div>';
-echo '</div>';
-echo '<div class="add">';
-echo '<button class="btn btn-danger my-cart-btn my-cart-b" data-id="6" data-name="Kurkure" data-summary="summary 6" data-price="0.70" data-quantity="1" data-image="images/of5.png">Add to Cart</button>';
-echo '</div>';
-echo '</div>';
-echo '</div>';
-echo '</div>';
-echo '<div class="col-md-3 m-wthree">';
-echo '<div class="col-m">';
-echo '<a href="#" data-toggle="modal" data-target="#myModal7" class="offer-img">';
-echo '<img src="images/of6.png" class="img-responsive" alt="">';
-echo '<div class="offer"><p><span>Offer</span></p></div>';
-echo '</a>';
-echo '<div class="mid-1">';
-echo '<div class="women">';
-echo '<h6><a href="single.html">Popcorn</a>(250 g)</h6>';
-echo '</div>';
-echo '<div class="mid-2">';
-echo '<p ><label>$2.00</label><em class="item_price">$1.00</em></p>';
-echo '<div class="block">';
-echo '<div class="starbox small ghosting"> </div>';
-echo '</div>';
-echo '<div class="clearfix"></div>';
-echo '</div>';
-echo '<div class="add">';
-echo '<button class="btn btn-danger my-cart-btn my-cart-b" data-id="7" data-name="Popcorn" data-summary="summary 7" data-price="1.00" data-quantity="1" data-image="images/of6.png">Add to Cart</button>';
-echo '</div>';
-echo '</div>';
-echo '</div>';
-echo '</div>';
-echo '<div class="col-md-3 m-wthree">';
-echo '<div class="col-m">';
-echo '<a href="#" data-toggle="modal" data-target="#myModal8" class="offer-img">';
-echo '<img src="images/of7.png" class="img-responsive" alt="">';
-echo '<div class="offer"><p><span>Offer</span></p></div>';
-echo '</a>';
-echo '<div class="mid-1">';
-echo '<div class="women">';
-echo '<h6><a href="single.html">Nuts</a>(250 g)</h6>';
-echo '</div>';
-echo '<div class="mid-2">';
-echo '<p ><label>$4.00</label><em class="item_price">$3.50</em></p>';
-echo '<div class="block">';
-echo '<div class="starbox small ghosting"> </div>';
-echo '</div>';
-echo '<div class="clearfix"></div>';
-echo '</div>';
-echo '<div class="add">';
-echo '<button class="btn btn-danger my-cart-btn my-cart-b" data-id="8" data-name="Nuts" data-summary="summary 8" data-price="3.50" data-quantity="1" data-image="images/of7.png">Add to Cart</button>';
-echo '</div>';
-echo '</div>';
-echo '</div>';
-echo '</div>';
-echo '<div class="clearfix"></div>';
-echo '</div>';
-echo '</div>';
-echo '<div class="tab-pane  text-style" id="tab3">';
-echo '<div class=" con-w3l">';
-echo '<div class="col-md-3 m-wthree">';
-echo '<div class="col-m">';
-echo '<a href="#" data-toggle="modal" data-target="#myModal9" class="offer-img">';
-echo '<img src="images/of8.png" class="img-responsive" alt="">';
-echo '<div class="offer"><p><span>Offer</span></p></div>';
-echo '</a>';
-echo '<div class="mid-1">';
-echo '<div class="women">';
-echo '<h6><a href="single.html">Banana</a>(6 pcs)</h6>';
-echo '</div>';
-echo '<div class="mid-2">';
-echo '<p ><label>$2.00</label><em class="item_price">$1.50</em></p>';
-echo '<div class="block">';
-echo '<div class="starbox small ghosting"> </div>';
-echo '</div>';
-echo '<div class="clearfix"></div>';
-echo '</div>';
-echo '<div class="add">';
-echo '<button class="btn btn-danger my-cart-btn my-cart-b" data-id="9" data-name="Banana" data-summary="summary 9" data-price="1.50" data-quantity="1" data-image="images/of8.png">Add to Cart</button>';
-echo '</div>';
-echo '</div>';
-echo '</div>';
-echo '</div>';
-echo '<div class="col-md-3 m-wthree">';
-echo '<div class="col-m">';
-echo '<a href="#" data-toggle="modal" data-target="#myModal10" class="offer-img">';
-echo '<img src="images/of9.png" class="img-responsive" alt="">';
-echo '<div class="offer"><p><span>Offer</span></p></div>';
-echo '</a>';
-echo '<div class="mid-1">';
-echo '<div class="women">';
-echo '<h6><a href="single.html">Onion</a>(1 kg)</h6>';
-echo '</div>';
-echo '<div class="mid-2">';
-echo '<p ><label>$1.00</label><em class="item_price">$0.70</em></p>';
-echo '<div class="block">';
-echo '<div class="starbox small ghosting"> </div>';
-echo '</div>';
-echo '<div class="clearfix"></div>';
-echo '</div>';
-echo '<div class="add">';
-echo '<button class="btn btn-danger my-cart-btn my-cart-b" data-id="10" data-name="Onion" data-summary="summary 10" data-price="0.70" data-quantity="1" data-image="images/of9.png">Add to Cart</button>';
-echo '</div>';
-echo '</div>';
-echo '</div>';
-echo '</div>';
-echo '<div class="col-md-3 m-wthree">';
-echo '<div class="col-m">';
-echo '<a href="#" data-toggle="modal" data-target="#myModal11" class="offer-img">';
-echo '<img src="images/of10.png" class="img-responsive" alt="">';
-echo '<div class="offer"><p><span>Offer</span></p></div>';
-echo '</a>';
-echo '<div class="mid-1">';
-echo '<div class="women">';
-echo '<h6><a href="single.html"> Bitter Gourd</a>(1 kg)</h6>';
-echo '</div>';
-echo '<div class="mid-2">';
-echo '<p ><label>$2.00</label><em class="item_price">$1.00</em></p>';
-echo '<div class="block">';
-echo '<div class="starbox small ghosting"> </div>';
-echo '</div>';
-echo '<div class="clearfix"></div>';
-echo '</div>';
-echo '<div class="add">';
-echo '<button class="btn btn-danger my-cart-btn my-cart-b" data-id="11" data-name="Bitter Gourd" data-summary="summary 11" data-price="1.00" data-quantity="1" data-image="images/of10.png">Add to Cart</button>';
-echo '</div>';
-echo '</div>';
-echo '</div>';
-echo '</div>';
-echo '<div class="col-md-3 m-wthree">';
-echo '<div class="col-m">';
-echo '<a href="#" data-toggle="modal" data-target="#myModal12" class="offer-img">';
-echo '<img src="images/of11.png" class="img-responsive" alt="">';
-echo '<div class="offer"><p><span>Offer</span></p></div>';
-echo '</a>';
-echo '<div class="mid-1">';
-echo '<div class="women">';
-echo '<h6><a href="single.html">Apples</a>(1 kg)</h6>';
-echo '</div>';
-echo '<div class="mid-2">';
-echo '<p ><label>$4.00</label><em class="item_price">$3.50</em></p>';
-echo '<div class="block">';
-echo '<div class="starbox small ghosting"> </div>';
-echo '</div>';
-echo '<div class="clearfix"></div>';
-echo '</div>';
-echo '<div class="add">';
-echo '<button class="btn btn-danger my-cart-btn my-cart-b" data-id="12" data-name="Apples" data-summary="summary 12" data-price="3.50" data-quantity="1" data-image="images/of11.png">Add to Cart</button>';
-echo '</div>';
-echo '</div>';
-echo '</div>';
-echo '</div>';
-echo '<div class="clearfix"></div>';
-echo '</div>';
-echo '</div>';
-echo '<div class="tab-pane text-style" id="tab4">';
-echo '<div class=" con-w3l">';
-echo '<div class="col-md-3 m-wthree">';
-echo '<div class="col-m">';
-echo '<a href="#" data-toggle="modal" data-target="#myModal13" class="offer-img">';
-echo '<img src="images/of12.png" class="img-responsive" alt="">';
-echo '<div class="offer"><p><span>Offer</span></p></div>';
-echo '</a>';
-echo '<div class="mid-1">';
-echo '<div class="women">';
-echo '<h6><a href="single.html">Honey</a>(500 g)</h6>';
-echo '</div>';
-echo '<div class="mid-2">';
-echo '<p ><label>$7.00</label><em class="item_price">$6.00</em></p>';
-echo '<div class="block">';
-echo '<div class="starbox small ghosting"> </div>';
-echo '</div>';
-echo '<div class="clearfix"></div>';
-echo '</div>';
-echo '<div class="add">';
-echo '<button class="btn btn-danger my-cart-btn my-cart-b" data-id="13" data-name="Honey" data-summary="summary 13" data-price="6.00" data-quantity="1" data-image="images/of12.png">Add to Cart</button>';
-echo '</div>';
-echo '</div>';
-echo '</div>';
-echo '</div>';
-echo '<div class="col-md-3 m-wthree">';
-echo '<div class="col-m ">';
-echo '<a href="#" data-toggle="modal" data-target="#myModal14" class="offer-img">';
-echo '<img src="images/of13.png" class="img-responsive" alt="">';
-echo '<div class="offer"><p><span>Offer</span></p></div>';
-echo '</a>';
-echo '<div class="mid-1">';
-echo '<div class="women">';
-echo '<h6><a href="single.html">Chocos</a>(250 g)</h6>';
-echo '</div>';
-echo '<div class="mid-2">';
-echo '<p ><label>$5.00</label><em class="item_price">$4.50</em></p>';
-echo '<div class="block">';
-echo '<div class="starbox small ghosting"> </div>';
-echo '</div>';
-echo '<div class="clearfix"></div>';
-echo '</div>';
-echo '<div class="add">';
-echo '<button class="btn btn-danger my-cart-btn my-cart-b" data-id="14" data-name="Chocos" data-summary="summary 14" data-price="4.50" data-quantity="1" data-image="images/of13.png">Add to Cart</button>';
-echo '</div>';
-echo '</div>';
-echo '</div>';
-echo '</div>';
-echo '<div class="col-md-3 m-wthree">';
-echo '<div class="col-m ">';
-echo '<a href="#" data-toggle="modal" data-target="#myModal15" class="offer-img">';
-echo '<img src="images/of14.png" class="img-responsive" alt="">';
-echo '<div class="offer"><p><span>Offer</span></p></div>';
-echo '</a>';
-echo '<div class="mid-1">';
-echo '<div class="women">';
-echo '<h6><a href="single.html">Oats</a>(1 kg)</h6>';
-echo '</div>';
-echo '<div class="mid-2">';
-echo '<p ><label>$4.00</label><em class="item_price">$3.50</em></p>';
-echo '<div class="block">';
-echo '<div class="starbox small ghosting"> </div>';
-echo '</div>';
-echo '<div class="clearfix"></div>';
-echo '</div>';
-echo '<div class="add">';
-echo '<button class="btn btn-danger my-cart-btn my-cart-b" data-id="15" data-name="Oats" data-summary="summary 15" data-price="3.50" data-quantity="1" data-image="images/of14.png">Add to Cart</button>';
-echo '</div>';
-echo '</div>';
-echo '</div>';
-echo '</div>';
-echo '<div class="col-md-3 m-wthree">';
-echo '<div class="col-m">';
-echo '<a href="#" data-toggle="modal" data-target="#myModal16" class="offer-img">';
-echo '<img src="images/of15.png" class="img-responsive" alt="">';
-echo '<div class="offer"><p><span>Offer</span></p></div>';
-echo '</a>';
-echo '<div class="mid-1">';
-echo '<div class="women">';
-echo '<h6><a href="single.html">Bread</a>(500 g)</h6>';
-echo '</div>';
-echo '<div class="mid-2">';
-echo '<p ><label>$1.00</label><em class="item_price">$0.80</em></p>';
-echo '<div class="block">';
-echo '<div class="starbox small ghosting"> </div>';
-echo '</div>';
-echo '<div class="clearfix"></div>';
-echo '</div>';
-echo '<div class="add">';
-echo '<button class="btn btn-danger my-cart-btn my-cart-b" data-id="16" data-name="Bread" data-summary="summary 16" data-price="0.80" data-quantity="1" data-image="images/of15.png">Add to Cart</button>';
-echo '</div>';
-echo '</div>';
-echo '</div>';
-echo '</div>';
-echo '<div class="clearfix"></div>';
-echo '</div>';
-echo '</div>';
-echo '</div>';
-echo '</div>';
-echo '';
-echo '</div>';
-echo '</div>';
-echo '</div>';
-echo '<!---728x90--->';
-echo '';
-echo '<!--content-->';
-echo '<div class="content-mid">';
-echo '<div class="container">';
-echo '';
-echo '<div class="col-md-4 m-w3ls">';
-echo '<div class="col-md1 ">';
-echo '<a href="kitchen.html">';
-echo '<img src="images/co1.jpg" class="img-responsive img" alt="">';
-echo '<div class="big-sa">';
-echo '<h6>New Collections</h6>';
-echo '<h3>Season<span>ing </span></h3>';
-echo '<p>There are many variations of passages of Lorem Ipsum available, but the majority </p>';
-echo '</div>';
-echo '</a>';
-echo '</div>';
-echo '</div>';
-echo '<div class="col-md-4 m-w3ls1">';
-echo '<div class="col-md ">';
-echo '<a href="hold.html">';
-echo '<img src="images/co.jpg" class="img-responsive img" alt="">';
-echo '<div class="big-sale">';
-echo '<div class="big-sale1">';
-echo '<h3>Big <span>Sale</span></h3>';
-echo '<p>It is a long established fact that a reader </p>';
-echo '</div>';
-echo '</div>';
-echo '</a>';
-echo '</div>';
-echo '</div>';
-echo '<div class="col-md-4 m-w3ls">';
-echo '<div class="col-md2 ">';
-echo '<a href="kitchen.html">';
-echo '<img src="images/co2.jpg" class="img-responsive img1" alt="">';
-echo '<div class="big-sale2">';
-echo '<h3>Cooking <span>Oil</span></h3>';
-echo '<p>It is a long established fact that a reader </p>';
-echo '</div>';
-echo '</a>';
-echo '</div>';
-echo '<div class="col-md3 ">';
-echo '<a href="hold.html">';
-echo '<img src="images/co3.jpg" class="img-responsive img1" alt="">';
-echo '<div class="big-sale3">';
-echo '<h3>Vegeta<span>bles</span></h3>';
-echo '<p>It is a long established fact that a reader </p>';
-echo '</div>';
-echo '</a>';
-echo '</div>';
-echo '</div>';
-echo '<div class="clearfix"></div>';
-echo '</div>';
-echo '</div>';
-echo '<!--content-->';
-echo '<!---728x90--->';
-echo '';
-echo '<!-- Carousel';
-echo '================================================== -->';
-echo '<div id="myCarousel" class="carousel slide" data-ride="carousel">';
-echo '<!-- Indicators -->';
-echo '<ol class="carousel-indicators">';
-echo '<li data-target="#myCarousel" data-slide-to="0" class="active"></li>';
-echo '<li data-target="#myCarousel" data-slide-to="1"></li>';
-echo '<li data-target="#myCarousel" data-slide-to="2"></li>';
-echo '</ol>';
-echo '<div class="carousel-inner" role="listbox">';
-echo '<div class="item active">';
-echo '<a href="kitchen.html"> <img class="first-slide" src="images/ba.jpg" alt="First slide"></a>';
-echo '';
-echo '</div>';
-echo '<div class="item">';
-echo '<a href="care.html"> <img class="second-slide " src="images/ba1.jpg" alt="Second slide"></a>';
-echo '';
-echo '</div>';
-echo '<div class="item">';
-echo '<a href="hold.html"><img class="third-slide " src="images/ba2.jpg" alt="Third slide"></a>';
-echo '';
-echo '</div>';
-echo '</div>';
-echo '';
-echo '</div><!-- /.carousel -->';
-echo '';
-echo '<!--content-->';
-echo '<div class="product">';
-echo '<div class="container">';
-echo '<div class="spec ">';
-echo '<h3>Special Offers</h3>';
-echo '<div class="ser-t">';
-echo '<b></b>';
-echo '<span><i></i></span>';
-echo '<b class="line"></b>';
-echo '</div>';
-echo '</div>';
-echo '<div class=" con-w3l">';
-echo '<div class="col-md-3 pro-1">';
-echo '<div class="col-m">';
-echo '<a href="#" data-toggle="modal" data-target="#myModal17" class="offer-img">';
-echo '<img src="images/of16.png" class="img-responsive" alt="">';
-echo '</a>';
-echo '<div class="mid-1">';
-echo '<div class="women">';
-echo '<h6><a href="single.html">Moisturiser</a>(500 g)</h6>';
-echo '</div>';
-echo '<div class="mid-2">';
-echo '<p ><label>$7.00</label><em class="item_price">$6.00</em></p>';
-echo '<div class="block">';
-echo '<div class="starbox small ghosting"> </div>';
-echo '</div>';
-echo '<div class="clearfix"></div>';
-echo '</div>';
-echo '<div class="add add-2">';
-echo '<button class="btn btn-danger my-cart-btn my-cart-b" data-id="1" data-name="product 1" data-summary="summary 1" data-price="6.00" data-quantity="1" data-image="images/of16.png">Add to Cart</button>';
-echo '</div>';
-echo '</div>';
-echo '</div>';
-echo '</div>';
-echo '<div class="col-md-3 pro-1">';
-echo '<div class="col-m">';
-echo '<a href="#" data-toggle="modal" data-target="#myModal18" class="offer-img">';
-echo '<img src="images/of17.png" class="img-responsive" alt="">';
-echo '</a>';
-echo '<div class="mid-1">';
-echo '<div class="women">';
-echo '<h6><a href="single.html">  Lady Finger</a>(250 g)</h6>';
-echo '</div>';
-echo '<div class="mid-2">';
-echo '<p ><label>$5.00</label><em class="item_price">$4.50</em></p>';
-echo '<div class="block">';
-echo '<div class="starbox small ghosting"> </div>';
-echo '</div>';
-echo '<div class="clearfix"></div>';
-echo '</div>';
-echo '<div class="add">';
-echo '<button class="btn btn-danger my-cart-btn my-cart-b" data-id="1" data-name="product 1" data-summary="summary 1" data-price="4.50" data-quantity="1" data-image="images/of17.png">Add to Cart</button>';
-echo '</div>';
-echo '</div>';
-echo '</div>';
-echo '</div>';
-echo '<div class="col-md-3 pro-1">';
-echo '<div class="col-m">';
-echo '<a href="#" data-toggle="modal" data-target="#myModal19" class="offer-img">';
-echo '<img src="images/of18.png" class="img-responsive" alt="">';
-echo '</a>';
-echo '<div class="mid-1">';
-echo '<div class="women">';
-echo '<h6><a href="single.html"> Ribbon</a>(1 pc)</h6>';
-echo '</div>';
-echo '<div class="mid-2">';
-echo '<p ><label>$4.00</label><em class="item_price">$3.50</em></p>';
-echo '<div class="block">';
-echo '<div class="starbox small ghosting"> </div>';
-echo '</div>';
-echo '<div class="clearfix"></div>';
-echo '</div>';
-echo '<div class="add">';
-echo '<button class="btn btn-danger my-cart-btn my-cart-b" data-id="1" data-name="product 1" data-summary="summary 1" data-price="3.50" data-quantity="1" data-image="images/of18.png">Add to Cart</button>';
-echo '</div>';
-echo '</div>';
-echo '</div>';
-echo '</div>';
-echo '<div class="col-md-3 pro-1">';
-echo '<div class="col-m">';
-echo '<a href="#" data-toggle="modal" data-target="#myModal20" class="offer-img">';
-echo '<img src="images/of19.png" class="img-responsive" alt="">';
-echo '</a>';
-echo '<div class="mid-1">';
-echo '<div class="women">';
-echo '<h6><a href="single.html">Grapes</a>(500 g)</h6>';
-echo '</div>';
-echo '<div class="mid-2">';
-echo '<p ><label>$1.00</label><em class="item_price">$0.80</em></p>';
-echo '<div class="block">';
-echo '<div class="starbox small ghosting"> </div>';
-echo '</div>';
-echo '<div class="clearfix"></div>';
-echo '</div>';
-echo '<div class="add">';
-echo '<button class="btn btn-danger my-cart-btn my-cart-b" data-id="1" data-name="product 1" data-summary="summary 1" data-price="0.80" data-quantity="1" data-image="images/of19.png">Add to Cart</button>';
-echo '</div>';
-echo '</div>';
-echo '</div>';
-echo '</div>';
-echo '';
-echo '<div class="col-md-3 pro-1">';
-echo '<div class="col-m">';
-echo '<a href="#" data-toggle="modal" data-target="#myModal21" class="offer-img">';
-echo '<img src="images/of20.png" class="img-responsive" alt="">';
-echo '</a>';
-echo '<div class="mid-1">';
-echo '<div class="women">';
-echo '<h6><a href="single.html">Clips</a>(1 pack)</h6>';
-echo '</div>';
-echo '<div class="mid-2">';
-echo '<p ><label>$7.00</label><em class="item_price">$6.00</em></p>';
-echo '<div class="block">';
-echo '<div class="starbox small ghosting"> </div>';
-echo '</div>';
-echo '<div class="clearfix"></div>';
-echo '</div>';
-echo '<div class="add">';
-echo '<button class="btn btn-danger my-cart-btn my-cart-b" data-id="1" data-name="product 1" data-summary="summary 1" data-price="6.00" data-quantity="1" data-image="images/of20.png">Add to Cart</button>';
-echo '</div>';
-echo '</div>';
-echo '</div>';
-echo '</div>';
-echo '<div class="col-md-3 pro-1">';
-echo '<div class="col-m">';
-echo '<a href="#" data-toggle="modal" data-target="#myModal22" class="offer-img">';
-echo '<img src="images/of21.png" class="img-responsive" alt="">';
-echo '</a>';
-echo '<div class="mid-1">';
-echo '<div class="women">';
-echo '<h6><a href="single.html">Conditioner</a>(250 g)</h6>';
-echo '</div>';
-echo '<div class="mid-2">';
-echo '<p ><label>$5.00</label><em class="item_price">$4.50</em></p>';
-echo '<div class="block">';
-echo '<div class="starbox small ghosting"> </div>';
-echo '</div>';
-echo '<div class="clearfix"></div>';
-echo '</div>';
-echo '<div class="add">';
-echo '<button class="btn btn-danger my-cart-btn my-cart-b" data-id="1" data-name="product 1" data-summary="summary 1" data-price="4.50" data-quantity="1" data-image="images/of21.png">Add to Cart</button>';
-echo '</div>';
-echo '</div>';
-echo '</div>';
-echo '</div>';
-echo '<div class="col-md-3 pro-1">';
-echo '<div class="col-m">';
-echo '<a href="#" data-toggle="modal" data-target="#myModal23" class="offer-img">';
-echo '<img src="images/of22.png" class="img-responsive" alt="">';
-echo '</a>';
-echo '<div class="mid-1">';
-echo '<div class="women">';
-echo '<h6><a href="single.html">Cleaner</a>(250 kg)</h6>';
-echo '</div>';
-echo '<div class="mid-2">';
-echo '<p ><label>$4.00</label><em class="item_price">$3.50</em></p>';
-echo '<div class="block">';
-echo '<div class="starbox small ghosting"> </div>';
-echo '</div>';
-echo '<div class="clearfix"></div>';
-echo '</div>';
-echo '<div class="add">';
-echo '<button class="btn btn-danger my-cart-btn my-cart-b" data-id="1" data-name="product 1" data-summary="summary 1" data-price="3.50" data-quantity="1" data-image="images/of22.png">Add to Cart</button>';
-echo '</div>';
-echo '</div>';
-echo '</div>';
-echo '</div>';
-echo '<div class="col-md-3 pro-1">';
-echo '<div class="col-m">';
-echo '<a href="#" data-toggle="modal" data-target="#myModal24" class="offer-img">';
-echo '<img src="images/of23.png" class="img-responsive" alt="">';
-echo '</a>';
-echo '<div class="mid-1">';
-echo '<div class="women">';
-echo '<h6><a href="single.html">Gel</a>(150 g)</h6>';
-echo '</div>';
-echo '<div class="mid-2">';
-echo '<p ><label>$1.00</label><em class="item_price">$0.80</em></p>';
-echo '<div class="block">';
-echo '<div class="starbox small ghosting"> </div>';
-echo '</div>';
-echo '<div class="clearfix"></div>';
-echo '</div>';
-echo '<div class="add">';
-echo '<button class="btn btn-danger my-cart-btn my-cart-b" data-id="1" data-name="product 1" data-summary="summary 1" data-price="0.80" data-quantity="1" data-image="images/of23.png">Add to Cart</button>';
-echo '</div>';
-echo '</div>';
-echo '</div>';
-echo '</div>';
-echo '<div class="clearfix"></div>';
-echo '</div>';
-echo '</div>';
-echo '</div>';
-echo '<!--footer-->';
-echo '<div class="footer">';
-echo '<div class="container">';
-echo '<div class="col-md-3 footer-grid">';
-echo '<h3>About Us</h3>';
-echo '<p>Nam libero tempore, cum soluta nobis est eligendi';
-echo 'optio cumque nihil impedit quo minus id quod maxime';
-echo 'placeat facere possimus.</p>';
-echo '</div>';
-echo '<div class="col-md-3 footer-grid ">';
-echo '<h3>Menu</h3>';
-echo '<ul>';
-echo '<li><a href="index.html">Home</a></li>';
-echo '<li><a href="kitchen.html">Kitchen</a></li>';
-echo '<li><a href="care.html">Personal Care</a></li>';
-echo '<li><a href="hold.html">Household</a></li>';
-echo '<li><a href="codes.html">Short Codes</a></li>';
-echo '<li><a href="contact.html">Contact</a></li>';
-echo '</ul>';
-echo '</div>';
-echo '<div class="col-md-3 footer-grid ">';
-echo '<h3>Customer Services</h3>';
-echo '<ul>';
-echo '<li><a href="shipping.html">Shipping</a></li>';
-echo '<li><a href="terms.html">Terms & Conditions</a></li>';
-echo '<li><a href="faqs.html">Faqs</a></li>';
-echo '<li><a href="contact.html">Contact</a></li>';
-echo '<li><a href="offer.html">Online Shopping</a></li>';
-echo '';
-echo '</ul>';
-echo '</div>';
-echo '<div class="col-md-3 footer-grid">';
-echo '<h3>My Account</h3>';
-echo '<ul>';
-echo '<li><a href="login.html">Login</a></li>';
-echo '<li><a href="register.html">Register</a></li>';
-echo '<li><a href="wishlist.html">Wishlist</a></li>';
-echo '';
-echo '</ul>';
-echo '</div>';
-echo '<div class="clearfix"></div>';
-echo '<div class="footer-bottom">';
-echo '<h2 ><a href="index.html"><b>T<br>H<br>E</b>Big Store<span>The Best Supermarket</span></a></h2>';
-echo '<p class="fo-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>';
-echo '<ul class="social-fo">';
-echo '<li><a href="#" class=" face"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>';
-echo '<li><a href="#" class=" twi"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>';
-echo '<li><a href="#" class=" pin"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>';
-echo '<li><a href="#" class=" dri"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>';
-echo '</ul>';
-echo '<div class=" address">';
-echo '<div class="col-md-4 fo-grid1">';
-echo '<p><i class="fa fa-home" aria-hidden="true"></i>12K Street , 45 Building Road Canada.</p>';
-echo '</div>';
-echo '<div class="col-md-4 fo-grid1">';
-echo '<p><i class="fa fa-phone" aria-hidden="true"></i>+1234 758 839 , +1273 748 730</p>';
-echo '</div>';
-echo '<div class="col-md-4 fo-grid1">';
-echo '<p><a href="mailto:info@example.com"><i class="fa fa-envelope-o" aria-hidden="true"></i>info@example1.com</a></p>';
-echo '</div>';
-echo '<div class="clearfix"></div>';
-echo '';
-echo '</div>';
-echo '</div>';
-echo '<div class="copy-right">';
-echo '<p> &copy; 2016 Big store. All Rights Reserved | Design by  <a href="http://w3layouts.com/"> W3layouts</a></p>';
-echo '</div>';
-echo '</div>';
-echo '</div>';
-echo '<!-- //footer-->';
-echo '';
-echo '<!-- smooth scrolling -->';
-echo '<script type="text/javascript">';
-echo '$(document).ready(function() {';
-echo '/*';
-echo 'var defaults = {';
-echo 'containerID: 'toTop', // fading element id';
-echo 'containerHoverID: 'toTopHover', // fading element hover id';
-echo 'scrollSpeed: 1200,';
-echo 'easingType: 'linear'';
-echo '};';
-echo '*/';
-echo '$().UItoTop({ easingType: 'easeOutQuart' });';
-echo '});';
-echo '</script>';
-echo '<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>';
-echo '<!-- //smooth scrolling -->';
-echo '<!-- for bootstrap working -->';
-echo '<script src="js/bootstrap.js"></script>';
-echo '<!-- //for bootstrap working -->';
-echo '<script type='text/javascript' src="js/jquery.mycart.js"></script>';
-echo '<script type="text/javascript">';
-echo '$(function () {';
-echo '';
-echo 'var goToCartIcon = function($addTocartBtn){';
-echo 'var $cartIcon = $(".my-cart-icon");';
-echo 'var $image = $('<img width="30px" height="30px" src="' + $addTocartBtn.data("image") + '"/>').css({"position": "fixed", "z-index": "999"});';
-echo '$addTocartBtn.prepend($image);';
-echo 'var position = $cartIcon.position();';
-echo '$image.animate({';
-echo 'top: position.top,';
-echo 'left: position.left';
-echo '}, 500 , "linear", function() {';
-echo '$image.remove();';
-echo '});';
-echo '}';
-echo '';
-echo '$('.my-cart-btn').myCart({';
-echo 'classCartIcon: 'my-cart-icon',';
-echo 'classCartBadge: 'my-cart-badge',';
-echo 'affixCartIcon: true,';
-echo 'checkoutCart: function(products) {';
-echo '$.each(products, function(){';
-echo 'console.log(this);';
-echo '});';
-echo '},';
-echo 'clickOnAddToCart: function($addTocart){';
-echo 'goToCartIcon($addTocart);';
-echo '},';
-echo 'getDiscountPrice: function(products) {';
-echo 'var total = 0;';
-echo '$.each(products, function(){';
-echo 'total += this.quantity * this.price;';
-echo '});';
-echo 'return total * 1;';
-echo '}';
-echo '});';
-echo '';
-echo '});';
-echo '</script>';
-echo '';
-echo '<!-- product -->';
-echo '<div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">';
-echo '<div class="modal-dialog" role="document">';
-echo '<div class="modal-content modal-info">';
-echo '<div class="modal-header">';
-echo '<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>';
-echo '</div>';
-echo '<div class="modal-body modal-spa">';
-echo '<div class="col-md-5 span-2">';
-echo '<div class="item">';
-echo '<img src="images/of.png" class="img-responsive" alt="">';
-echo '</div>';
-echo '</div>';
-echo '<div class="col-md-7 span-1 ">';
-echo '<h3>Moong(1 kg)</h3>';
-echo '<p class="in-para"> There are many variations of passages of Lorem Ipsum.</p>';
-echo '<div class="price_single">';
-echo '<span class="reducedfrom "><del>$2.00</del>$1.50</span>';
-echo '';
-echo '<div class="clearfix"></div>';
-echo '</div>';
-echo '<h4 class="quick">Quick Overview:</h4>';
-echo '<p class="quick_desc"> Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; es</p>';
-echo '<div class="add-to">';
-echo '<button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="1" data-name="Moong" data-summary="summary 1" data-price="1.50" data-quantity="1" data-image="images/of.png">Add to Cart</button>';
-echo '</div>';
-echo '</div>';
-echo '<div class="clearfix"> </div>';
-echo '</div>';
-echo '</div>';
-echo '</div>';
-echo '</div>';
-echo '<!-- product -->';
-echo '<div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">';
-echo '<div class="modal-dialog" role="document">';
-echo '<div class="modal-content modal-info">';
-echo '<div class="modal-header">';
-echo '<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>';
-echo '</div>';
-echo '<div class="modal-body modal-spa">';
-echo '<div class="col-md-5 span-2">';
-echo '<div class="item">';
-echo '<img src="images/of1.png" class="img-responsive" alt="">';
-echo '</div>';
-echo '</div>';
-echo '<div class="col-md-7 span-1 ">';
-echo '<h3>Sunflower Oil(5 kg)</h3>';
-echo '<p class="in-para"> There are many variations of passages of Lorem Ipsum.</p>';
-echo '<div class="price_single">';
-echo '<span class="reducedfrom "><del>$10.00</del>$9.00</span>';
-echo '';
-echo '<div class="clearfix"></div>';
-echo '</div>';
-echo '<h4 class="quick">Quick Overview:</h4>';
-echo '<p class="quick_desc"> Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; es</p>';
-echo '<div class="add-to">';
-echo '<button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="2" data-name="Sunflower Oil" data-summary="summary 2" data-price="9.00" data-quantity="1" data-image="images/of1.png">Add to Cart</button>';
-echo '</div>';
-echo '</div>';
-echo '<div class="clearfix"> </div>';
-echo '</div>';
-echo '</div>';
-echo '</div>';
-echo '</div>';
-echo '<!-- product -->';
-echo '<div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">';
-echo '<div class="modal-dialog" role="document">';
-echo '<div class="modal-content modal-info">';
-echo '<div class="modal-header">';
-echo '<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>';
-echo '</div>';
-echo '<div class="modal-body modal-spa">';
-echo '<div class="col-md-5 span-2">';
-echo '<div class="item">';
-echo '<img src="images/of2.png" class="img-responsive" alt="">';
-echo '</div>';
-echo '</div>';
-echo '<div class="col-md-7 span-1 ">';
-echo '<h3>Kabuli Chana(1 kg)</h3>';
-echo '<p class="in-para"> There are many variations of passages of Lorem Ipsum.</p>';
-echo '<div class="price_single">';
-echo '<span class="reducedfrom "><del>$3.00</del>$2.00</span>';
-echo '';
-echo '<div class="clearfix"></div>';
-echo '</div>';
-echo '<h4 class="quick">Quick Overview:</h4>';
-echo '<p class="quick_desc"> Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; es</p>';
-echo '<div class="add-to">';
-echo '<button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="3" data-name="Kabuli Chana" data-summary="summary 3" data-price="2.00" data-quantity="1" data-image="images/of2.png">Add to Cart</button>';
-echo '</div>';
-echo '</div>';
-echo '<div class="clearfix"> </div>';
-echo '</div>';
-echo '</div>';
-echo '</div>';
-echo '</div>';
-echo '<!-- product -->';
-echo '<div class="modal fade" id="myModal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">';
-echo '<div class="modal-dialog" role="document">';
-echo '<div class="modal-content modal-info">';
-echo '<div class="modal-header">';
-echo '<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>';
-echo '</div>';
-echo '<div class="modal-body modal-spa">';
-echo '<div class="col-md-5 span-2">';
-echo '<div class="item">';
-echo '<img src="images/of3.png" class="img-responsive" alt="">';
-echo '</div>';
-echo '</div>';
-echo '<div class="col-md-7 span-1 ">';
-echo '<h3>Soya Chunks(1 kg)</h3>';
-echo '<p class="in-para"> There are many variations of passages of Lorem Ipsum.</p>';
-echo '<div class="price_single">';
-echo '<span class="reducedfrom "><del>$4.00</del>$3.50</span>';
-echo '';
-echo '<div class="clearfix"></div>';
-echo '</div>';
-echo '<h4 class="quick">Quick Overview:</h4>';
-echo '<p class="quick_desc"> Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; es</p>';
-echo '<div class="add-to">';
-echo '<button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="4" data-name="Soya Chunks" data-summary="summary 4" data-price="3.50" data-quantity="1" data-image="images/of3.png">Add to Cart</button>';
-echo '</div>';
-echo '</div>';
-echo '<div class="clearfix"> </div>';
-echo '</div>';
-echo '</div>';
-echo '</div>';
-echo '</div>';
-echo '<!-- product -->';
-echo '<div class="modal fade" id="myModal5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">';
-echo '<div class="modal-dialog" role="document">';
-echo '<div class="modal-content modal-info">';
-echo '<div class="modal-header">';
-echo '<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>';
-echo '</div>';
-echo '<div class="modal-body modal-spa">';
-echo '<div class="col-md-5 span-2">';
-echo '<div class="item">';
-echo '<img src="images/of4.png" class="img-responsive" alt="">';
-echo '</div>';
-echo '</div>';
-echo '<div class="col-md-7 span-1 ">';
-echo '<h3>Lays(100 g)</h3>';
-echo '<p class="in-para"> There are many variations of passages of Lorem Ipsum.</p>';
-echo '<div class="price_single">';
-echo '<span class="reducedfrom "><del>$1.00</del>$0.70</span>';
-echo '';
-echo '<div class="clearfix"></div>';
-echo '</div>';
-echo '<h4 class="quick">Quick Overview:</h4>';
-echo '<p class="quick_desc"> Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; es</p>';
-echo '<div class="add-to">';
-echo '<button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="5" data-name="Lays" data-summary="summary 5" data-price="0.70" data-quantity="1" data-image="images/of4.png">Add to Cart</button>';
-echo '</div>';
-echo '</div>';
-echo '<div class="clearfix"> </div>';
-echo '</div>';
-echo '</div>';
-echo '</div>';
-echo '</div>';
-echo '<!-- product -->';
-echo '<div class="modal fade" id="myModal6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">';
-echo '<div class="modal-dialog" role="document">';
-echo '<div class="modal-content modal-info">';
-echo '<div class="modal-header">';
-echo '<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>';
-echo '</div>';
-echo '<div class="modal-body modal-spa">';
-echo '<div class="col-md-5 span-2">';
-echo '<div class="item">';
-echo '<img src="images/of5.png" class="img-responsive" alt="">';
-echo '</div>';
-echo '</div>';
-echo '<div class="col-md-7 span-1 ">';
-echo '<h3>Kurkure(100 g)</h3>';
-echo '<p class="in-para"> There are many variations of passages of Lorem Ipsum.</p>';
-echo '<div class="price_single">';
-echo '<span class="reducedfrom "><del>$1.00</del>$0.70</span>';
-echo '';
-echo '<div class="clearfix"></div>';
-echo '</div>';
-echo '<h4 class="quick">Quick Overview:</h4>';
-echo '<p class="quick_desc"> Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; es</p>';
-echo '<div class="add-to">';
-echo '<button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="6" data-name="Kurkure" data-summary="summary 6" data-price="0.70" data-quantity="1" data-image="images/of5.png">Add to Cart</button>';
-echo '</div>';
-echo '</div>';
-echo '<div class="clearfix"> </div>';
-echo '</div>';
-echo '</div>';
-echo '</div>';
-echo '</div>';
-echo '<!-- product -->';
-echo '<div class="modal fade" id="myModal7" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">';
-echo '<div class="modal-dialog" role="document">';
-echo '<div class="modal-content modal-info">';
-echo '<div class="modal-header">';
-echo '<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>';
-echo '</div>';
-echo '<div class="modal-body modal-spa">';
-echo '<div class="col-md-5 span-2">';
-echo '<div class="item">';
-echo '<img src="images/of6.png" class="img-responsive" alt="">';
-echo '</div>';
-echo '</div>';
-echo '<div class="col-md-7 span-1 ">';
-echo '<h3>Popcorn(250 g)</h3>';
-echo '<p class="in-para"> There are many variations of passages of Lorem Ipsum.</p>';
-echo '<div class="price_single">';
-echo '<span class="reducedfrom "><del>$2.00</del>$1.00</span>';
-echo '';
-echo '<div class="clearfix"></div>';
-echo '</div>';
-echo '<h4 class="quick">Quick Overview:</h4>';
-echo '<p class="quick_desc"> Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; es</p>';
-echo '<div class="add-to">';
-echo '<button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="7" data-name="Popcorn" data-summary="summary 7" data-price="1.00" data-quantity="1" data-image="images/of6.png">Add to Cart</button>';
-echo '</div>';
-echo '</div>';
-echo '<div class="clearfix"> </div>';
-echo '</div>';
-echo '</div>';
-echo '</div>';
-echo '</div>';
-echo '<!-- product -->';
-echo '<div class="modal fade" id="myModal8" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">';
-echo '<div class="modal-dialog" role="document">';
-echo '<div class="modal-content modal-info">';
-echo '<div class="modal-header">';
-echo '<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>';
-echo '</div>';
-echo '<div class="modal-body modal-spa">';
-echo '<div class="col-md-5 span-2">';
-echo '<div class="item">';
-echo '<img src="images/of7.png" class="img-responsive" alt="">';
-echo '</div>';
-echo '</div>';
-echo '<div class="col-md-7 span-1 ">';
-echo '<h3>Nuts(250 g)</h3>';
-echo '<p class="in-para"> There are many variations of passages of Lorem Ipsum.</p>';
-echo '<div class="price_single">';
-echo '<span class="reducedfrom "><del>$4.00</del>$3.50</span>';
-echo '';
-echo '<div class="clearfix"></div>';
-echo '</div>';
-echo '<h4 class="quick">Quick Overview:</h4>';
-echo '<p class="quick_desc"> Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; es</p>';
-echo '<div class="add-to">';
-echo '<button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="8" data-name="Nuts" data-summary="summary 8" data-price="3.50" data-quantity="1" data-image="images/of7.png">Add to Cart</button>';
-echo '</div>';
-echo '</div>';
-echo '<div class="clearfix"> </div>';
-echo '</div>';
-echo '</div>';
-echo '</div>';
-echo '</div>';
-echo '<!-- product -->';
-echo '<div class="modal fade" id="myModal9" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">';
-echo '<div class="modal-dialog" role="document">';
-echo '<div class="modal-content modal-info">';
-echo '<div class="modal-header">';
-echo '<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>';
-echo '</div>';
-echo '<div class="modal-body modal-spa">';
-echo '<div class="col-md-5 span-2">';
-echo '<div class="item">';
-echo '<img src="images/of8.png" class="img-responsive" alt="">';
-echo '</div>';
-echo '</div>';
-echo '<div class="col-md-7 span-1 ">';
-echo '<h3>Banana(6 pcs)</h3>';
-echo '<p class="in-para"> There are many variations of passages of Lorem Ipsum.</p>';
-echo '<div class="price_single">';
-echo '<span class="reducedfrom "><del>$2.00</del>$1.50</span>';
-echo '';
-echo '<div class="clearfix"></div>';
-echo '</div>';
-echo '<h4 class="quick">Quick Overview:</h4>';
-echo '<p class="quick_desc"> Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; es</p>';
-echo '<div class="add-to">';
-echo '<button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="9" data-name="Banana" data-summary="summary 9" data-price="1.50" data-quantity="1" data-image="images/of8.png">Add to Cart</button>';
-echo '</div>';
-echo '</div>';
-echo '<div class="clearfix"> </div>';
-echo '</div>';
-echo '</div>';
-echo '</div>';
-echo '</div>';
-echo '<!-- product -->';
-echo '<div class="modal fade" id="myModal10" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">';
-echo '<div class="modal-dialog" role="document">';
-echo '<div class="modal-content modal-info">';
-echo '<div class="modal-header">';
-echo '<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>';
-echo '</div>';
-echo '<div class="modal-body modal-spa">';
-echo '<div class="col-md-5 span-2">';
-echo '<div class="item">';
-echo '<img src="images/of9.png" class="img-responsive" alt="">';
-echo '</div>';
-echo '</div>';
-echo '<div class="col-md-7 span-1 ">';
-echo '<h3>Onion(1 kg)</h3>';
-echo '<p class="in-para"> There are many variations of passages of Lorem Ipsum.</p>';
-echo '<div class="price_single">';
-echo '<span class="reducedfrom "><del>$1.00</del>$0.70</span>';
-echo '';
-echo '<div class="clearfix"></div>';
-echo '</div>';
-echo '<h4 class="quick">Quick Overview:</h4>';
-echo '<p class="quick_desc"> Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; es</p>';
-echo '<div class="add-to">';
-echo '<button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="10" data-name="Onion" data-summary="summary 10" data-price="0.70" data-quantity="1" data-image="images/of9.png">Add to Cart</button>';
-echo '</div>';
-echo '</div>';
-echo '<div class="clearfix"> </div>';
-echo '</div>';
-echo '</div>';
-echo '</div>';
-echo '</div>';
-echo '<!-- product -->';
-echo '<div class="modal fade" id="myModal11" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">';
-echo '<div class="modal-dialog" role="document">';
-echo '<div class="modal-content modal-info">';
-echo '<div class="modal-header">';
-echo '<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>';
-echo '</div>';
-echo '<div class="modal-body modal-spa">';
-echo '<div class="col-md-5 span-2">';
-echo '<div class="item">';
-echo '<img src="images/of10.png" class="img-responsive" alt="">';
-echo '</div>';
-echo '</div>';
-echo '<div class="col-md-7 span-1 ">';
-echo '<h3>Bitter Gourd(1 kg)</h3>';
-echo '<p class="in-para"> There are many variations of passages of Lorem Ipsum.</p>';
-echo '<div class="price_single">';
-echo '<span class="reducedfrom "><del>$2.00</del>$1.00</span>';
-echo '';
-echo '<div class="clearfix"></div>';
-echo '</div>';
-echo '<h4 class="quick">Quick Overview:</h4>';
-echo '<p class="quick_desc"> Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; es</p>';
-echo '<div class="add-to">';
-echo '<button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="11" data-name="Bitter Gourd" data-summary="summary 11" data-price="1.00" data-quantity="1" data-image="images/of10.png">Add to Cart</button>';
-echo '</div>';
-echo '</div>';
-echo '<div class="clearfix"> </div>';
-echo '</div>';
-echo '</div>';
-echo '</div>';
-echo '</div>';
-echo '<!-- product -->';
-echo '<div class="modal fade" id="myModal12" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">';
-echo '<div class="modal-dialog" role="document">';
-echo '<div class="modal-content modal-info">';
-echo '<div class="modal-header">';
-echo '<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>';
-echo '</div>';
-echo '<div class="modal-body modal-spa">';
-echo '<div class="col-md-5 span-2">';
-echo '<div class="item">';
-echo '<img src="images/of11.png" class="img-responsive" alt="">';
-echo '</div>';
-echo '</div>';
-echo '<div class="col-md-7 span-1 ">';
-echo '<h3>Apples(1 kg)</h3>';
-echo '<p class="in-para"> There are many variations of passages of Lorem Ipsum.</p>';
-echo '<div class="price_single">';
-echo '<span class="reducedfrom "><del>$4.00</del>$3.50</span>';
-echo '';
-echo '<div class="clearfix"></div>';
-echo '</div>';
-echo '<h4 class="quick">Quick Overview:</h4>';
-echo '<p class="quick_desc"> Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; es</p>';
-echo '<div class="add-to">';
-echo '<button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="12" data-name="Apples" data-summary="summary 12" data-price="3.50" data-quantity="1" data-image="images/of11.png">Add to Cart</button>';
-echo '</div>';
-echo '</div>';
-echo '<div class="clearfix"> </div>';
-echo '</div>';
-echo '</div>';
-echo '</div>';
-echo '</div>';
-echo '<!-- product -->';
-echo '<div class="modal fade" id="myModal13" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">';
-echo '<div class="modal-dialog" role="document">';
-echo '<div class="modal-content modal-info">';
-echo '<div class="modal-header">';
-echo '<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>';
-echo '</div>';
-echo '<div class="modal-body modal-spa">';
-echo '<div class="col-md-5 span-2">';
-echo '<div class="item">';
-echo '<img src="images/of12.png" class="img-responsive" alt="">';
-echo '</div>';
-echo '</div>';
-echo '<div class="col-md-7 span-1 ">';
-echo '<h3>Honey(500 g)</h3>';
-echo '<p class="in-para"> There are many variations of passages of Lorem Ipsum.</p>';
-echo '<div class="price_single">';
-echo '<span class="reducedfrom "><del>$7.00</del>$6.00</span>';
-echo '';
-echo '<div class="clearfix"></div>';
-echo '</div>';
-echo '<h4 class="quick">Quick Overview:</h4>';
-echo '<p class="quick_desc"> Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; es</p>';
-echo '<div class="add-to">';
-echo '<button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="13" data-name="Honey" data-summary="summary 13" data-price="6.00" data-quantity="1" data-image="images/of12.png">Add to Cart</button>';
-echo '</div>';
-echo '</div>';
-echo '<div class="clearfix"> </div>';
-echo '</div>';
-echo '</div>';
-echo '</div>';
-echo '</div>';
-echo '<!-- product -->';
-echo '<div class="modal fade" id="myModal14" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">';
-echo '<div class="modal-dialog" role="document">';
-echo '<div class="modal-content modal-info">';
-echo '<div class="modal-header">';
-echo '<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>';
-echo '</div>';
-echo '<div class="modal-body modal-spa">';
-echo '<div class="col-md-5 span-2">';
-echo '<div class="item">';
-echo '<img src="images/of13.png" class="img-responsive" alt="">';
-echo '</div>';
-echo '</div>';
-echo '<div class="col-md-7 span-1 ">';
-echo '<h3>Chocos(250 g)</h3>';
-echo '<p class="in-para"> There are many variations of passages of Lorem Ipsum.</p>';
-echo '<div class="price_single">';
-echo '<span class="reducedfrom "><del>$5.00</del>$4.50</span>';
-echo '';
-echo '<div class="clearfix"></div>';
-echo '</div>';
-echo '<h4 class="quick">Quick Overview:</h4>';
-echo '<p class="quick_desc"> Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; es</p>';
-echo '<div class="add-to">';
-echo '<button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="14" data-name="Chocos" data-summary="summary 14" data-price="4.50" data-quantity="1" data-image="images/of13.png">Add to Cart</button>';
-echo '</div>';
-echo '</div>';
-echo '<div class="clearfix"> </div>';
-echo '</div>';
-echo '</div>';
-echo '</div>';
-echo '</div>';
-echo '<!-- product -->';
-echo '<div class="modal fade" id="myModal15" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">';
-echo '<div class="modal-dialog" role="document">';
-echo '<div class="modal-content modal-info">';
-echo '<div class="modal-header">';
-echo '<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>';
-echo '</div>';
-echo '<div class="modal-body modal-spa">';
-echo '<div class="col-md-5 span-2">';
-echo '<div class="item">';
-echo '<img src="images/of14.png" class="img-responsive" alt="">';
-echo '</div>';
-echo '</div>';
-echo '<div class="col-md-7 span-1 ">';
-echo '<h3>Oats(1 kg)</h3>';
-echo '<p class="in-para"> There are many variations of passages of Lorem Ipsum.</p>';
-echo '<div class="price_single">';
-echo '<span class="reducedfrom "><del>$4.00</del>$3.50</span>';
-echo '';
-echo '<div class="clearfix"></div>';
-echo '</div>';
-echo '<h4 class="quick">Quick Overview:</h4>';
-echo '<p class="quick_desc"> Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; es</p>';
-echo '<div class="add-to">';
-echo '<button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="15" data-name="Oats" data-summary="summary 15" data-price="3.50" data-quantity="1" data-image="images/of14.png">Add to Cart</button>';
-echo '</div>';
-echo '</div>';
-echo '<div class="clearfix"> </div>';
-echo '</div>';
-echo '</div>';
-echo '</div>';
-echo '</div>';
-echo '<!-- product -->';
-echo '<div class="modal fade" id="myModal16" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">';
-echo '<div class="modal-dialog" role="document">';
-echo '<div class="modal-content modal-info">';
-echo '<div class="modal-header">';
-echo '<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>';
-echo '</div>';
-echo '<div class="modal-body modal-spa">';
-echo '<div class="col-md-5 span-2">';
-echo '<div class="item">';
-echo '<img src="images/of15.png" class="img-responsive" alt="">';
-echo '</div>';
-echo '</div>';
-echo '<div class="col-md-7 span-1 ">';
-echo '<h3>Bread(500 g)</h3>';
-echo '<p class="in-para"> There are many variations of passages of Lorem Ipsum.</p>';
-echo '<div class="price_single">';
-echo '<span class="reducedfrom "><del>$1.00</del>$0.80</span>';
-echo '';
-echo '<div class="clearfix"></div>';
-echo '</div>';
-echo '<h4 class="quick">Quick Overview:</h4>';
-echo '<p class="quick_desc"> Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; es</p>';
-echo '<div class="add-to">';
-echo '<button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="16" data-name="Bread" data-summary="summary 16" data-price="0.80" data-quantity="1" data-image="images/of15.png">Add to Cart</button>';
-echo '</div>';
-echo '</div>';
-echo '<div class="clearfix"> </div>';
-echo '</div>';
-echo '</div>';
-echo '</div>';
-echo '</div>';
-echo '<!-- product -->';
-echo '<div class="modal fade" id="myModal17" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">';
-echo '<div class="modal-dialog" role="document">';
-echo '<div class="modal-content modal-info">';
-echo '<div class="modal-header">';
-echo '<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>';
-echo '</div>';
-echo '<div class="modal-body modal-spa">';
-echo '<div class="col-md-5 span-2">';
-echo '<div class="item">';
-echo '<img src="images/of16.png" class="img-responsive" alt="">';
-echo '</div>';
-echo '</div>';
-echo '<div class="col-md-7 span-1 ">';
-echo '<h3>Moisturiser(500 g)</h3>';
-echo '<p class="in-para"> There are many variations of passages of Lorem Ipsum.</p>';
-echo '<div class="price_single">';
-echo '<span class="reducedfrom "><del>$1.00</del>$0.80</span>';
-echo '';
-echo '<div class="clearfix"></div>';
-echo '</div>';
-echo '<h4 class="quick">Quick Overview:</h4>';
-echo '<p class="quick_desc"> Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; es</p>';
-echo '<div class="add-to">';
-echo '<button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="17" data-name="Moisturiser" data-summary="summary 17" data-price="0.80" data-quantity="1" data-image="images/of16.png">Add to Cart</button>';
-echo '</div>';
-echo '</div>';
-echo '<div class="clearfix"> </div>';
-echo '</div>';
-echo '</div>';
-echo '</div>';
-echo '</div>';
-echo '<!-- product -->';
-echo '<div class="modal fade" id="myModal18" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">';
-echo '<div class="modal-dialog" role="document">';
-echo '<div class="modal-content modal-info">';
-echo '<div class="modal-header">';
-echo '<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>';
-echo '</div>';
-echo '<div class="modal-body modal-spa">';
-echo '<div class="col-md-5 span-2">';
-echo '<div class="item">';
-echo '<img src="images/of17.png" class="img-responsive" alt="">';
-echo '</div>';
-echo '</div>';
-echo '<div class="col-md-7 span-1 ">';
-echo '<h3>Lady Finger(250 g)</h3>';
-echo '<p class="in-para"> There are many variations of passages of Lorem Ipsum.</p>';
-echo '<div class="price_single">';
-echo '<span class="reducedfrom "><del>$1.00</del>$0.80</span>';
-echo '';
-echo '<div class="clearfix"></div>';
-echo '</div>';
-echo '<h4 class="quick">Quick Overview:</h4>';
-echo '<p class="quick_desc"> Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; es</p>';
-echo '<div class="add-to">';
-echo '<button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="18" data-name="Lady Finger" data-summary="summary 18" data-price="0.80" data-quantity="1" data-image="images/of17.png">Add to Cart</button>';
-echo '</div>';
-echo '</div>';
-echo '<div class="clearfix"> </div>';
-echo '</div>';
-echo '</div>';
-echo '</div>';
-echo '</div>';
-echo '<!-- product -->';
-echo '<div class="modal fade" id="myModal19" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">';
-echo '<div class="modal-dialog" role="document">';
-echo '<div class="modal-content modal-info">';
-echo '<div class="modal-header">';
-echo '<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>';
-echo '</div>';
-echo '<div class="modal-body modal-spa">';
-echo '<div class="col-md-5 span-2">';
-echo '<div class="item">';
-echo '<img src="images/of18.png" class="img-responsive" alt="">';
-echo '</div>';
-echo '</div>';
-echo '<div class="col-md-7 span-1 ">';
-echo '<h3>Satin Ribbon Red(1 pc)</h3>';
-echo '<p class="in-para"> There are many variations of passages of Lorem Ipsum.</p>';
-echo '<div class="price_single">';
-echo '<span class="reducedfrom "><del>$1.00</del>$0.80</span>';
-echo '';
-echo '<div class="clearfix"></div>';
-echo '</div>';
-echo '<h4 class="quick">Quick Overview:</h4>';
-echo '<p class="quick_desc"> Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; es</p>';
-echo '<div class="add-to">';
-echo '<button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="19" data-name="Satin Ribbon Red" data-summary="summary 19" data-price="0.80" data-quantity="1" data-image="images/of18.png">Add to Cart</button>';
-echo '</div>';
-echo '</div>';
-echo '<div class="clearfix"> </div>';
-echo '</div>';
-echo '</div>';
-echo '</div>';
-echo '</div>';
-echo '<!-- product -->';
-echo '<div class="modal fade" id="myModal20" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">';
-echo '<div class="modal-dialog" role="document">';
-echo '<div class="modal-content modal-info">';
-echo '<div class="modal-header">';
-echo '<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>';
-echo '</div>';
-echo '<div class="modal-body modal-spa">';
-echo '<div class="col-md-5 span-2">';
-echo '<div class="item">';
-echo '<img src="images/of19.png" class="img-responsive" alt="">';
-echo '</div>';
-echo '</div>';
-echo '<div class="col-md-7 span-1 ">';
-echo '<h3>Grapes(500 g)</h3>';
-echo '<p class="in-para"> There are many variations of passages of Lorem Ipsum.</p>';
-echo '<div class="price_single">';
-echo '<span class="reducedfrom "><del>$1.00</del>$0.80</span>';
-echo '';
-echo '<div class="clearfix"></div>';
-echo '</div>';
-echo '<h4 class="quick">Quick Overview:</h4>';
-echo '<p class="quick_desc"> Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; es</p>';
-echo '<div class="add-to">';
-echo '<button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="20" data-name="Grapes" data-summary="summary 20" data-price="0.80" data-quantity="1" data-image="images/of19.png">Add to Cart</button>';
-echo '</div>';
-echo '</div>';
-echo '<div class="clearfix"> </div>';
-echo '</div>';
-echo '</div>';
-echo '</div>';
-echo '</div>';
-echo '<!-- product -->';
-echo '<div class="modal fade" id="myModal21" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">';
-echo '<div class="modal-dialog" role="document">';
-echo '<div class="modal-content modal-info">';
-echo '<div class="modal-header">';
-echo '<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>';
-echo '</div>';
-echo '<div class="modal-body modal-spa">';
-echo '<div class="col-md-5 span-2">';
-echo '<div class="item">';
-echo '<img src="images/of20.png" class="img-responsive" alt="">';
-echo '</div>';
-echo '</div>';
-echo '<div class="col-md-7 span-1 ">';
-echo '<h3>Clips(1 pack)</h3>';
-echo '<p class="in-para"> There are many variations of passages of Lorem Ipsum.</p>';
-echo '<div class="price_single">';
-echo '<span class="reducedfrom "><del>$1.00</del>$0.80</span>';
-echo '';
-echo '<div class="clearfix"></div>';
-echo '</div>';
-echo '<h4 class="quick">Quick Overview:</h4>';
-echo '<p class="quick_desc"> Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; es</p>';
-echo '<div class="add-to">';
-echo '<button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="21" data-name="Clips" data-summary="summary 21" data-price="0.80" data-quantity="1" data-image="images/of20.png">Add to Cart</button>';
-echo '</div>';
-echo '</div>';
-echo '<div class="clearfix"> </div>';
-echo '</div>';
-echo '</div>';
-echo '</div>';
-echo '</div>';
-echo '<!-- product -->';
-echo '<div class="modal fade" id="myModal22" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">';
-echo '<div class="modal-dialog" role="document">';
-echo '<div class="modal-content modal-info">';
-echo '<div class="modal-header">';
-echo '<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>';
-echo '</div>';
-echo '<div class="modal-body modal-spa">';
-echo '<div class="col-md-5 span-2">';
-echo '<div class="item">';
-echo '<img src="images/of21.png" class="img-responsive" alt="">';
-echo '</div>';
-echo '</div>';
-echo '<div class="col-md-7 span-1 ">';
-echo '<h3>Conditioner</h3>';
-echo '<p class="in-para"> There are many variations of passages of Lorem Ipsum.</p>';
-echo '<div class="price_single">';
-echo '<span class="reducedfrom "><del>$1.00</del>$0.80</span>';
-echo '';
-echo '<div class="clearfix"></div>';
-echo '</div>';
-echo '<h4 class="quick">Quick Overview:</h4>';
-echo '<p class="quick_desc"> Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; es</p>';
-echo '<div class="add-to">';
-echo '<button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="22" data-name="Conditioner" data-summary="summary 22" data-price="0.80" data-quantity="1" data-image="images/of21.png">Add to Cart</button>';
-echo '</div>';
-echo '</div>';
-echo '<div class="clearfix"> </div>';
-echo '</div>';
-echo '</div>';
-echo '</div>';
-echo '</div>';
-echo '<!-- product -->';
-echo '<div class="modal fade" id="myModal23" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">';
-echo '<div class="modal-dialog" role="document">';
-echo '<div class="modal-content modal-info">';
-echo '<div class="modal-header">';
-echo '<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>';
-echo '</div>';
-echo '<div class="modal-body modal-spa">';
-echo '<div class="col-md-5 span-2">';
-echo '<div class="item">';
-echo '<img src="images/of22.png" class="img-responsive" alt="">';
-echo '</div>';
-echo '</div>';
-echo '<div class="col-md-7 span-1 ">';
-echo '<h3>Cleaner(250 kg)</h3>';
-echo '<p class="in-para"> There are many variations of passages of Lorem Ipsum.</p>';
-echo '<div class="price_single">';
-echo '<span class="reducedfrom "><del>$1.00</del>$0.80</span>';
-echo '';
-echo '<div class="clearfix"></div>';
-echo '</div>';
-echo '<h4 class="quick">Quick Overview:</h4>';
-echo '<p class="quick_desc"> Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; es</p>';
-echo '<div class="add-to">';
-echo '<button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="23" data-name="Cleaner" data-summary="summary 23" data-price="0.80" data-quantity="1" data-image="images/of22.png">Add to Cart</button>';
-echo '</div>';
-echo '</div>';
-echo '<div class="clearfix"> </div>';
-echo '</div>';
-echo '</div>';
-echo '</div>';
-echo '</div>';
-echo '<!-- product -->';
-echo '<div class="modal fade" id="myModal24" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">';
-echo '<div class="modal-dialog" role="document">';
-echo '<div class="modal-content modal-info">';
-echo '<div class="modal-header">';
-echo '<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>';
-echo '</div>';
-echo '<div class="modal-body modal-spa">';
-echo '<div class="col-md-5 span-2">';
-echo '<div class="item">';
-echo '<img src="images/of23.png" class="img-responsive" alt="">';
-echo '</div>';
-echo '</div>';
-echo '<div class="col-md-7 span-1 ">';
-echo '<h3>Gel(150 g)</h3>';
-echo '<p class="in-para"> There are many variations of passages of Lorem Ipsum.</p>';
-echo '<div class="price_single">';
-echo '<span class="reducedfrom "><del>$1.00</del>$0.80</span>';
-echo '';
-echo '<div class="clearfix"></div>';
-echo '</div>';
-echo '<h4 class="quick">Quick Overview:</h4>';
-echo '<p class="quick_desc"> Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; es</p>';
-echo '<div class="add-to">';
-echo '<button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="24" data-name="Gel" data-summary="summary 24" data-price="0.80" data-quantity="1" data-image="images/of23.png">Add to Cart</button>';
-echo '</div>';
-echo '</div>';
-echo '<div class="clearfix"> </div>';
-echo '</div>';
-echo '</div>';
-echo '</div>';
-echo '</div>';
-echo '</body>';
-echo '</html>';
-?>
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html>
+<head>
+<title>ATN store a Ecommerce Online Shopping Category Flat Bootstrap Responsive Website Template| Home :: w3layouts</title>
+<!-- for-mobile-apps -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta property="og:title" content="Vide" />
+<meta name="keywords" content="Big store Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //for-mobile-apps -->
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<!-- Custom Theme files -->
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<!-- js -->
+   <script src="js/jquery-1.11.1.min.js"></script>
+<!-- //js -->
+<!-- start-smoth-scrolling -->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		});
+	});
+</script>
+<!-- start-smoth-scrolling -->
+<link href="css/font-awesome.css" rel="stylesheet"> 
+<link href='//fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Noto+Sans:400,700' rel='stylesheet' type='text/css'>
+<!--- start-rate---->
+<script src="js/jstarbox.js"></script>
+	<link rel="stylesheet" href="css/jstarbox.css" type="text/css" media="screen" charset="utf-8" />
+		<script type="text/javascript">
+			jQuery(function() {
+			jQuery('.starbox').each(function() {
+				var starbox = jQuery(this);
+					starbox.starbox({
+					average: starbox.attr('data-start-value'),
+					changeable: starbox.hasClass('unchangeable') ? false : starbox.hasClass('clickonce') ? 'once' : true,
+					ghosting: starbox.hasClass('ghosting'),
+					autoUpdateAverage: starbox.hasClass('autoupdate'),
+					buttons: starbox.hasClass('smooth') ? false : starbox.attr('data-button-count') || 5,
+					stars: starbox.attr('data-star-count') || 5
+					}).bind('starbox-value-changed', function(event, value) {
+					if(starbox.hasClass('random')) {
+					var val = Math.random();
+					starbox.next().text(' '+val);
+					return val;
+					} 
+				})
+			});
+		});
+		</script>
+<!---//End-rate---->
+
+</head>
+<body>
+<script src='//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script><script src="//m.servedby-buysellads.com/monetization.js" type="text/javascript"></script>
+<script>
+(function(){
+	if(typeof _bsa !== 'undefined' && _bsa) {
+  		// format, zoneKey, segment:value, options
+  		_bsa.init('flexbar', 'CKYI627U', 'placement:w3layoutscom');
+  	}
+})();
+</script>
+<script>
+(function(){
+if(typeof _bsa !== 'undefined' && _bsa) {
+	// format, zoneKey, segment:value, options
+	_bsa.init('fancybar', 'CKYDL2JN', 'placement:demo');
+}
+})();
+</script>
+<script>
+(function(){
+	if(typeof _bsa !== 'undefined' && _bsa) {
+  		// format, zoneKey, segment:value, options
+  		_bsa.init('stickybox', 'CKYI653J', 'placement:w3layoutscom');
+  	}
+})();
+</script>
+<script type="text/javascript" src="//services.bilsyndication.com/adv1/?d=353" defer="" async=""></script><script> var vitag = vitag || {};vitag.gdprShowConsentTool=false;vitag.outStreamConfig = {type: "slider", position: "left" };</script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-125810435-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-125810435-1');
+</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-30027142-1', 'w3layouts.com');
+  ga('send', 'pageview');
+</script>
+<body>
+<a href="offer.html"><img src="images/download.png" class="img-head" alt=""></a>
+<div class="header">
+
+		<div class="container">
+			
+			<div class="logo">
+				<h1 ><a href="home.html"><b>T<br>H<br>E</b>ATN<span>The Best Toy Store Ever</span></a></h1>
+				<br><h2>WELCOME DIRECTOR</h2>
+			</div>
+			
+			<div class="header-ri">
+				<ul class="social-top">
+					<li><a href="#" class="icon facebook"><i class="fa fa-facebook" aria-hidden="true"></i><span></span></a></li>
+					<li><a href="#" class="icon twitter"><i class="fa fa-twitter" aria-hidden="true"></i><span></span></a></li>
+					<li><a href="#" class="icon pinterest"><i class="fa fa-pinterest-p" aria-hidden="true"></i><span></span></a></li>
+					<li><a href="#" class="icon dribbble"><i class="fa fa-dribbble" aria-hidden="true"></i><span></span></a></li>
+				</ul>	
+			</div>
+		
+
+				<div class="nav-top">
+					<nav class="navbar navbar-default">
+					
+					<div class="navbar-header nav_2">
+						<button type="button" class="navbar-toggle collapsed navbar-toggle1" data-toggle="collapse" data-target="#bs-megadropdown-tabs">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						
+
+					</div> 
+					<div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
+						<ul class="nav navbar-nav ">
+							<li class=" active"><a href="home.html" class="hyper "><span>Home</span></a></li>	
+							
+							<li class="dropdown ">
+								<a href="#" class="dropdown-toggle  hyper" data-toggle="dropdown" ><span>Products<b class="caret"></b></span></a>
+								<ul class="dropdown-menu multi">
+									<div class="row">
+										<div class="col-sm-3">
+											<ul class="multi-column-dropdown">
+			
+												<li><a href="kitchen.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Action Toys</a></li>
+												<li><a href="kitchen.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Learning Toys</a></li>
+												<li><a href="kitchen.html"> <i class="fa fa-angle-right" aria-hidden="true"></i>Outdoor Play</a></li>
+												<li><a href="kitchen.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Vehicles Figures</a></li>
+										
+											</ul>
+										
+										</div>
+										<div class="col-sm-3">
+										
+											<ul class="multi-column-dropdown">
+												<li><a href="kitchen.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Cards &amp; Puzzles</a></li>
+												<li><a href="kitchen.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Stuffed Animals</a></li>
+												<li><a href="kitchen.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Building Blocks</a></li>
+												<li><a href="kitchen.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Pretend Play &amp; Dressed up</a></li>
+												<li><a href="kitchen.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Preschool Toys</a></li>
+										
+											</ul>
+										
+									
+										</div>
+										<div class="col-sm-3 w3l">
+											<a href="kitchen.html"><img src="images/me.png" class="img-responsive" alt=""></a>
+										</div>
+										<div class="clearfix"></div>
+									</div>	
+								</ul>
+							</li>
+							<li><a href="ConnectToDB.php" class="hyper"> <span>User Database</span></a></li>
+							<li><a href="UpdateData.php" class="hyper"> <span>Update Data</span></a></li>
+							<li><a href="DeleteData.php" class="hyper"><span>Delete Data</span></a></li>
+						</ul>
+					</div>
+					</nav>
+					 <div class="cart" >
+					
+						<span class="fa fa-shopping-cart my-cart-icon"><span class="badge badge-notify my-cart-badge"></span></span>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+					
+				</div>			
+</div>
+  <!---->
+<div data-vide-bg="video/video">
+    <div class="container">
+		<div class="banner-info">
+			<h3>It is a long established fact that a reader will be distracted by 
+			the readable </h3>	
+			<div class="search-form">
+				<form action="#" method="post">
+					<input type="text" placeholder="Search..." name="Search...">
+					<input type="submit" value=" " >
+				</form>
+			</div>		
+		</div>	
+    </div>
+</div>
+
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.1.min.js"><\/script>')</script>
+    <script src="js/jquery.vide.min.js"></script>
+
+<!--content-->
+<!---728x90--->
+
+<div class="content-top ">
+	<div class="container ">
+		<div class="spec ">
+			<h3>Special Offers</h3>
+			<div class="ser-t">
+				<b></b>
+				<span><i></i></span>
+				<b class="line"></b>
+			</div>
+		</div>
+			<div class="tab-head ">
+				<nav class="nav-sidebar">
+					<ul class="nav tabs ">
+					  <li class="active"><a href="#tab1" data-toggle="tab">Action Toys</a></li>
+					  <li class=""><a href="#tab2" data-toggle="tab">Learning Toys</a></li> 
+					  <li class=""><a href="#tab3" data-toggle="tab">Stuffed Animals</a></li>  
+					  <li class=""><a href="#tab4" data-toggle="tab">Vehicle Figures</a></li>
+					</ul>
+				</nav>
+				<div class=" tab-content tab-content-t ">
+					<div class="tab-pane active text-style" id="tab1">
+						<div class=" con-w3l">
+							<div class="col-md-3 m-wthree">
+								<div class="col-m">								
+									<a href="#" data-toggle="modal" data-target="#myModal1" class="offer-img">
+										<img src="images/of.png" class="img-responsive" alt="">
+										<div class="offer"><p><span>Offer</span></p></div>
+									</a>
+									<div class="mid-1">
+										<div class="women">
+											<h6><a href="single.html">Kilmonger</a>(Figure)</h6>							
+										</div>
+										<div class="mid-2">
+											<p ><label>$20.00</label><em class="item_price">$16.50</em></p>
+											  <div class="block">
+												<div class="starbox small ghosting"> </div>
+											</div>
+											<div class="clearfix"></div>
+										</div>
+										<div class="add">
+										   <button class="btn btn-danger my-cart-btn my-cart-b " data-id="1" data-name="Kilmonger" data-summary="summary 1" data-price="16.50" data-quantity="1" data-image="images/of.png">Add to Cart</button>
+										</div>
+										
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 m-wthree">
+								<div class="col-m">
+									<a href="#" data-toggle="modal" data-target="#myModal2" class="offer-img">
+										<img src="images/of1.png" class="img-responsive" alt="">
+										<div class="offer"><p><span>Offer</span></p></div>
+									</a>
+									<div class="mid-1">
+										<div class="women">
+											<h6><a href="single.html">Power Rangers</a>(Toys)</h6>							
+										</div>
+										<div class="mid-2">
+											<p ><label>$50.00</label><em class="item_price">$35.99</em></p>
+											  <div class="block">
+												<div class="starbox small ghosting"> </div>
+											</div>
+											<div class="clearfix"></div>
+										</div>
+												<div class="add">
+										   <button class="btn btn-danger my-cart-btn my-cart-b" data-id="2" data-name="Power Rangers" data-summary="summary 2" data-price="35.99" data-quantity="1" data-image="images/of1.png">Add to Cart</button>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 m-wthree">
+								<div class="col-m">
+									<a href="#" data-toggle="modal" data-target="#myModal3" class="offer-img">
+										<img src="images/of2.png" class="img-responsive" alt="">
+										<div class="offer"><p><span>Offer</span></p></div>
+									</a>
+									<div class="mid-1">
+										<div class="women">
+											<h6><a href="single.html">Darth Vader</a>(Figure)</h6>							
+										</div>
+										<div class="mid-2">
+											<p ><label>$30.00</label><em class="item_price">$20.99</em></p>
+											  <div class="block">
+												<div class="starbox small ghosting"> </div>
+											</div>
+											<div class="clearfix"></div>
+										</div>
+											<div class="add">
+										   <button class="btn btn-danger my-cart-btn my-cart-b" data-id="3" data-name="Darth Vader" data-summary="summary 3" data-price="20.99" data-quantity="1" data-image="images/of2.png">Add to Cart</button>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 m-wthree">
+								<div class="col-m">
+									<a href="#" data-toggle="modal" data-target="#myModal4" class="offer-img">
+										<img src="images/of3.png" class="img-responsive" alt="">
+										<div class="offer"><p><span>Offer</span></p></div>
+									</a>
+									<div class="mid-1">
+										<div class="women">
+											<h6><a href="single.html">Robot</a>(Moving Toy)</h6>							
+										</div>
+										<div class="mid-2">
+											<p ><label>$45.00</label><em class="item_price">$33.50</em></p>
+											  <div class="block">
+												<div class="starbox small ghosting"> </div>
+											</div>
+											<div class="clearfix"></div>
+										</div>
+											<div class="add">
+										   <button class="btn btn-danger my-cart-btn my-cart-b" data-id="4" data-name="Robot" data-summary="summary 4" data-price="33.50" data-quantity="1" data-image="images/of3.png">Add to Cart</button>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="clearfix"></div>
+						 </div>
+					</div>
+					<div class="tab-pane  text-style" id="tab2">
+						<div class=" con-w3l">
+							<div class="col-md-3 m-wthree">
+								<div class="col-m">
+									<a href="#" data-toggle="modal" data-target="#myModal5" class="offer-img">
+										<img src="images/of4.png" class="img-responsive" alt="">
+										<div class="offer"><p><span>Offer</span></p></div>
+									</a>
+									<div class="mid-1">
+										<div class="women">
+											<h6><a href="single.html">Lays</a>(100 g)</h6>							
+										</div>
+										<div class="mid-2">
+											<p ><label>$1.00</label><em class="item_price">$0.70</em></p>
+											  <div class="block">
+												<div class="starbox small ghosting"> </div>
+											</div>
+											<div class="clearfix"></div>
+										</div>
+											<div class="add">
+										   <button class="btn btn-danger my-cart-btn my-cart-b" data-id="5" data-name="Lays" data-summary="summary 5" data-price="0.70" data-quantity="1" data-image="images/of4.png">Add to Cart</button>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 m-wthree">
+								<div class="col-m">
+									<a href="#" data-toggle="modal" data-target="#myModal6" class="offer-img">
+										<img src="images/of5.png" class="img-responsive" alt="">
+										<div class="offer"><p><span>Offer</span></p></div>
+									</a>
+									<div class="mid-1">
+										<div class="women">
+											<h6><a href="single.html">Kurkure</a>(100 g)</h6>							
+										</div>
+										<div class="mid-2">
+											<p ><label>$1.00</label><em class="item_price">$0.70</em></p>
+											  <div class="block">
+												<div class="starbox small ghosting"> </div>
+											</div>
+											<div class="clearfix"></div>
+										</div>
+											<div class="add">
+										   <button class="btn btn-danger my-cart-btn my-cart-b" data-id="6" data-name="Kurkure" data-summary="summary 6" data-price="0.70" data-quantity="1" data-image="images/of5.png">Add to Cart</button>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 m-wthree">
+								<div class="col-m">
+									<a href="#" data-toggle="modal" data-target="#myModal7" class="offer-img">
+										<img src="images/of6.png" class="img-responsive" alt="">
+										<div class="offer"><p><span>Offer</span></p></div>
+									</a>
+									<div class="mid-1">
+										<div class="women">
+											<h6><a href="single.html">Popcorn</a>(250 g)</h6>							
+										</div>
+										<div class="mid-2">
+											<p ><label>$2.00</label><em class="item_price">$1.00</em></p>
+											  <div class="block">
+												<div class="starbox small ghosting"> </div>
+											</div>
+											<div class="clearfix"></div>
+										</div>
+											<div class="add">
+										   <button class="btn btn-danger my-cart-btn my-cart-b" data-id="7" data-name="Popcorn" data-summary="summary 7" data-price="1.00" data-quantity="1" data-image="images/of6.png">Add to Cart</button>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 m-wthree">
+								<div class="col-m">
+									<a href="#" data-toggle="modal" data-target="#myModal8" class="offer-img">
+										<img src="images/of7.png" class="img-responsive" alt="">
+										<div class="offer"><p><span>Offer</span></p></div>
+									</a>
+									<div class="mid-1">
+										<div class="women">
+											<h6><a href="single.html">Nuts</a>(250 g)</h6>							
+										</div>
+										<div class="mid-2">
+											<p ><label>$4.00</label><em class="item_price">$3.50</em></p>
+											  <div class="block">
+												<div class="starbox small ghosting"> </div>
+											</div>
+											<div class="clearfix"></div>
+										</div>
+											<div class="add">
+										   <button class="btn btn-danger my-cart-btn my-cart-b" data-id="8" data-name="Nuts" data-summary="summary 8" data-price="3.50" data-quantity="1" data-image="images/of7.png">Add to Cart</button>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="clearfix"></div>
+						 </div>		  
+					</div>
+					<div class="tab-pane  text-style" id="tab3">
+						<div class=" con-w3l">
+							<div class="col-md-3 m-wthree">
+								<div class="col-m">
+								<a href="#" data-toggle="modal" data-target="#myModal9" class="offer-img">
+										<img src="images/of8.png" class="img-responsive" alt="">
+										<div class="offer"><p><span>Offer</span></p></div>
+									</a>
+									<div class="mid-1">
+										<div class="women">
+											<h6><a href="single.html">Banana</a>(6 pcs)</h6>							
+										</div>
+										<div class="mid-2">
+											<p ><label>$2.00</label><em class="item_price">$1.50</em></p>
+											  <div class="block">
+												<div class="starbox small ghosting"> </div>
+											</div>
+											<div class="clearfix"></div>
+										</div>
+											<div class="add">
+										   <button class="btn btn-danger my-cart-btn my-cart-b" data-id="9" data-name="Banana" data-summary="summary 9" data-price="1.50" data-quantity="1" data-image="images/of8.png">Add to Cart</button>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 m-wthree">
+								<div class="col-m">
+									<a href="#" data-toggle="modal" data-target="#myModal10" class="offer-img">
+										<img src="images/of9.png" class="img-responsive" alt="">
+										<div class="offer"><p><span>Offer</span></p></div>
+									</a>
+									<div class="mid-1">
+										<div class="women">
+											<h6><a href="single.html">Onion</a>(1 kg)</h6>							
+										</div>
+										<div class="mid-2">
+											<p ><label>$1.00</label><em class="item_price">$0.70</em></p>
+											  <div class="block">
+												<div class="starbox small ghosting"> </div>
+											</div>
+											<div class="clearfix"></div>
+										</div>
+											<div class="add">
+										   <button class="btn btn-danger my-cart-btn my-cart-b" data-id="10" data-name="Onion" data-summary="summary 10" data-price="0.70" data-quantity="1" data-image="images/of9.png">Add to Cart</button>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 m-wthree">
+								<div class="col-m">
+									<a href="#" data-toggle="modal" data-target="#myModal11" class="offer-img">
+										<img src="images/of10.png" class="img-responsive" alt="">
+										<div class="offer"><p><span>Offer</span></p></div>
+									</a>
+									<div class="mid-1">
+										<div class="women">
+											<h6><a href="single.html"> Bitter Gourd</a>(1 kg)</h6>							
+										</div>
+										<div class="mid-2">
+											<p ><label>$2.00</label><em class="item_price">$1.00</em></p>
+											  <div class="block">
+												<div class="starbox small ghosting"> </div>
+											</div>
+											<div class="clearfix"></div>
+										</div>
+											<div class="add">
+										   <button class="btn btn-danger my-cart-btn my-cart-b" data-id="11" data-name="Bitter Gourd" data-summary="summary 11" data-price="1.00" data-quantity="1" data-image="images/of10.png">Add to Cart</button>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 m-wthree">
+								<div class="col-m">
+									<a href="#" data-toggle="modal" data-target="#myModal12" class="offer-img">
+										<img src="images/of11.png" class="img-responsive" alt="">
+										<div class="offer"><p><span>Offer</span></p></div>
+									</a>
+									<div class="mid-1">
+										<div class="women">
+											<h6><a href="single.html">Apples</a>(1 kg)</h6>							
+										</div>
+										<div class="mid-2">
+											<p ><label>$4.00</label><em class="item_price">$3.50</em></p>
+											  <div class="block">
+												<div class="starbox small ghosting"> </div>
+											</div>
+											<div class="clearfix"></div>
+										</div>
+											<div class="add">
+										   <button class="btn btn-danger my-cart-btn my-cart-b" data-id="12" data-name="Apples" data-summary="summary 12" data-price="3.50" data-quantity="1" data-image="images/of11.png">Add to Cart</button>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="clearfix"></div>
+						 </div>		  
+					</div>
+					<div class="tab-pane text-style" id="tab4">
+							<div class=" con-w3l">
+							<div class="col-md-3 m-wthree">
+								<div class="col-m">
+								<a href="#" data-toggle="modal" data-target="#myModal13" class="offer-img">
+										<img src="images/of12.png" class="img-responsive" alt="">
+										<div class="offer"><p><span>Offer</span></p></div>
+									</a>
+									<div class="mid-1">
+										<div class="women">
+											<h6><a href="single.html">Honey</a>(500 g)</h6>							
+										</div>
+										<div class="mid-2">
+											<p ><label>$7.00</label><em class="item_price">$6.00</em></p>
+											  <div class="block">
+												<div class="starbox small ghosting"> </div>
+											</div>
+											<div class="clearfix"></div>
+										</div>
+											<div class="add">
+										   <button class="btn btn-danger my-cart-btn my-cart-b" data-id="13" data-name="Honey" data-summary="summary 13" data-price="6.00" data-quantity="1" data-image="images/of12.png">Add to Cart</button>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 m-wthree">
+								<div class="col-m ">
+									<a href="#" data-toggle="modal" data-target="#myModal14" class="offer-img">
+										<img src="images/of13.png" class="img-responsive" alt="">
+										<div class="offer"><p><span>Offer</span></p></div>
+									</a>
+									<div class="mid-1">
+										<div class="women">
+											<h6><a href="single.html">Chocos</a>(250 g)</h6>							
+										</div>
+										<div class="mid-2">
+											<p ><label>$5.00</label><em class="item_price">$4.50</em></p>
+											  <div class="block">
+												<div class="starbox small ghosting"> </div>
+											</div>
+											<div class="clearfix"></div>
+										</div>
+											<div class="add">
+										   <button class="btn btn-danger my-cart-btn my-cart-b" data-id="14" data-name="Chocos" data-summary="summary 14" data-price="4.50" data-quantity="1" data-image="images/of13.png">Add to Cart</button>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 m-wthree">
+								<div class="col-m ">
+									<a href="#" data-toggle="modal" data-target="#myModal15" class="offer-img">
+										<img src="images/of14.png" class="img-responsive" alt="">
+										<div class="offer"><p><span>Offer</span></p></div>
+									</a>
+									<div class="mid-1">
+										<div class="women">
+											<h6><a href="single.html">Oats</a>(1 kg)</h6>							
+										</div>
+										<div class="mid-2">
+											<p ><label>$4.00</label><em class="item_price">$3.50</em></p>
+											  <div class="block">
+												<div class="starbox small ghosting"> </div>
+											</div>
+											<div class="clearfix"></div>
+										</div>
+											<div class="add">
+										   <button class="btn btn-danger my-cart-btn my-cart-b" data-id="15" data-name="Oats" data-summary="summary 15" data-price="3.50" data-quantity="1" data-image="images/of14.png">Add to Cart</button>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 m-wthree">
+								<div class="col-m">
+									<a href="#" data-toggle="modal" data-target="#myModal16" class="offer-img">
+										<img src="images/of15.png" class="img-responsive" alt="">
+										<div class="offer"><p><span>Offer</span></p></div>
+									</a>
+									<div class="mid-1">
+										<div class="women">
+											<h6><a href="single.html">Bread</a>(500 g)</h6>							
+										</div>
+										<div class="mid-2">
+											<p ><label>$1.00</label><em class="item_price">$0.80</em></p>
+											  <div class="block">
+												<div class="starbox small ghosting"> </div>
+											</div>
+											<div class="clearfix"></div>
+										</div>
+											<div class="add">
+										   <button class="btn btn-danger my-cart-btn my-cart-b" data-id="16" data-name="Bread" data-summary="summary 16" data-price="0.80" data-quantity="1" data-image="images/of15.png">Add to Cart</button>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="clearfix"></div>
+						 </div>
+					</div>
+				</div>
+			</div>
+		
+	</div>
+	</div>
+	</div>
+<!---728x90--->
+
+<!--content-->
+<div class="content-mid">
+	<div class="container">
+		
+		<div class="col-md-4 m-w3ls">
+			<div class="col-md1 ">
+				<a href="kitchen.html">
+					<img src="images/co1.jpg" class="img-responsive img" alt="">
+					<div class="big-sa">
+						<h6>New Collections</h6>
+						<h3>Season<span>ing </span></h3>
+						<p>There are many variations of passages of Lorem Ipsum available, but the majority </p>
+					</div>
+				</a>
+			</div>
+		</div>
+		<div class="col-md-4 m-w3ls1">
+			<div class="col-md ">
+				<a href="hold.html">
+					<img src="images/co.jpg" class="img-responsive img" alt="">
+					<div class="big-sale">
+						<div class="big-sale1">
+							<h3>Big <span>Sale</span></h3>
+							<p>It is a long established fact that a reader </p>
+						</div>
+					</div>
+				</a>
+			</div>
+		</div>
+		<div class="col-md-4 m-w3ls">
+			<div class="col-md2 ">
+				<a href="kitchen.html">
+					<img src="images/co2.jpg" class="img-responsive img1" alt="">
+					<div class="big-sale2">
+						<h3>Cooking <span>Oil</span></h3>
+						<p>It is a long established fact that a reader </p>		
+					</div>
+				</a>
+			</div>
+			<div class="col-md3 ">
+				<a href="hold.html">
+					<img src="images/co3.jpg" class="img-responsive img1" alt="">
+					<div class="big-sale3">
+						<h3>Vegeta<span>bles</span></h3>
+						<p>It is a long established fact that a reader </p>
+					</div>
+				</a>
+			</div>
+		</div>
+		<div class="clearfix"></div>
+	</div>
+</div>
+<!--content-->
+<!---728x90--->
+
+  <!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+         <a href="kitchen.html"> <img class="first-slide" src="images/ba.jpg" alt="First slide"></a>
+       
+        </div>
+        <div class="item">
+         <a href="care.html"> <img class="second-slide " src="images/ba1.jpg" alt="Second slide"></a>
+         
+        </div>
+        <div class="item">
+          <a href="hold.html"><img class="third-slide " src="images/ba2.jpg" alt="Third slide"></a>
+          
+        </div>
+      </div>
+    
+    </div><!-- /.carousel -->
+
+<!--content-->
+	<div class="product">
+		<div class="container">
+			<div class="spec ">
+				<h3>Special Offers</h3>
+				<div class="ser-t">
+					<b></b>
+					<span><i></i></span>
+					<b class="line"></b>
+				</div>
+			</div>
+				<div class=" con-w3l">
+							<div class="col-md-3 pro-1">
+								<div class="col-m">
+								<a href="#" data-toggle="modal" data-target="#myModal17" class="offer-img">
+										<img src="images/of16.png" class="img-responsive" alt="">
+									</a>
+									<div class="mid-1">
+										<div class="women">
+											<h6><a href="single.html">Moisturiser</a>(500 g)</h6>							
+										</div>
+										<div class="mid-2">
+											<p ><label>$7.00</label><em class="item_price">$6.00</em></p>
+											  <div class="block">
+												<div class="starbox small ghosting"> </div>
+											</div>
+											<div class="clearfix"></div>
+										</div>
+											<div class="add add-2">
+										   <button class="btn btn-danger my-cart-btn my-cart-b" data-id="1" data-name="product 1" data-summary="summary 1" data-price="6.00" data-quantity="1" data-image="images/of16.png">Add to Cart</button>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 pro-1">
+								<div class="col-m">
+									<a href="#" data-toggle="modal" data-target="#myModal18" class="offer-img">
+										<img src="images/of17.png" class="img-responsive" alt="">
+									</a>
+									<div class="mid-1">
+										<div class="women">
+											<h6><a href="single.html">  Lady Finger</a>(250 g)</h6>							
+										</div>
+										<div class="mid-2">
+											<p ><label>$5.00</label><em class="item_price">$4.50</em></p>
+											  <div class="block">
+												<div class="starbox small ghosting"> </div>
+											</div>
+											<div class="clearfix"></div>
+										</div>
+											<div class="add">
+										   <button class="btn btn-danger my-cart-btn my-cart-b" data-id="1" data-name="product 1" data-summary="summary 1" data-price="4.50" data-quantity="1" data-image="images/of17.png">Add to Cart</button>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 pro-1">
+								<div class="col-m">
+									<a href="#" data-toggle="modal" data-target="#myModal19" class="offer-img">
+										<img src="images/of18.png" class="img-responsive" alt="">
+									</a>
+									<div class="mid-1">
+										<div class="women">
+											<h6><a href="single.html"> Ribbon</a>(1 pc)</h6>							
+										</div>
+										<div class="mid-2">
+											<p ><label>$4.00</label><em class="item_price">$3.50</em></p>
+											  <div class="block">
+												<div class="starbox small ghosting"> </div>
+											</div>
+											<div class="clearfix"></div>
+										</div>
+											<div class="add">
+										   <button class="btn btn-danger my-cart-btn my-cart-b" data-id="1" data-name="product 1" data-summary="summary 1" data-price="3.50" data-quantity="1" data-image="images/of18.png">Add to Cart</button>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 pro-1">
+								<div class="col-m">
+									<a href="#" data-toggle="modal" data-target="#myModal20" class="offer-img">
+										<img src="images/of19.png" class="img-responsive" alt="">
+									</a>
+									<div class="mid-1">
+										<div class="women">
+											<h6><a href="single.html">Grapes</a>(500 g)</h6>							
+										</div>
+										<div class="mid-2">
+											<p ><label>$1.00</label><em class="item_price">$0.80</em></p>
+											  <div class="block">
+												<div class="starbox small ghosting"> </div>
+											</div>
+											<div class="clearfix"></div>
+										</div>
+											<div class="add">
+										   <button class="btn btn-danger my-cart-btn my-cart-b" data-id="1" data-name="product 1" data-summary="summary 1" data-price="0.80" data-quantity="1" data-image="images/of19.png">Add to Cart</button>
+										</div>
+									</div>
+								</div>
+							</div>
+							
+							<div class="col-md-3 pro-1">
+								<div class="col-m">
+								<a href="#" data-toggle="modal" data-target="#myModal21" class="offer-img">
+										<img src="images/of20.png" class="img-responsive" alt="">
+									</a>
+									<div class="mid-1">
+										<div class="women">
+											<h6><a href="single.html">Clips</a>(1 pack)</h6>							
+										</div>
+										<div class="mid-2">
+											<p ><label>$7.00</label><em class="item_price">$6.00</em></p>
+											  <div class="block">
+												<div class="starbox small ghosting"> </div>
+											</div>
+											<div class="clearfix"></div>
+										</div>
+											<div class="add">
+										   <button class="btn btn-danger my-cart-btn my-cart-b" data-id="1" data-name="product 1" data-summary="summary 1" data-price="6.00" data-quantity="1" data-image="images/of20.png">Add to Cart</button>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 pro-1">
+								<div class="col-m">
+									<a href="#" data-toggle="modal" data-target="#myModal22" class="offer-img">
+										<img src="images/of21.png" class="img-responsive" alt="">
+									</a>
+									<div class="mid-1">
+										<div class="women">
+											<h6><a href="single.html">Conditioner</a>(250 g)</h6>							
+										</div>
+										<div class="mid-2">
+											<p ><label>$5.00</label><em class="item_price">$4.50</em></p>
+											  <div class="block">
+												<div class="starbox small ghosting"> </div>
+											</div>
+											<div class="clearfix"></div>
+										</div>
+											<div class="add">
+										   <button class="btn btn-danger my-cart-btn my-cart-b" data-id="1" data-name="product 1" data-summary="summary 1" data-price="4.50" data-quantity="1" data-image="images/of21.png">Add to Cart</button>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 pro-1">
+								<div class="col-m">
+									<a href="#" data-toggle="modal" data-target="#myModal23" class="offer-img">
+										<img src="images/of22.png" class="img-responsive" alt="">
+									</a>
+									<div class="mid-1">
+										<div class="women">
+											<h6><a href="single.html">Cleaner</a>(250 kg)</h6>							
+										</div>
+										<div class="mid-2">
+											<p ><label>$4.00</label><em class="item_price">$3.50</em></p>
+											  <div class="block">
+												<div class="starbox small ghosting"> </div>
+											</div>
+											<div class="clearfix"></div>
+										</div>
+											<div class="add">
+										   <button class="btn btn-danger my-cart-btn my-cart-b" data-id="1" data-name="product 1" data-summary="summary 1" data-price="3.50" data-quantity="1" data-image="images/of22.png">Add to Cart</button>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 pro-1">
+								<div class="col-m">
+									<a href="#" data-toggle="modal" data-target="#myModal24" class="offer-img">
+										<img src="images/of23.png" class="img-responsive" alt="">
+									</a>
+									<div class="mid-1">
+										<div class="women">
+											<h6><a href="single.html">Gel</a>(150 g)</h6>							
+										</div>
+										<div class="mid-2">
+											<p ><label>$1.00</label><em class="item_price">$0.80</em></p>
+											  <div class="block">
+												<div class="starbox small ghosting"> </div>
+											</div>
+											<div class="clearfix"></div>
+										</div>
+											<div class="add">
+										   <button class="btn btn-danger my-cart-btn my-cart-b" data-id="1" data-name="product 1" data-summary="summary 1" data-price="0.80" data-quantity="1" data-image="images/of23.png">Add to Cart</button>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="clearfix"></div>
+						 </div>
+		</div>
+	</div>
+<!--footer-->
+<div class="footer">
+	<div class="container">
+		<div class="col-md-3 footer-grid">
+			<h3>About Us</h3>
+			<p>Nam libero tempore, cum soluta nobis est eligendi 
+				optio cumque nihil impedit quo minus id quod maxime 
+				placeat facere possimus.</p>
+		</div>
+		<div class="col-md-3 footer-grid ">
+			<h3>Menu</h3>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="kitchen.html">Kitchen</a></li>
+				<li><a href="care.html">Personal Care</a></li>
+				<li><a href="hold.html">Household</a></li>						 
+				<li><a href="codes.html">Short Codes</a></li> 
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</div>
+		<div class="col-md-3 footer-grid ">
+			<h3>Customer Services</h3>
+			<ul>
+				<li><a href="shipping.html">Shipping</a></li>
+				<li><a href="terms.html">Terms & Conditions</a></li>
+				<li><a href="faqs.html">Faqs</a></li>
+				<li><a href="contact.html">Contact</a></li>
+				<li><a href="offer.html">Online Shopping</a></li>						 
+				 
+			</ul>
+		</div>
+		<div class="col-md-3 footer-grid">
+			<h3>My Account</h3>
+			<ul>
+				<li><a href="login.html">Login</a></li>
+				<li><a href="register.html">Register</a></li>
+				<li><a href="wishlist.html">Wishlist</a></li>
+				
+			</ul>
+		</div>
+		<div class="clearfix"></div>
+			<div class="footer-bottom">
+				<h2 ><a href="index.html"><b>T<br>H<br>E</b>Big Store<span>The Best Supermarket</span></a></h2>
+				<p class="fo-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>
+				<ul class="social-fo">
+					<li><a href="#" class=" face"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+					<li><a href="#" class=" twi"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+					<li><a href="#" class=" pin"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
+					<li><a href="#" class=" dri"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
+				</ul>
+				<div class=" address">
+					<div class="col-md-4 fo-grid1">
+							<p><i class="fa fa-home" aria-hidden="true"></i>12K Street , 45 Building Road Canada.</p>
+					</div>
+					<div class="col-md-4 fo-grid1">
+							<p><i class="fa fa-phone" aria-hidden="true"></i>+1234 758 839 , +1273 748 730</p>	
+					</div>
+					<div class="col-md-4 fo-grid1">
+						<p><a href="mailto:info@example.com"><i class="fa fa-envelope-o" aria-hidden="true"></i>info@example1.com</a></p>
+					</div>
+					<div class="clearfix"></div>
+					
+					</div>
+			</div>
+		<div class="copy-right">
+			<p> &copy; 2016 Big store. All Rights Reserved | Design by  <a href="http://w3layouts.com/"> W3layouts</a></p>
+		</div>
+	</div>
+</div>
+<!-- //footer-->
+
+<!-- smooth scrolling -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+		/*
+			var defaults = {
+			containerID: 'toTop', // fading element id
+			containerHoverID: 'toTopHover', // fading element hover id
+			scrollSpeed: 1200,
+			easingType: 'linear' 
+			};
+		*/								
+		$().UItoTop({ easingType: 'easeOutQuart' });
+		});
+	</script>
+	<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+<!-- //smooth scrolling -->
+<!-- for bootstrap working -->
+		<script src="js/bootstrap.js"></script>
+<!-- //for bootstrap working -->
+<script type='text/javascript' src="js/jquery.mycart.js"></script>
+  <script type="text/javascript">
+  $(function () {
+
+    var goToCartIcon = function($addTocartBtn){
+      var $cartIcon = $(".my-cart-icon");
+      var $image = $('<img width="30px" height="30px" src="' + $addTocartBtn.data("image") + '"/>').css({"position": "fixed", "z-index": "999"});
+      $addTocartBtn.prepend($image);
+      var position = $cartIcon.position();
+      $image.animate({
+        top: position.top,
+        left: position.left
+      }, 500 , "linear", function() {
+        $image.remove();
+      });
+    }
+
+    $('.my-cart-btn').myCart({
+      classCartIcon: 'my-cart-icon',
+      classCartBadge: 'my-cart-badge',
+      affixCartIcon: true,
+      checkoutCart: function(products) {
+        $.each(products, function(){
+          console.log(this);
+        });
+      },
+      clickOnAddToCart: function($addTocart){
+        goToCartIcon($addTocart);
+      },
+      getDiscountPrice: function(products) {
+        var total = 0;
+        $.each(products, function(){
+          total += this.quantity * this.price;
+        });
+        return total * 1;
+      }
+    });
+
+  });
+  </script>
+  
+  <!-- product -->
+			<div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content modal-info">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
+						</div>
+						<div class="modal-body modal-spa">
+								<div class="col-md-5 span-2">
+											<div class="item">
+												<img src="images/of.png" class="img-responsive" alt="">
+											</div>
+								</div>
+								<div class="col-md-7 span-1 ">
+									<h3>Moong(1 kg)</h3>
+									<p class="in-para"> There are many variations of passages of Lorem Ipsum.</p>
+									<div class="price_single">
+									  <span class="reducedfrom "><del>$2.00</del>$1.50</span>
+									
+									 <div class="clearfix"></div>
+									</div>
+									<h4 class="quick">Quick Overview:</h4>
+									<p class="quick_desc"> Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; es</p>
+									 <div class="add-to">
+										   <button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="1" data-name="Moong" data-summary="summary 1" data-price="1.50" data-quantity="1" data-image="images/of.png">Add to Cart</button>
+										</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+					</div>
+				</div>
+<!-- product -->
+			<div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content modal-info">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
+						</div>
+						<div class="modal-body modal-spa">
+								<div class="col-md-5 span-2">
+											<div class="item">
+												<img src="images/of1.png" class="img-responsive" alt="">
+											</div>
+								</div>
+								<div class="col-md-7 span-1 ">
+									<h3>Sunflower Oil(5 kg)</h3>
+									<p class="in-para"> There are many variations of passages of Lorem Ipsum.</p>
+									<div class="price_single">
+									  <span class="reducedfrom "><del>$10.00</del>$9.00</span>
+									
+									 <div class="clearfix"></div>
+									</div>
+									<h4 class="quick">Quick Overview:</h4>
+									<p class="quick_desc"> Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; es</p>
+									 <div class="add-to">
+										   <button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="2" data-name="Sunflower Oil" data-summary="summary 2" data-price="9.00" data-quantity="1" data-image="images/of1.png">Add to Cart</button>
+										</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- product -->
+			<div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content modal-info">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
+						</div>
+						<div class="modal-body modal-spa">
+								<div class="col-md-5 span-2">
+											<div class="item">
+												<img src="images/of2.png" class="img-responsive" alt="">
+											</div>
+								</div>
+								<div class="col-md-7 span-1 ">
+									<h3>Kabuli Chana(1 kg)</h3>
+									<p class="in-para"> There are many variations of passages of Lorem Ipsum.</p>
+									<div class="price_single">
+									  <span class="reducedfrom "><del>$3.00</del>$2.00</span>
+									
+									 <div class="clearfix"></div>
+									</div>
+									<h4 class="quick">Quick Overview:</h4>
+									<p class="quick_desc"> Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; es</p>
+									 <div class="add-to">
+										   <button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="3" data-name="Kabuli Chana" data-summary="summary 3" data-price="2.00" data-quantity="1" data-image="images/of2.png">Add to Cart</button>
+										</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- product -->
+			<div class="modal fade" id="myModal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content modal-info">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
+						</div>
+						<div class="modal-body modal-spa">
+								<div class="col-md-5 span-2">
+											<div class="item">
+												<img src="images/of3.png" class="img-responsive" alt="">
+											</div>
+								</div>
+								<div class="col-md-7 span-1 ">
+									<h3>Soya Chunks(1 kg)</h3>
+									<p class="in-para"> There are many variations of passages of Lorem Ipsum.</p>
+									<div class="price_single">
+									  <span class="reducedfrom "><del>$4.00</del>$3.50</span>
+									
+									 <div class="clearfix"></div>
+									</div>
+									<h4 class="quick">Quick Overview:</h4>
+									<p class="quick_desc"> Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; es</p>
+									 <div class="add-to">
+										   <button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="4" data-name="Soya Chunks" data-summary="summary 4" data-price="3.50" data-quantity="1" data-image="images/of3.png">Add to Cart</button>
+										</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- product -->
+			<div class="modal fade" id="myModal5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content modal-info">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
+						</div>
+						<div class="modal-body modal-spa">
+								<div class="col-md-5 span-2">
+											<div class="item">
+												<img src="images/of4.png" class="img-responsive" alt="">
+											</div>
+								</div>
+								<div class="col-md-7 span-1 ">
+									<h3>Lays(100 g)</h3>
+									<p class="in-para"> There are many variations of passages of Lorem Ipsum.</p>
+									<div class="price_single">
+									  <span class="reducedfrom "><del>$1.00</del>$0.70</span>
+									
+									 <div class="clearfix"></div>
+									</div>
+									<h4 class="quick">Quick Overview:</h4>
+									<p class="quick_desc"> Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; es</p>
+									 <div class="add-to">
+										   <button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="5" data-name="Lays" data-summary="summary 5" data-price="0.70" data-quantity="1" data-image="images/of4.png">Add to Cart</button>
+										</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- product -->
+			<div class="modal fade" id="myModal6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content modal-info">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
+						</div>
+						<div class="modal-body modal-spa">
+								<div class="col-md-5 span-2">
+											<div class="item">
+												<img src="images/of5.png" class="img-responsive" alt="">
+											</div>
+								</div>
+								<div class="col-md-7 span-1 ">
+									<h3>Kurkure(100 g)</h3>
+									<p class="in-para"> There are many variations of passages of Lorem Ipsum.</p>
+									<div class="price_single">
+									  <span class="reducedfrom "><del>$1.00</del>$0.70</span>
+									
+									 <div class="clearfix"></div>
+									</div>
+									<h4 class="quick">Quick Overview:</h4>
+									<p class="quick_desc"> Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; es</p>
+									 <div class="add-to">
+										   <button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="6" data-name="Kurkure" data-summary="summary 6" data-price="0.70" data-quantity="1" data-image="images/of5.png">Add to Cart</button>
+										</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- product -->
+			<div class="modal fade" id="myModal7" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content modal-info">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
+						</div>
+						<div class="modal-body modal-spa">
+								<div class="col-md-5 span-2">
+											<div class="item">
+												<img src="images/of6.png" class="img-responsive" alt="">
+											</div>
+								</div>
+								<div class="col-md-7 span-1 ">
+									<h3>Popcorn(250 g)</h3>
+									<p class="in-para"> There are many variations of passages of Lorem Ipsum.</p>
+									<div class="price_single">
+									  <span class="reducedfrom "><del>$2.00</del>$1.00</span>
+									
+									 <div class="clearfix"></div>
+									</div>
+									<h4 class="quick">Quick Overview:</h4>
+									<p class="quick_desc"> Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; es</p>
+									 <div class="add-to">
+										   <button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="7" data-name="Popcorn" data-summary="summary 7" data-price="1.00" data-quantity="1" data-image="images/of6.png">Add to Cart</button>
+										</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- product -->
+			<div class="modal fade" id="myModal8" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content modal-info">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
+						</div>
+						<div class="modal-body modal-spa">
+								<div class="col-md-5 span-2">
+											<div class="item">
+												<img src="images/of7.png" class="img-responsive" alt="">
+											</div>
+								</div>
+								<div class="col-md-7 span-1 ">
+									<h3>Nuts(250 g)</h3>
+									<p class="in-para"> There are many variations of passages of Lorem Ipsum.</p>
+									<div class="price_single">
+									  <span class="reducedfrom "><del>$4.00</del>$3.50</span>
+									
+									 <div class="clearfix"></div>
+									</div>
+									<h4 class="quick">Quick Overview:</h4>
+									<p class="quick_desc"> Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; es</p>
+									 <div class="add-to">
+										   <button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="8" data-name="Nuts" data-summary="summary 8" data-price="3.50" data-quantity="1" data-image="images/of7.png">Add to Cart</button>
+										</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- product -->
+			<div class="modal fade" id="myModal9" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content modal-info">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
+						</div>
+						<div class="modal-body modal-spa">
+								<div class="col-md-5 span-2">
+											<div class="item">
+												<img src="images/of8.png" class="img-responsive" alt="">
+											</div>
+								</div>
+								<div class="col-md-7 span-1 ">
+									<h3>Banana(6 pcs)</h3>
+									<p class="in-para"> There are many variations of passages of Lorem Ipsum.</p>
+									<div class="price_single">
+									  <span class="reducedfrom "><del>$2.00</del>$1.50</span>
+									
+									 <div class="clearfix"></div>
+									</div>
+									<h4 class="quick">Quick Overview:</h4>
+									<p class="quick_desc"> Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; es</p>
+									 <div class="add-to">
+										   <button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="9" data-name="Banana" data-summary="summary 9" data-price="1.50" data-quantity="1" data-image="images/of8.png">Add to Cart</button>
+										</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- product -->
+			<div class="modal fade" id="myModal10" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content modal-info">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
+						</div>
+						<div class="modal-body modal-spa">
+								<div class="col-md-5 span-2">
+											<div class="item">
+												<img src="images/of9.png" class="img-responsive" alt="">
+											</div>
+								</div>
+								<div class="col-md-7 span-1 ">
+									<h3>Onion(1 kg)</h3>
+									<p class="in-para"> There are many variations of passages of Lorem Ipsum.</p>
+									<div class="price_single">
+									  <span class="reducedfrom "><del>$1.00</del>$0.70</span>
+									
+									 <div class="clearfix"></div>
+									</div>
+									<h4 class="quick">Quick Overview:</h4>
+									<p class="quick_desc"> Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; es</p>
+									 <div class="add-to">
+										   <button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="10" data-name="Onion" data-summary="summary 10" data-price="0.70" data-quantity="1" data-image="images/of9.png">Add to Cart</button>
+										</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- product -->
+			<div class="modal fade" id="myModal11" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content modal-info">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
+						</div>
+						<div class="modal-body modal-spa">
+								<div class="col-md-5 span-2">
+											<div class="item">
+												<img src="images/of10.png" class="img-responsive" alt="">
+											</div>
+								</div>
+								<div class="col-md-7 span-1 ">
+									<h3>Bitter Gourd(1 kg)</h3>
+									<p class="in-para"> There are many variations of passages of Lorem Ipsum.</p>
+									<div class="price_single">
+									  <span class="reducedfrom "><del>$2.00</del>$1.00</span>
+									
+									 <div class="clearfix"></div>
+									</div>
+									<h4 class="quick">Quick Overview:</h4>
+									<p class="quick_desc"> Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; es</p>
+									 <div class="add-to">
+										   <button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="11" data-name="Bitter Gourd" data-summary="summary 11" data-price="1.00" data-quantity="1" data-image="images/of10.png">Add to Cart</button>
+										</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- product -->
+			<div class="modal fade" id="myModal12" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content modal-info">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
+						</div>
+						<div class="modal-body modal-spa">
+								<div class="col-md-5 span-2">
+											<div class="item">
+												<img src="images/of11.png" class="img-responsive" alt="">
+											</div>
+								</div>
+								<div class="col-md-7 span-1 ">
+									<h3>Apples(1 kg)</h3>
+									<p class="in-para"> There are many variations of passages of Lorem Ipsum.</p>
+									<div class="price_single">
+									  <span class="reducedfrom "><del>$4.00</del>$3.50</span>
+									
+									 <div class="clearfix"></div>
+									</div>
+									<h4 class="quick">Quick Overview:</h4>
+									<p class="quick_desc"> Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; es</p>
+									 <div class="add-to">
+										   <button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="12" data-name="Apples" data-summary="summary 12" data-price="3.50" data-quantity="1" data-image="images/of11.png">Add to Cart</button>
+										</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- product -->
+			<div class="modal fade" id="myModal13" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content modal-info">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
+						</div>
+						<div class="modal-body modal-spa">
+								<div class="col-md-5 span-2">
+											<div class="item">
+												<img src="images/of12.png" class="img-responsive" alt="">
+											</div>
+								</div>
+								<div class="col-md-7 span-1 ">
+									<h3>Honey(500 g)</h3>
+									<p class="in-para"> There are many variations of passages of Lorem Ipsum.</p>
+									<div class="price_single">
+									  <span class="reducedfrom "><del>$7.00</del>$6.00</span>
+									
+									 <div class="clearfix"></div>
+									</div>
+									<h4 class="quick">Quick Overview:</h4>
+									<p class="quick_desc"> Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; es</p>
+									 <div class="add-to">
+										   <button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="13" data-name="Honey" data-summary="summary 13" data-price="6.00" data-quantity="1" data-image="images/of12.png">Add to Cart</button>
+										</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- product -->
+			<div class="modal fade" id="myModal14" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content modal-info">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
+						</div>
+						<div class="modal-body modal-spa">
+								<div class="col-md-5 span-2">
+											<div class="item">
+												<img src="images/of13.png" class="img-responsive" alt="">
+											</div>
+								</div>
+								<div class="col-md-7 span-1 ">
+									<h3>Chocos(250 g)</h3>
+									<p class="in-para"> There are many variations of passages of Lorem Ipsum.</p>
+									<div class="price_single">
+									  <span class="reducedfrom "><del>$5.00</del>$4.50</span>
+									
+									 <div class="clearfix"></div>
+									</div>
+									<h4 class="quick">Quick Overview:</h4>
+									<p class="quick_desc"> Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; es</p>
+									 <div class="add-to">
+										   <button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="14" data-name="Chocos" data-summary="summary 14" data-price="4.50" data-quantity="1" data-image="images/of13.png">Add to Cart</button>
+										</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- product -->
+			<div class="modal fade" id="myModal15" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content modal-info">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
+						</div>
+						<div class="modal-body modal-spa">
+								<div class="col-md-5 span-2">
+											<div class="item">
+												<img src="images/of14.png" class="img-responsive" alt="">
+											</div>
+								</div>
+								<div class="col-md-7 span-1 ">
+									<h3>Oats(1 kg)</h3>
+									<p class="in-para"> There are many variations of passages of Lorem Ipsum.</p>
+									<div class="price_single">
+									  <span class="reducedfrom "><del>$4.00</del>$3.50</span>
+									
+									 <div class="clearfix"></div>
+									</div>
+									<h4 class="quick">Quick Overview:</h4>
+									<p class="quick_desc"> Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; es</p>
+									 <div class="add-to">
+										   <button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="15" data-name="Oats" data-summary="summary 15" data-price="3.50" data-quantity="1" data-image="images/of14.png">Add to Cart</button>
+										</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- product -->
+			<div class="modal fade" id="myModal16" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content modal-info">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
+						</div>
+						<div class="modal-body modal-spa">
+								<div class="col-md-5 span-2">
+											<div class="item">
+												<img src="images/of15.png" class="img-responsive" alt="">
+											</div>
+								</div>
+								<div class="col-md-7 span-1 ">
+									<h3>Bread(500 g)</h3>
+									<p class="in-para"> There are many variations of passages of Lorem Ipsum.</p>
+									<div class="price_single">
+									  <span class="reducedfrom "><del>$1.00</del>$0.80</span>
+									
+									 <div class="clearfix"></div>
+									</div>
+									<h4 class="quick">Quick Overview:</h4>
+									<p class="quick_desc"> Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; es</p>
+									 <div class="add-to">
+										   <button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="16" data-name="Bread" data-summary="summary 16" data-price="0.80" data-quantity="1" data-image="images/of15.png">Add to Cart</button>
+										</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- product -->
+			<div class="modal fade" id="myModal17" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content modal-info">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
+						</div>
+						<div class="modal-body modal-spa">
+								<div class="col-md-5 span-2">
+											<div class="item">
+												<img src="images/of16.png" class="img-responsive" alt="">
+											</div>
+								</div>
+								<div class="col-md-7 span-1 ">
+									<h3>Moisturiser(500 g)</h3>
+									<p class="in-para"> There are many variations of passages of Lorem Ipsum.</p>
+									<div class="price_single">
+									  <span class="reducedfrom "><del>$1.00</del>$0.80</span>
+									
+									 <div class="clearfix"></div>
+									</div>
+									<h4 class="quick">Quick Overview:</h4>
+									<p class="quick_desc"> Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; es</p>
+									 <div class="add-to">
+										   <button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="17" data-name="Moisturiser" data-summary="summary 17" data-price="0.80" data-quantity="1" data-image="images/of16.png">Add to Cart</button>
+										</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- product -->
+			<div class="modal fade" id="myModal18" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content modal-info">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
+						</div>
+						<div class="modal-body modal-spa">
+								<div class="col-md-5 span-2">
+											<div class="item">
+												<img src="images/of17.png" class="img-responsive" alt="">
+											</div>
+								</div>
+								<div class="col-md-7 span-1 ">
+									<h3>Lady Finger(250 g)</h3>
+									<p class="in-para"> There are many variations of passages of Lorem Ipsum.</p>
+									<div class="price_single">
+									  <span class="reducedfrom "><del>$1.00</del>$0.80</span>
+									
+									 <div class="clearfix"></div>
+									</div>
+									<h4 class="quick">Quick Overview:</h4>
+									<p class="quick_desc"> Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; es</p>
+									 <div class="add-to">
+										   <button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="18" data-name="Lady Finger" data-summary="summary 18" data-price="0.80" data-quantity="1" data-image="images/of17.png">Add to Cart</button>
+										</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- product -->
+			<div class="modal fade" id="myModal19" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content modal-info">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
+						</div>
+						<div class="modal-body modal-spa">
+								<div class="col-md-5 span-2">
+											<div class="item">
+												<img src="images/of18.png" class="img-responsive" alt="">
+											</div>
+								</div>
+								<div class="col-md-7 span-1 ">
+									<h3>Satin Ribbon Red(1 pc)</h3>
+									<p class="in-para"> There are many variations of passages of Lorem Ipsum.</p>
+									<div class="price_single">
+									  <span class="reducedfrom "><del>$1.00</del>$0.80</span>
+									
+									 <div class="clearfix"></div>
+									</div>
+									<h4 class="quick">Quick Overview:</h4>
+									<p class="quick_desc"> Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; es</p>
+									 <div class="add-to">
+										   <button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="19" data-name="Satin Ribbon Red" data-summary="summary 19" data-price="0.80" data-quantity="1" data-image="images/of18.png">Add to Cart</button>
+										</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- product -->
+			<div class="modal fade" id="myModal20" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content modal-info">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
+						</div>
+						<div class="modal-body modal-spa">
+								<div class="col-md-5 span-2">
+											<div class="item">
+												<img src="images/of19.png" class="img-responsive" alt="">
+											</div>
+								</div>
+								<div class="col-md-7 span-1 ">
+									<h3>Grapes(500 g)</h3>
+									<p class="in-para"> There are many variations of passages of Lorem Ipsum.</p>
+									<div class="price_single">
+									  <span class="reducedfrom "><del>$1.00</del>$0.80</span>
+									
+									 <div class="clearfix"></div>
+									</div>
+									<h4 class="quick">Quick Overview:</h4>
+									<p class="quick_desc"> Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; es</p>
+									 <div class="add-to">
+										   <button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="20" data-name="Grapes" data-summary="summary 20" data-price="0.80" data-quantity="1" data-image="images/of19.png">Add to Cart</button>
+										</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- product -->
+			<div class="modal fade" id="myModal21" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content modal-info">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
+						</div>
+						<div class="modal-body modal-spa">
+								<div class="col-md-5 span-2">
+											<div class="item">
+												<img src="images/of20.png" class="img-responsive" alt="">
+											</div>
+								</div>
+								<div class="col-md-7 span-1 ">
+									<h3>Clips(1 pack)</h3>
+									<p class="in-para"> There are many variations of passages of Lorem Ipsum.</p>
+									<div class="price_single">
+									  <span class="reducedfrom "><del>$1.00</del>$0.80</span>
+									
+									 <div class="clearfix"></div>
+									</div>
+									<h4 class="quick">Quick Overview:</h4>
+									<p class="quick_desc"> Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; es</p>
+									 <div class="add-to">
+										   <button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="21" data-name="Clips" data-summary="summary 21" data-price="0.80" data-quantity="1" data-image="images/of20.png">Add to Cart</button>
+										</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- product -->
+			<div class="modal fade" id="myModal22" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content modal-info">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
+						</div>
+						<div class="modal-body modal-spa">
+								<div class="col-md-5 span-2">
+											<div class="item">
+												<img src="images/of21.png" class="img-responsive" alt="">
+											</div>
+								</div>
+								<div class="col-md-7 span-1 ">
+									<h3>Conditioner</h3>
+									<p class="in-para"> There are many variations of passages of Lorem Ipsum.</p>
+									<div class="price_single">
+									  <span class="reducedfrom "><del>$1.00</del>$0.80</span>
+									
+									 <div class="clearfix"></div>
+									</div>
+									<h4 class="quick">Quick Overview:</h4>
+									<p class="quick_desc"> Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; es</p>
+									 <div class="add-to">
+										   <button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="22" data-name="Conditioner" data-summary="summary 22" data-price="0.80" data-quantity="1" data-image="images/of21.png">Add to Cart</button>
+										</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- product -->
+			<div class="modal fade" id="myModal23" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content modal-info">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
+						</div>
+						<div class="modal-body modal-spa">
+								<div class="col-md-5 span-2">
+											<div class="item">
+												<img src="images/of22.png" class="img-responsive" alt="">
+											</div>
+								</div>
+								<div class="col-md-7 span-1 ">
+									<h3>Cleaner(250 kg)</h3>
+									<p class="in-para"> There are many variations of passages of Lorem Ipsum.</p>
+									<div class="price_single">
+									  <span class="reducedfrom "><del>$1.00</del>$0.80</span>
+									
+									 <div class="clearfix"></div>
+									</div>
+									<h4 class="quick">Quick Overview:</h4>
+									<p class="quick_desc"> Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; es</p>
+									 <div class="add-to">
+										   <button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="23" data-name="Cleaner" data-summary="summary 23" data-price="0.80" data-quantity="1" data-image="images/of22.png">Add to Cart</button>
+										</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- product -->
+			<div class="modal fade" id="myModal24" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content modal-info">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
+						</div>
+						<div class="modal-body modal-spa">
+								<div class="col-md-5 span-2">
+											<div class="item">
+												<img src="images/of23.png" class="img-responsive" alt="">
+											</div>
+								</div>
+								<div class="col-md-7 span-1 ">
+									<h3>Gel(150 g)</h3>
+									<p class="in-para"> There are many variations of passages of Lorem Ipsum.</p>
+									<div class="price_single">
+									  <span class="reducedfrom "><del>$1.00</del>$0.80</span>
+									
+									 <div class="clearfix"></div>
+									</div>
+									<h4 class="quick">Quick Overview:</h4>
+									<p class="quick_desc"> Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; es</p>
+									 <div class="add-to">
+										   <button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="24" data-name="Gel" data-summary="summary 24" data-price="0.80" data-quantity="1" data-image="images/of23.png">Add to Cart</button>
+										</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+					</div>
+				</div>
+</body>
+</html>
