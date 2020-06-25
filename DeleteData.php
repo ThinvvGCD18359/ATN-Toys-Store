@@ -255,8 +255,8 @@ if (empty(getenv("DATABASE_URL"))){
         ltrim($db["path"], "/")
    ));
 }  
-
-$sql = "DELETE FROM product WHERE p_name = $p_name";
+$p_name='p_name';
+$sql = "DELETE FROM product WHERE p_name = '$p_name'";
 $stmt = $pdo->prepare($sql);
 if($stmt->execute() == TRUE){
     echo "Deleted successfully.";
