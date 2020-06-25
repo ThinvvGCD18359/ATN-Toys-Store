@@ -655,10 +655,10 @@ ga('create', 'UA-30027142-1', 'w3layouts.com');
 			<ul>
                             <li><a href="home.php">Home</a></li>
                             <li><a href="product.php">Product</a></li>
-                            <li><a href="ConnectToDB.php">Personal Care</a></li>
-                            <li><a href="InsertData.php">Household</a></li>						 
-                            <li><a href="UpdateData.php">Short Codes</a></li> 
-                            <li><a href="DeleteData.php">Contact</a></li>
+                            <li><a href="ConnectToDB.php">User Database</a></li>
+                            <li><a href="InsertData.php">Input Data</a></li>						 
+                            <li><a href="UpdateData.php">Update Data</a></li> 
+                            <li><a href="DeleteData.php">Delete Data</a></li>
 			</ul>
 		</div>
 		<div class="col-md-3 footer-grid ">
