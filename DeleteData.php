@@ -223,7 +223,7 @@ ga('create', 'UA-30027142-1', 'w3layouts.com');
 <div class="login">
 		<div class="main-agileits">
 				<div class="form-w3agile form1">
-					<h3>Input Data</h3>
+					<h3>Delete Data</h3>
 					<form action="#" method="post">
 						<div class="key">
 							<i class="fa fa-user" aria-hidden="true"></i>
@@ -256,7 +256,7 @@ if (empty(getenv("DATABASE_URL"))){
    ));
 }  
 
-$sql = "DELETE FROM product WHERE p_name = 'p_name'";
+$sql = "DELETE FROM product WHERE p_name = '$p_name'";
 $stmt = $pdo->prepare($sql);
 if($stmt->execute() == TRUE){
     echo "Deleted successfully.";
