@@ -219,6 +219,10 @@ ga('create', 'UA-30027142-1', 'w3layouts.com');
 
 <!--content-->
 <!---728x90--->
+<div class="product">
+		<div class="container">
+                    </div>
+	</div>
 
 <?php
 
