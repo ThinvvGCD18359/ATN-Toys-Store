@@ -224,15 +224,50 @@ ga('create', 'UA-30027142-1', 'w3layouts.com');
                     </div>
 	</div>
 
-<ul>
-    <form name="InsertData" action="InsertData.php" method="POST" >
-<li>Username:</li><li><input type="text" name="customerid" /></li>
-<li>Email:</li><li><input type="text" name="customername" /></li>
-<li>Password:</li><li><input type="text" name="customerphone" /></li>
-<li>Confirm Password:</li><li><input type="text" name="address" /></li>
-<li><input type="submit" /></li>
-</form>
-</ul>
+     <!--banner-->
+<div class="banner-top">
+	<div class="container">
+		<h3 >Register</h3>
+		<h4><a href="index.html">Home</a><label>/</label>Register</h4>
+		<div class="clearfix"> </div>
+	</div>
+</div>
+	<!---728x90--->
+
+<!--login-->
+
+	<div class="login">
+		<div class="main-agileits">
+				<div class="form-w3agile form1">
+					<h3>Register</h3>
+					<form action="#" method="post">
+						<div class="key">
+							<i class="fa fa-user" aria-hidden="true"></i>
+							<input  type="text" value="Username" name="customerid" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'customerid';}" required="">
+							<div class="clearfix"></div>
+						</div>
+						<div class="key">
+							<i class="fa fa-envelope" aria-hidden="true"></i>
+							<input  type="text" value="Email" name="customername" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'customername';}" required="">
+							<div class="clearfix"></div>
+						</div>
+						<div class="key">
+							<i class="fa fa-lock" aria-hidden="true"></i>
+							<input  type="password" value="Password" name="customerphone" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'customerphone';}" required="">
+							<div class="clearfix"></div>
+						</div>
+						<div class="key">
+							<i class="fa fa-lock" aria-hidden="true"></i>
+							<input  type="password" value="Confirm Password" name="address" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'address';}" required="">
+							<div class="clearfix"></div>
+						</div>
+						<input type="submit" value="Submit">
+					</form>
+				</div>
+				
+			</div>
+		</div>
+
 
 <?php
 
