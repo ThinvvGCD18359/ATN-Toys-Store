@@ -183,6 +183,7 @@ ga('create', 'UA-30027142-1', 'w3layouts.com');
 								</ul>
 							</li>
 							<li><a href="ConnectToDB.php" class="hyper"> <span>User Database</span></a></li>
+                                                        <li><a href="InsertData.php" class="hyper"> <span>Input Data</span></a></li>
 							<li><a href="UpdateData.php" class="hyper"> <span>Update Data</span></a></li>
 							<li><a href="DeleteData.php" class="hyper"><span>Delete Data</span></a></li>
 						</ul>
