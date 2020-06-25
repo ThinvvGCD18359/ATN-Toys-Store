@@ -182,9 +182,8 @@ ga('create', 'UA-30027142-1', 'w3layouts.com');
 									</div>	
 								</ul>
 							</li>
-							<li><a href="ConnectToDB.php" class="hyper"> <span>User Database</span></a></li>
+							<li><a href="ShowData.php" class="hyper"> <span>Show Data</span></a></li>
                                                         <li><a href="InsertData.php" class="hyper"> <span>Input Data</span></a></li>
-							<li><a href="UpdateData.php" class="hyper"> <span>Update Data</span></a></li>
 							<li><a href="DeleteData.php" class="hyper"><span>Delete Data</span></a></li>
 						</ul>
 					</div>
@@ -324,9 +323,8 @@ $stmt = $pdo->prepare($sql);
 			<ul>
                             <li><a href="home.php">Home</a></li>
                             <li><a href="product.php">Product</a></li>
-                            <li><a href="ConnectToDB.php">User Database</a></li>
+                            <li><a href="ShowData.php">Show Data</a></li>
                             <li><a href="InsertData.php">Input Data</a></li>						 
-                            <li><a href="UpdateData.php">Update Data</a></li> 
                             <li><a href="DeleteData.php">Delete Data</a></li>
 			</ul>
 		</div>
