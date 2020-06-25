@@ -110,7 +110,7 @@ ga('create', 'UA-30027142-1', 'w3layouts.com');
   ga('send', 'pageview');
 </script>
 <body>
-<a href="offer.html"><img src="images/download.png" class="img-head" alt=""></a>
+    <a href="home.php"><img src="images/download.png" class="img-head" alt=""></a>
 <div class="header">
 
 		<div class="container">
@@ -655,35 +655,26 @@ ga('create', 'UA-30027142-1', 'w3layouts.com');
 			<ul>
                             <li><a href="home.php">Home</a></li>
                             <li><a href="product.php">Product</a></li>
-				<li><a href="care.html">Personal Care</a></li>
-				<li><a href="hold.html">Household</a></li>						 
-				<li><a href="codes.html">Short Codes</a></li> 
-				<li><a href="contact.html">Contact</a></li>
+                            <li><a href="ConnectToDB.php">Personal Care</a></li>
+                            <li><a href="InsertData.php">Household</a></li>						 
+                            <li><a href="UpdateData.php">Short Codes</a></li> 
+                            <li><a href="DeleteData.php">Contact</a></li>
 			</ul>
 		</div>
 		<div class="col-md-3 footer-grid ">
 			<h3>Customer Services</h3>
 			<ul>
-				<li><a href="shipping.html">Shipping</a></li>
-				<li><a href="terms.html">Terms & Conditions</a></li>
-				<li><a href="faqs.html">Faqs</a></li>
-				<li><a href="contact.html">Contact</a></li>
-				<li><a href="offer.html">Online Shopping</a></li>						 
+				<li><a href="shipping.php">Shipping</a></li>
+				<li><a href="terms.php">Terms & Conditions</a></li>
+				<li><a href="faqs.php">Faqs</a></li>
+				<li><a href="contact.php">Contact</a></li>
+                                <li><a href="home.php">Online Shopping</a></li>						 
 				 
-			</ul>
-		</div>
-		<div class="col-md-3 footer-grid">
-			<h3>My Account</h3>
-			<ul>
-				<li><a href="login.html">Login</a></li>
-				<li><a href="register.html">Register</a></li>
-				<li><a href="wishlist.html">Wishlist</a></li>
-				
 			</ul>
 		</div>
 		<div class="clearfix"></div>
 			<div class="footer-bottom">
-				<h2 ><a href="index.html"><b>T<br>H<br>E</b>Big Store<span>The Best Supermarket</span></a></h2>
+                            <h2 ><a href="home.php"><b>T<br>H<br>E</b>ATN<span>The Best Toy Store Ever</span></a></h2>
 				<p class="fo-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>
 				<ul class="social-fo">
 					<li><a href="#" class=" face"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
@@ -693,7 +684,7 @@ ga('create', 'UA-30027142-1', 'w3layouts.com');
 				</ul>
 				<div class=" address">
 					<div class="col-md-4 fo-grid1">
-							<p><i class="fa fa-home" aria-hidden="true"></i>12K Street , 45 Building Road Canada.</p>
+							<p><i class="fa fa-home" aria-hidden="true"></i>12K Street , 45 Building Road Viet Nam.</p>
 					</div>
 					<div class="col-md-4 fo-grid1">
 							<p><i class="fa fa-phone" aria-hidden="true"></i>+1234 758 839 , +1273 748 730</p>	
@@ -706,7 +697,7 @@ ga('create', 'UA-30027142-1', 'w3layouts.com');
 					</div>
 			</div>
 		<div class="copy-right">
-			<p> &copy; 2016 Big store. All Rights Reserved | Design by  <a href="http://w3layouts.com/"> W3layouts</a></p>
+			<p> &copy; 2016 ATN store. All Rights Reserved | Design by  <a href="http://w3layouts.com/"> W3layouts</a></p>
 		</div>
 	</div>
 </div>

@@ -110,7 +110,7 @@ ga('create', 'UA-30027142-1', 'w3layouts.com');
   ga('send', 'pageview');
 </script>
 <body>
-<a href="offer.html"><img src="images/download.png" class="img-head" alt=""></a>
+    <a href="home.php"><img src="images/download.png" class="img-head" alt=""></a>
 <div class="header">
 
 		<div class="container">
@@ -154,10 +154,10 @@ ga('create', 'UA-30027142-1', 'w3layouts.com');
 										<div class="col-sm-3">
 											<ul class="multi-column-dropdown">
 			
-												<li><a href="kitchen.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Action Toys</a></li>
-												<li><a href="kitchen.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Learning Toys</a></li>
-												<li><a href="kitchen.html"> <i class="fa fa-angle-right" aria-hidden="true"></i>Outdoor Play</a></li>
-												<li><a href="kitchen.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Vehicles Figures</a></li>
+                                                                                            <li><a href="product.php"><i class="fa fa-angle-right" aria-hidden="true"></i>Action Toys</a></li>
+                                                                                            <li><a href="product.php"><i class="fa fa-angle-right" aria-hidden="true"></i>Learning Toys</a></li>
+                                                                                            <li><a href="product.php"> <i class="fa fa-angle-right" aria-hidden="true"></i>Outdoor Play</a></li>
+                                                                                            <li><a href="product.php"><i class="fa fa-angle-right" aria-hidden="true"></i>Vehicles Figures</a></li>
 										
 											</ul>
 										
@@ -165,18 +165,18 @@ ga('create', 'UA-30027142-1', 'w3layouts.com');
 										<div class="col-sm-3">
 										
 											<ul class="multi-column-dropdown">
-												<li><a href="kitchen.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Cards &amp; Puzzles</a></li>
-												<li><a href="kitchen.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Stuffed Animals</a></li>
-												<li><a href="kitchen.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Building Blocks</a></li>
-												<li><a href="kitchen.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Pretend Play &amp; Dressed up</a></li>
-												<li><a href="kitchen.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Preschool Toys</a></li>
+                                                                                            <li><a href="product.php"><i class="fa fa-angle-right" aria-hidden="true"></i>Cards &amp; Puzzles</a></li>
+                                                                                            <li><a href="product.php"><i class="fa fa-angle-right" aria-hidden="true"></i>Stuffed Animals</a></li>
+                                                                                            <li><a href="product.php"><i class="fa fa-angle-right" aria-hidden="true"></i>Building Blocks</a></li>
+                                                                                            <li><a href="product.php"><i class="fa fa-angle-right" aria-hidden="true"></i>Pretend Play &amp; Dressed up</a></li>
+                                                                                            <li><a href="product.php"><i class="fa fa-angle-right" aria-hidden="true"></i>Preschool Toys</a></li>
 										
 											</ul>
 										
 									
 										</div>
 										<div class="col-sm-3 w3l">
-											<a href="kitchen.html"><img src="images/me.png" class="img-responsive" alt=""></a>
+                                                                                    <a href="product.php"><img src="images/me.png" class="img-responsive" alt=""></a>
 										</div>
 										<div class="clearfix"></div>
 									</div>	
@@ -219,106 +219,71 @@ ga('create', 'UA-30027142-1', 'w3layouts.com');
 
 <!--content-->
 <!---728x90--->
-<div class="product">
-		<div class="container">
-                    </div>
-	</div>
-
-     <!--banner-->
+<!--banner-->
 <div class="banner-top">
 	<div class="container">
-		<h3 >Register</h3>
-		<h4><a href="index.html">Home</a><label>/</label>Register</h4>
+		<h3 >Terms</h3>
+		<h4><a href="index.html">Home</a><label>/</label>Terms</h4>
 		<div class="clearfix"> </div>
 	</div>
 </div>
 	<!---728x90--->
 
-<!--login-->
-
-	<div class="login">
-		<div class="main-agileits">
-				<div class="form-w3agile form1">
-					<h3>Register</h3>
-					<form action="#" method="post">
-						<div class="key">
-							<i class="fa fa-user" aria-hidden="true"></i>
-							<input  type="text" value="Username" name="customerid" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'customerid';}" required="">
-							<div class="clearfix"></div>
-						</div>
-						<div class="key">
-							<i class="fa fa-envelope" aria-hidden="true"></i>
-							<input  type="text" value="Email" name="customername" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'customername';}" required="">
-							<div class="clearfix"></div>
-						</div>
-						<div class="key">
-							<i class="fa fa-lock" aria-hidden="true"></i>
-							<input  type="password" value="Password" name="customerphone" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'customerphone';}" required="">
-							<div class="clearfix"></div>
-						</div>
-						<div class="key">
-							<i class="fa fa-lock" aria-hidden="true"></i>
-							<input  type="password" value="Confirm Password" name="address" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'address';}" required="">
-							<div class="clearfix"></div>
-						</div>
-						<input type="submit" value="Submit">
-					</form>
+<!--- terms ---->
+			<div class="terms">
+				<div class="container">
+					
+					<div class="spec ">
+					<h3>Terms and Conditions</h3>
+				<div class="ser-t">
+					<b></b>
+					<span><i></i></span>
+					<b class="line"></b>
 				</div>
-				
 			</div>
-		</div>
-
-
-<?php
-
-if (empty(getenv("DATABASE_URL"))){
-    echo '<p>The DB does not exist</p>';
-    $pdo = new PDO('pgsql:host=localhost;port=5432;dbname=mydb', 'postgres', '123456');
-}  else {
-     
-   $db = parse_url(getenv("DATABASE_URL"));
-   $pdo = new PDO("pgsql:" . sprintf(
-        "host=ec2-52-0-155-79.compute-1.amazonaws.com;port=5432;user=uhkywoqfpojzhn;password=e9df249d095cd9b696dc315aa505ef07cfa1d5019e593b3c1a1dd2f9c99b6482;dbname=d9r7n9bel5srhd",
-        $db["host"],
-        $db["port"],
-        $db["user"],
-        $db["pass"],
-        ltrim($db["path"], "/")
-   ));
-}  
-
-if($pdo === false){
-     echo "ERROR: Could not connect Database";
-}
-
-//Khởi tạo Prepared Statement
-//$stmt = $pdo->prepare('INSERT INTO customer(customer_id, customer_name, customer_phone, address) values (:id, :name, :phone, :address)');
-
-//$stmt->bindParam(':id','C03');
-//$stmt->bindParam(':name','Thong');
-//$stmt->bindParam(':phone', '123456789');
-//$stmt->bindParam(':address', '52 Thanh Thuy');
-//$stmt->execute();
-//$sql = "INSERT INTO student(customer_id, customer_name, customer_phone, address) VALUES('C03', 'Thong','123456789','52 Thanh Thuy')";
-$sql = "INSERT INTO customer(customerid, customername, customerphone, address)"
-        . " VALUES('$_POST[customerid]','$_POST[customername]','$_POST[customerphone]','$_POST[address]')";
-$stmt = $pdo->prepare($sql);
-//$stmt->execute();
-    if (is_null(customer_id)) {
-   echo "Username must be not null";
- }
- else
- {
-    if($stmt->execute() == TRUE){
-        echo "Register successfully.";
-    } else {
-        echo "Error inserting input: ";
-    }
- }
- 
-?>
-<!--content-->
-<!---728x90--->
+					<div class="ter-wthree">
+						<h6><span>1.</span>Important Points</h6>
+						<ol start="1">
+							<li>Lorem Ipsum is simply dummy text of the printing and typesetting industry.it has a more-or-less normal distribution of letters, as opposed  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</li>
+							<li>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores</li>
+							<li>Lorem Ipsum is simply dummy text of the printing and typesetting industry.it has a more-or-less normal distribution of letters, as opposed  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</li>
+						</ol>
+					</div>
+					<div class="ter-wthree">
+						<h6><span>2.</span>Exclusions and Limitations</h6>
+						<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+						<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. </p>
+						<p> Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance</p>
+					</div>
+					<div class="ter-wthree">
+						<h6><span>3.</span>Payment</h6>
+						<p>If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary</p>
+						<p>first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour</p>
+					</div>
+					<div class="ter-wthree">
+						<h6> <span>4.</span>Cancellation Policy</h6>
+						<p>Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+						<p>Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum"</p>
+						<p>This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+					</div>
+					<div class="ter-wthree">
+						<h6><span>5.</span>Modifications & Refunds</h6>
+						<p> Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+						<p> Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
+					</div>
+					<div class="ter-wthree">
+						<h6><span>6.</span>Availability</h6>
+						<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.</p>
+					</div>
+					<div class="ter-wthree">
+						<h6><span>7.</span>Copyright Notice</h6>
+						<p> you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures</p>
+					</div>
+				</div>
+			</div>
+			<!--- /terms ---->
+				<!---728x90--->
+                               
 <div class="product">
 		<div class="container">
                     </div>

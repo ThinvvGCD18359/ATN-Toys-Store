@@ -110,7 +110,7 @@ ga('create', 'UA-30027142-1', 'w3layouts.com');
   ga('send', 'pageview');
 </script>
 <body>
-<a href="offer.html"><img src="images/download.png" class="img-head" alt=""></a>
+    <a href="home.php"><img src="images/download.png" class="img-head" alt=""></a>
 <div class="header">
 
 		<div class="container">
@@ -154,10 +154,10 @@ ga('create', 'UA-30027142-1', 'w3layouts.com');
 										<div class="col-sm-3">
 											<ul class="multi-column-dropdown">
 			
-												<li><a href="kitchen.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Action Toys</a></li>
-												<li><a href="kitchen.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Learning Toys</a></li>
-												<li><a href="kitchen.html"> <i class="fa fa-angle-right" aria-hidden="true"></i>Outdoor Play</a></li>
-												<li><a href="kitchen.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Vehicles Figures</a></li>
+                                                                                            <li><a href="product.php"><i class="fa fa-angle-right" aria-hidden="true"></i>Action Toys</a></li>
+                                                                                            <li><a href="product.php"><i class="fa fa-angle-right" aria-hidden="true"></i>Learning Toys</a></li>
+                                                                                            <li><a href="product.php"> <i class="fa fa-angle-right" aria-hidden="true"></i>Outdoor Play</a></li>
+                                                                                            <li><a href="product.php"><i class="fa fa-angle-right" aria-hidden="true"></i>Vehicles Figures</a></li>
 										
 											</ul>
 										
@@ -165,18 +165,18 @@ ga('create', 'UA-30027142-1', 'w3layouts.com');
 										<div class="col-sm-3">
 										
 											<ul class="multi-column-dropdown">
-												<li><a href="kitchen.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Cards &amp; Puzzles</a></li>
-												<li><a href="kitchen.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Stuffed Animals</a></li>
-												<li><a href="kitchen.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Building Blocks</a></li>
-												<li><a href="kitchen.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Pretend Play &amp; Dressed up</a></li>
-												<li><a href="kitchen.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Preschool Toys</a></li>
+                                                                                            <li><a href="product.php"><i class="fa fa-angle-right" aria-hidden="true"></i>Cards &amp; Puzzles</a></li>
+                                                                                            <li><a href="product.php"><i class="fa fa-angle-right" aria-hidden="true"></i>Stuffed Animals</a></li>
+                                                                                            <li><a href="product.php"><i class="fa fa-angle-right" aria-hidden="true"></i>Building Blocks</a></li>
+                                                                                            <li><a href="product.php"><i class="fa fa-angle-right" aria-hidden="true"></i>Pretend Play &amp; Dressed up</a></li>
+                                                                                            <li><a href="product.php"><i class="fa fa-angle-right" aria-hidden="true"></i>Preschool Toys</a></li>
 										
 											</ul>
 										
 									
 										</div>
 										<div class="col-sm-3 w3l">
-											<a href="kitchen.html"><img src="images/me.png" class="img-responsive" alt=""></a>
+                                                                                    <a href="product.php"><img src="images/me.png" class="img-responsive" alt=""></a>
 										</div>
 										<div class="clearfix"></div>
 									</div>	
@@ -219,106 +219,143 @@ ga('create', 'UA-30027142-1', 'w3layouts.com');
 
 <!--content-->
 <!---728x90--->
-<div class="product">
-		<div class="container">
-                    </div>
-	</div>
 
-     <!--banner-->
+<!--banner-->
 <div class="banner-top">
 	<div class="container">
-		<h3 >Register</h3>
-		<h4><a href="index.html">Home</a><label>/</label>Register</h4>
+		<h3 >Contact</h3>
+		<h4><a href="index.html">Home</a><label>/</label>Contact</h4>
 		<div class="clearfix"> </div>
 	</div>
 </div>
 	<!---728x90--->
 
-<!--login-->
-
-	<div class="login">
-		<div class="main-agileits">
-				<div class="form-w3agile form1">
-					<h3>Register</h3>
-					<form action="#" method="post">
-						<div class="key">
-							<i class="fa fa-user" aria-hidden="true"></i>
-							<input  type="text" value="Username" name="customerid" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'customerid';}" required="">
-							<div class="clearfix"></div>
+<!-- contact -->
+<div class="contact">
+	<div class="container">
+		<div class="spec ">
+			<h3>Contact</h3>
+				<div class="ser-t">
+					<b></b>
+					<span><i></i></span>
+					<b class="line"></b>
+				</div>
+		</div>
+		<div class=" contact-w3">	
+			<div class="col-md-5 contact-right">	
+				<img src="images/cac.jpg" class="img-responsive" alt="">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d2482.432383990807!2d0.028213999961443994!3d51.52362882484525!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1423469959819" style="border:0"></iframe>
+			</div>
+			<div class="col-md-7 contact-left">
+				<h4>Contact Information</h4>
+				<p> Nemo enim ipsam voluptatem quia voluptas sit aspernatur 
+				aut odit aut fugit, sed quia consequuntur magni dolores eos
+				qui ratione voluptatem sequi nesciunt. Neque porro quisquam 
+				est, qui dolorem ipsum quia dolor sit amet, consectetur</p>
+				<ul class="contact-list">
+					<li> <i class="fa fa-map-marker" aria-hidden="true"></i> 756 Global Place, New York.</li>
+					<li><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:example@mail.com">mail@example.com</a></li>
+					<li> <i class="fa fa-phone" aria-hidden="true"></i>+123 2222 222</li>
+				</ul>
+				<div id="container">
+					<!--Horizontal Tab-->
+					<div id="parentHorizontalTab">
+						<ul class="resp-tabs-list hor_1">
+							<li><i class="fa fa-envelope" aria-hidden="true"></i></li>
+							<li> <i class="fa fa-map-marker" aria-hidden="true"></i> </span></li>
+							<li> <i class="fa fa-phone" aria-hidden="true"></i></li>
+						</ul>
+						<div class="resp-tabs-container hor_1">
+							<div>
+								<form action="#" method="post">
+									<input type="text" value="Name" name="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}" required="">
+									<input type="email" value="Email" name="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}" required="">
+									<textarea name="Message..." onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message...';}" required="">Message...</textarea>
+									<input type="submit" value="Submit" >
+								</form>
+							</div>
+							<div>
+								<div class="map-grid">
+								<h5>Our Branches</h5>
+									<ul>
+										<li><i class="fa fa-arrow-right" aria-hidden="true"></i>756 Global Place, New York.</li>
+										<li><i class="fa fa-arrow-right" aria-hidden="true"></i>889 diamond street, USA.</li>
+										<li><i class="fa fa-arrow-right" aria-hidden="true"></i>756 global Place, New York.</li>
+										<li><i class="fa fa-arrow-right" aria-hidden="true"></i>889 diamond street, USA.</li>
+									</ul>
+								</div>
+							</div>
+							<div>
+								<div class="map-grid">
+									<h5>Contact Me Through</h5>
+									<ul>
+										<li>Mobile No : +123 456 7890</li>
+										<li>Office No : +123 222 2222</li>
+										<li>Home No : +123 456 7890</li>
+										<li>Fax No : +123 456 7890</li>
+									</ul>
+								</div>
+							</div>
 						</div>
-						<div class="key">
-							<i class="fa fa-envelope" aria-hidden="true"></i>
-							<input  type="text" value="Email" name="customername" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'customername';}" required="">
-							<div class="clearfix"></div>
-						</div>
-						<div class="key">
-							<i class="fa fa-lock" aria-hidden="true"></i>
-							<input  type="password" value="Password" name="customerphone" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'customerphone';}" required="">
-							<div class="clearfix"></div>
-						</div>
-						<div class="key">
-							<i class="fa fa-lock" aria-hidden="true"></i>
-							<input  type="password" value="Confirm Password" name="address" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'address';}" required="">
-							<div class="clearfix"></div>
-						</div>
-						<input type="submit" value="Submit">
-					</form>
+					</div>
 				</div>
 				
+				<!--Plug-in Initialisation-->
+				<script type="text/javascript">
+				$(document).ready(function() {
+					//Horizontal Tab
+					$('#parentHorizontalTab').easyResponsiveTabs({
+						type: 'default', //Types: default, vertical, accordion
+						width: 'auto', //auto or any width like 600px
+						fit: true, // 100% fit in a container
+						tabidentify: 'hor_1', // The tab groups identifier
+						activate: function(event) { // Callback function if tab is switched
+							var $tab = $(this);
+							var $info = $('#nested-tabInfo');
+							var $name = $('span', $info);
+							$name.text($tab.text());
+							$info.show();
+						}
+					});
+
+					// Child Tab
+					$('#ChildVerticalTab_1').easyResponsiveTabs({
+						type: 'vertical',
+						width: 'auto',
+						fit: true,
+						tabidentify: 'ver_1', // The tab groups identifier
+						activetab_bg: '#fff', // background color for active tabs in this group
+						inactive_bg: '#F5F5F5', // background color for inactive tabs in this group
+						active_border_color: '#c1c1c1', // border color for active tabs heads in this group
+						active_content_border_color: '#5AB1D0' // border color for active tabs contect in this group so that it matches the tab head border
+					});
+
+					//Vertical Tab
+					$('#parentVerticalTab').easyResponsiveTabs({
+						type: 'vertical', //Types: default, vertical, accordion
+						width: 'auto', //auto or any width like 600px
+						fit: true, // 100% fit in a container
+						closed: 'accordion', // Start closed if in accordion view
+						tabidentify: 'hor_1', // The tab groups identifier
+						activate: function(event) { // Callback function if tab is switched
+							var $tab = $(this);
+							var $info = $('#nested-tabInfo2');
+							var $name = $('span', $info);
+							$name.text($tab.text());
+							$info.show();
+						}
+					});
+				});
+			</script>
+				
 			</div>
-		</div>
-
-
-<?php
-
-if (empty(getenv("DATABASE_URL"))){
-    echo '<p>The DB does not exist</p>';
-    $pdo = new PDO('pgsql:host=localhost;port=5432;dbname=mydb', 'postgres', '123456');
-}  else {
-     
-   $db = parse_url(getenv("DATABASE_URL"));
-   $pdo = new PDO("pgsql:" . sprintf(
-        "host=ec2-52-0-155-79.compute-1.amazonaws.com;port=5432;user=uhkywoqfpojzhn;password=e9df249d095cd9b696dc315aa505ef07cfa1d5019e593b3c1a1dd2f9c99b6482;dbname=d9r7n9bel5srhd",
-        $db["host"],
-        $db["port"],
-        $db["user"],
-        $db["pass"],
-        ltrim($db["path"], "/")
-   ));
-}  
-
-if($pdo === false){
-     echo "ERROR: Could not connect Database";
-}
-
-//Khởi tạo Prepared Statement
-//$stmt = $pdo->prepare('INSERT INTO customer(customer_id, customer_name, customer_phone, address) values (:id, :name, :phone, :address)');
-
-//$stmt->bindParam(':id','C03');
-//$stmt->bindParam(':name','Thong');
-//$stmt->bindParam(':phone', '123456789');
-//$stmt->bindParam(':address', '52 Thanh Thuy');
-//$stmt->execute();
-//$sql = "INSERT INTO student(customer_id, customer_name, customer_phone, address) VALUES('C03', 'Thong','123456789','52 Thanh Thuy')";
-$sql = "INSERT INTO customer(customerid, customername, customerphone, address)"
-        . " VALUES('$_POST[customerid]','$_POST[customername]','$_POST[customerphone]','$_POST[address]')";
-$stmt = $pdo->prepare($sql);
-//$stmt->execute();
-    if (is_null(customer_id)) {
-   echo "Username must be not null";
- }
- else
- {
-    if($stmt->execute() == TRUE){
-        echo "Register successfully.";
-    } else {
-        echo "Error inserting input: ";
-    }
- }
- 
-?>
-<!--content-->
-<!---728x90--->
+			
+		<div class="clearfix"></div>
+	</div>
+	</div>
+</div>
+<!-- //contact -->
+	<!---728x90--->
 <div class="product">
 		<div class="container">
                     </div>
@@ -444,5 +481,5 @@ $stmt = $pdo->prepare($sql);
 
   });
   </script>
-</body>
+  </body>
 </html>
