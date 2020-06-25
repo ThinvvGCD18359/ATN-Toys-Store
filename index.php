@@ -634,9 +634,12 @@ ga('create', 'UA-30027142-1', 'w3layouts.com');
 	</div>
 	</div>
 	</div>
-
+<!--content-->
 <!---728x90--->
-
+<div class="product">
+		<div class="container">
+                    </div>
+	</div>
 <!--footer-->
 <div class="footer">
 	<div class="container">
