@@ -251,32 +251,34 @@ $stmt->execute();
 $resultSet = $stmt->fetchAll();
 
 ?>
-<div class=" tab-content tab-content-t ">
-					<div class="tab-pane active text-style" id="tab1">
-						<div class=" con-w3l">
-							<div class="col-md-3 m-wthree">
-								<div class="col-m">								
-									<a href="#" data-toggle="modal" data-target="#myModal1" class="offer-img">
-										<img src="images/unav.png" class="img-responsive" alt="">
-									</a>
-									<div class="mid-1">
-										<div class="women">
-											<?php> echo $row[p_name]?>							
-										</div>
-										<div class="mid-2">
-											<p ><label><?php> echo $row[price] ?> </label></p>
-											  <div class="block">
-												<div class="starbox small ghosting"> </div>
-											</div>
-											<div class="clearfix"></div>
-										</div>
-										<div class="add">
-										   <button class="btn btn-danger my-cart-btn my-cart-b " data-id="1" data-name="p_name" data-summary="summary 1" data-price="price" data-quantity="1" data-image="images/unav.png">Add to Cart</button>
-										</div>
-										
-									</div>
-								</div>
-							</div>
+<div id="container">
+<table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Product Name</th>
+        <th>Price</th>
+        <th>Overview</th>
+      </tr>
+    </thead>
+    <tbody>
+      <?php
+      // tạo vòng lặp 
+         //while($r = mysql_fetch_array($result)){
+             foreach ($resultSet as $row) {
+      ?>
+   
+      <tr>
+        <td scope="row"><?php echo $row['p_name'] ?></td>
+        <td><?php echo $row['price'] ?></td>
+        <td><?php echo $row['overview'] ?></td>
+        
+      </tr>
+     
+      <?php
+        }
+      ?>
+    </tbody>
+  </table>
       
 <!--content-->
 <!---728x90--->

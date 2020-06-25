@@ -227,8 +227,8 @@ ga('create', 'UA-30027142-1', 'w3layouts.com');
      <!--banner-->
 <div class="banner-top">
 	<div class="container">
-		<h3 >Register</h3>
-		<h4><a href="index.html">Home</a><label>/</label>Register</h4>
+		<h3 >Input Data</h3>
+                <h4><a href="home.php">Home</a><label>/</label>Input</h4>
 		<div class="clearfix"> </div>
 	</div>
 </div>
@@ -239,7 +239,7 @@ ga('create', 'UA-30027142-1', 'w3layouts.com');
 	<div class="login">
 		<div class="main-agileits">
 				<div class="form-w3agile form1">
-					<h3>Register</h3>
+					<h3>Input Data</h3>
 					<form action="#" method="post">
 						<div class="key">
 							<i class="fa fa-user" aria-hidden="true"></i>
