@@ -218,8 +218,8 @@ ga('create', 'UA-30027142-1', 'w3layouts.com');
 
 <!--content-->
 <!---728x90--->
-<?php
 
+<?php
 
 if (empty(getenv("DATABASE_URL"))){
     echo '<p>The DB does not exist</p>';
@@ -275,6 +275,7 @@ echo '<p>Customer information:</p>';
       <?php
         }
       ?>
+</table>
       
 <!--content-->
 <!---728x90--->
