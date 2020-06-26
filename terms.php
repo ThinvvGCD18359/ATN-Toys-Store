@@ -306,7 +306,6 @@ ga('create', 'UA-30027142-1', 'w3layouts.com');
                             <li><a href="DeleteData.php">Delete Data</a></li>
 			</ul>
 		</div>
-		</div>
 		<div class="col-md-3 footer-grid ">
 			<h3>Customer Services</h3>
 			<ul>
